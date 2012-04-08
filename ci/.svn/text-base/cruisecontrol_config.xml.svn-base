@@ -1,0 +1,540 @@
+<cruisecontrol>
+	
+	<project name="u3-comp-Cache-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Cache"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}/lib/"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-ClassDispatcher-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="ClassDispatcher"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-ConfigurationBundle-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="ConfigurationBundle"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-comp-Console-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Console"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-Controller-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Controller"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-comp-Core-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Core"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-DataAccess-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="DataAccess"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-comp-DataModel-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="DataModel"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-DataParser-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="DataParser"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-comp-Helper-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Helper"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-Loader-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Loader"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-comp-Logger-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Logger"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-Template-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Template"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-comp-Validator-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Validator"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>
+	
+	<project name="u3-comp-Workflow-trunk-build-auto">		
+		<property name="basedir" value="utopia3/trunk"/>	
+		<property name="component" value="Workflow"/>	
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build_components.xml" 
+				target="clean"
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="600">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="build" 
+				propertyfile="${basedir}/ci/${component}.properties"/>
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>		
+	
+	<project name="u3-components-trunk-secondary-auto">		
+		<property name="basedir" value="utopia3/trunk"/>		
+		<listeners>
+			<currentbuildstatuslistener file="logs/${project.name}/status.txt"/>
+		</listeners>
+		<bootstrappers>
+			<svnbootstrapper localWorkingCopy="${basedir}"/>
+			<antbootstrapper buildfile="${basedir}/ci/build.xml" 
+				target="clean" />
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<svn LocalWorkingCopy="${basedir}"/>
+		</modificationset>
+		<schedule interval="7200">
+			<ant buildfile="${basedir}/ci/build_components.xml" 
+				target="secondary" />
+		</schedule>
+		<log>			
+			<merge dir="${basedir}/build/${component}/logs" pattern="*.xml"/>
+		</log>
+		<publishers>
+			<onsuccess>
+				<artifactspublisher dir="${basedir}/build/${component}/api" 
+					dest="artifacts/${project.name}"
+					subdirectory="api"/>	
+				<artifactspublisher dir="${basedir}/build/${component}/code-browser" 
+					dest="artifacts/${project.name}"
+					subdirectory="code-browser"/>					
+				<artifactspublisher dir="${basedir}/build/${component}/coverage" 
+					dest="artifacts/${project.name}"
+					subdirectory="coverage"/>	
+				<artifactspublisher dir="${basedir}/build/${component}/logs" 
+					dest="artifacts/${project.name}"
+					subdirectory="logs"/>					
+				<artifactspublisher dir="${basedir}/build/${component}/pdepend" 
+					dest="artifacts/${project.name}"
+					subdirectory="pdepend"/>
+				<execute command="phpuc graph logs/${project.name} artifacts/${project.name}"/>
+			</onsuccess>
+		</publishers>
+	</project>	
+	
+</cruisecontrol>

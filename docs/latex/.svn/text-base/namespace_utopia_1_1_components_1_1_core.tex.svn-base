@@ -1,0 +1,21 @@
+\hypertarget{namespace_utopia_1_1_components_1_1_core}{
+\section{Utopia::Components::Core Namespace Reference}
+\label{namespace_utopia_1_1_components_1_1_core}\index{Utopia::Components::Core@{Utopia::Components::Core}}
+}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_utopia_1_1_components_1_1_core_1_1_component_root}{ComponentRoot}
+\item 
+class \hyperlink{class_utopia_1_1_components_1_1_core_1_1_data_object}{DataObject}
+\item 
+interface \hyperlink{interface_utopia_1_1_components_1_1_core_1_1_i_component_root}{IComponentRoot}
+\item 
+class \hyperlink{class_utopia_1_1_components_1_1_core_1_1_mallocworks_exception}{MallocworksException}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+base object for data manipulations 2011-\/02-\/20: remove caching functionality to make it more lightweighted and less error prone \begin{DoxyAuthor}{Author}
+ycheung 
+\end{DoxyAuthor}

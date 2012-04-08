@@ -1,0 +1,4 @@
+#!/usr/bin/php -d open_basedir=/Users/ycheung/Documents/workspace:/websites:/tmp
+<?php
+
+include('run.php');

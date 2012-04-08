@@ -1,0 +1,188 @@
+.TH "Symfony::Components::Yaml::Yaml" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Yaml::Yaml \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBsetSpecVersion\fP ($version)"
+.br
+.ti -1c
+.RI "static \fBgetSpecVersion\fP ()"
+.br
+.ti -1c
+.RI "static \fBload\fP ($input)"
+.br
+.ti -1c
+.RI "static \fBdump\fP ($array, $inline=2)"
+.br
+.ti -1c
+.RI "static \fBsetSpecVersion\fP ($version)"
+.br
+.ti -1c
+.RI "static \fBgetSpecVersion\fP ()"
+.br
+.ti -1c
+.RI "static \fBload\fP ($input)"
+.br
+.ti -1c
+.RI "static \fBdump\fP ($array, $inline=2)"
+.br
+.in -1c
+.SS "Static Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fB$spec\fP = '1.2'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 20 of file Yaml.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "static dump ($array, $inline = \fC2\fP)\fC [static]\fP"Dumps a PHP array to a YAML string.
+.PP
+The dump method, when supplied with an array, will do its best to convert the array into friendly YAML.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP PHP array 
+.br
+\fI$inline\fP The level where you switch to inline YAML
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string representing the original PHP array 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file Yaml.php.
+.SS "static dump ($array, $inline = \fC2\fP)\fC [static]\fP"Dumps a PHP array to a YAML string.
+.PP
+The dump method, when supplied with an array, will do its best to convert the array into friendly YAML.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP PHP array 
+.br
+\fI$inline\fP The level where you switch to inline YAML
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string representing the original PHP array 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file Yaml.php.
+.SS "static getSpecVersion ()\fC [static]\fP"Gets the YAML specification version to use.
+.PP
+\fBReturns:\fP
+.RS 4
+string The YAML specification version 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file Yaml.php.
+.SS "static getSpecVersion ()\fC [static]\fP"Gets the YAML specification version to use.
+.PP
+\fBReturns:\fP
+.RS 4
+string The YAML specification version 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file Yaml.php.
+.SS "static load ($input)\fC [static]\fP"Loads YAML into a PHP array.
+.PP
+The load method, when supplied with a YAML stream (string or file), will do its best to convert YAML in a file into a PHP array.
+.PP
+Usage: \fC $array = \fBYaml::load\fP('config.yml'); print_r($array); \fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP Path of YAML file or string containing YAML
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array The YAML converted to a PHP array
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP If the YAML is not valid 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Yaml.php.
+.SS "static load ($input)\fC [static]\fP"Loads YAML into a PHP array.
+.PP
+The load method, when supplied with a YAML stream (string or file), will do its best to convert YAML in a file into a PHP array.
+.PP
+Usage: \fC $array = \fBYaml::load\fP('config.yml'); print_r($array); \fP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP Path of YAML file or string containing YAML
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array The YAML converted to a PHP array
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP If the YAML is not valid 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Yaml.php.
+.SS "static setSpecVersion ($version)\fC [static]\fP"Sets the YAML specification version to use.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$version\fP The YAML specification version
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When version of YAML specs is not supported 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file Yaml.php.
+.SS "static setSpecVersion ($version)\fC [static]\fP"Sets the YAML specification version to use.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$version\fP The YAML specification version
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When version of YAML specs is not supported 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file Yaml.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

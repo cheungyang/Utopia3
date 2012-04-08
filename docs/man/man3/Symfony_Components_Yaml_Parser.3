@@ -1,0 +1,470 @@
+.TH "Symfony::Components::Yaml::Parser" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Yaml::Parser \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($offset=0)"
+.br
+.ti -1c
+.RI "\fBparse\fP ($value)"
+.br
+.ti -1c
+.RI "\fB__construct\fP ($offset=0)"
+.br
+.ti -1c
+.RI "\fBparse\fP ($value)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetRealCurrentLineNb\fP ()"
+.br
+.ti -1c
+.RI "\fBgetCurrentLineIndentation\fP ()"
+.br
+.ti -1c
+.RI "\fBgetNextEmbedBlock\fP ($indentation=null)"
+.br
+.ti -1c
+.RI "\fBmoveToNextLine\fP ()"
+.br
+.ti -1c
+.RI "\fBmoveToPreviousLine\fP ()"
+.br
+.ti -1c
+.RI "\fBparseValue\fP ($value)"
+.br
+.ti -1c
+.RI "\fBparseFoldedScalar\fP ($separator, $indicator= '', $indentation=0)"
+.br
+.ti -1c
+.RI "\fBisNextLineIndented\fP ()"
+.br
+.ti -1c
+.RI "\fBisCurrentLineEmpty\fP ()"
+.br
+.ti -1c
+.RI "\fBisCurrentLineBlank\fP ()"
+.br
+.ti -1c
+.RI "\fBisCurrentLineComment\fP ()"
+.br
+.ti -1c
+.RI "\fBcleanup\fP ($value)"
+.br
+.ti -1c
+.RI "\fBgetRealCurrentLineNb\fP ()"
+.br
+.ti -1c
+.RI "\fBgetCurrentLineIndentation\fP ()"
+.br
+.ti -1c
+.RI "\fBgetNextEmbedBlock\fP ($indentation=null)"
+.br
+.ti -1c
+.RI "\fBmoveToNextLine\fP ()"
+.br
+.ti -1c
+.RI "\fBmoveToPreviousLine\fP ()"
+.br
+.ti -1c
+.RI "\fBparseValue\fP ($value)"
+.br
+.ti -1c
+.RI "\fBparseFoldedScalar\fP ($separator, $indicator= '', $indentation=0)"
+.br
+.ti -1c
+.RI "\fBisNextLineIndented\fP ()"
+.br
+.ti -1c
+.RI "\fBisCurrentLineEmpty\fP ()"
+.br
+.ti -1c
+.RI "\fBisCurrentLineBlank\fP ()"
+.br
+.ti -1c
+.RI "\fBisCurrentLineComment\fP ()"
+.br
+.ti -1c
+.RI "\fBcleanup\fP ($value)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$offset\fP = 0"
+.br
+.ti -1c
+.RI "\fB$lines\fP = array()"
+.br
+.ti -1c
+.RI "\fB$currentLineNb\fP = -1"
+.br
+.ti -1c
+.RI "\fB$currentLine\fP = ''"
+.br
+.ti -1c
+.RI "\fB$refs\fP = array()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 20 of file Parser.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($offset = \fC0\fP)"Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$offset\fP The offset of YAML document (used for line numbers in error messages) 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file Parser.php.
+.SS "__construct ($offset = \fC0\fP)"Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$offset\fP The offset of YAML document (used for line numbers in error messages) 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file Parser.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "cleanup ($value)\fC [protected]\fP"Cleanups a YAML string to be parsed.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The input YAML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A cleaned up YAML string 
+.RE
+.PP
+
+.PP
+Definition at line 493 of file Parser.php.
+.SS "cleanup ($value)\fC [protected]\fP"Cleanups a YAML string to be parsed.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The input YAML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A cleaned up YAML string 
+.RE
+.PP
+
+.PP
+Definition at line 493 of file Parser.php.
+.SS "getCurrentLineIndentation ()\fC [protected]\fP"Returns the current line indentation.
+.PP
+\fBReturns:\fP
+.RS 4
+integer The current line indentation 
+.RE
+.PP
+
+.PP
+Definition at line 239 of file Parser.php.
+.SS "getCurrentLineIndentation ()\fC [protected]\fP"Returns the current line indentation.
+.PP
+\fBReturns:\fP
+.RS 4
+integer The current line indentation 
+.RE
+.PP
+
+.PP
+Definition at line 239 of file Parser.php.
+.SS "getNextEmbedBlock ($indentation = \fCnull\fP)\fC [protected]\fP"Returns the next embed block of YAML.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$indentation\fP The indent level at which the block is to be read, or null for default
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When indentation problem are detected 
+.RE
+.PP
+
+.PP
+Definition at line 253 of file Parser.php.
+.SS "getNextEmbedBlock ($indentation = \fCnull\fP)\fC [protected]\fP"Returns the next embed block of YAML.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$indentation\fP The indent level at which the block is to be read, or null for default
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When indentation problem are detected 
+.RE
+.PP
+
+.PP
+Definition at line 253 of file Parser.php.
+.SS "getRealCurrentLineNb ()\fC [protected]\fP"Returns the current line number (takes the offset into account).
+.PP
+\fBReturns:\fP
+.RS 4
+integer The current line number 
+.RE
+.PP
+
+.PP
+Definition at line 229 of file Parser.php.
+.SS "getRealCurrentLineNb ()\fC [protected]\fP"Returns the current line number (takes the offset into account).
+.PP
+\fBReturns:\fP
+.RS 4
+integer The current line number 
+.RE
+.PP
+
+.PP
+Definition at line 229 of file Parser.php.
+.SS "isCurrentLineBlank ()\fC [protected]\fP"Returns true if the current line is blank.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the current line is blank, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 469 of file Parser.php.
+.SS "isCurrentLineBlank ()\fC [protected]\fP"Returns true if the current line is blank.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the current line is blank, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 469 of file Parser.php.
+.SS "isCurrentLineComment ()\fC [protected]\fP"Returns true if the current line is a comment line.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the current line is a comment line, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 479 of file Parser.php.
+.SS "isCurrentLineComment ()\fC [protected]\fP"Returns true if the current line is a comment line.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the current line is a comment line, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 479 of file Parser.php.
+.SS "isCurrentLineEmpty ()\fC [protected]\fP"Returns true if the current line is blank or if it is a comment line.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the current line is empty or if it is a comment line, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 459 of file Parser.php.
+.SS "isCurrentLineEmpty ()\fC [protected]\fP"Returns true if the current line is blank or if it is a comment line.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the current line is empty or if it is a comment line, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 459 of file Parser.php.
+.SS "isNextLineIndented ()\fC [protected]\fP"Returns true if the next line is indented.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the next line is indented, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 431 of file Parser.php.
+.SS "isNextLineIndented ()\fC [protected]\fP"Returns true if the next line is indented.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean Returns true if the next line is indented, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 431 of file Parser.php.
+.SS "moveToNextLine ()\fC [protected]\fP"Moves the parser to the next line. 
+.PP
+Definition at line 300 of file Parser.php.
+.SS "moveToNextLine ()\fC [protected]\fP"Moves the parser to the next line. 
+.PP
+Definition at line 300 of file Parser.php.
+.SS "moveToPreviousLine ()\fC [protected]\fP"Moves the parser to the previous line. 
+.PP
+Definition at line 314 of file Parser.php.
+.SS "moveToPreviousLine ()\fC [protected]\fP"Moves the parser to the previous line. 
+.PP
+Definition at line 314 of file Parser.php.
+.SS "parse ($value)"Parses a YAML string to a PHP value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP A YAML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed A PHP value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP If the YAML is not valid 
+.RE
+.PP
+
+.PP
+Definition at line 47 of file Parser.php.
+.SS "parse ($value)"Parses a YAML string to a PHP value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP A YAML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed A PHP value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP If the YAML is not valid 
+.RE
+.PP
+
+.PP
+Definition at line 47 of file Parser.php.
+.SS "parseFoldedScalar ($separator, $indicator = \fC''\fP, $indentation = \fC0\fP)\fC [protected]\fP"Parses a folded scalar.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$separator\fP The separator that was used to begin this folded scalar (| or >) 
+.br
+\fI$indicator\fP The indicator that was used to begin this folded scalar (+ or -) 
+.br
+\fI$indentation\fP The indentation that was used to begin this folded scalar
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The text value 
+.RE
+.PP
+
+.PP
+Definition at line 361 of file Parser.php.
+.SS "parseFoldedScalar ($separator, $indicator = \fC''\fP, $indentation = \fC0\fP)\fC [protected]\fP"Parses a folded scalar.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$separator\fP The separator that was used to begin this folded scalar (| or >) 
+.br
+\fI$indicator\fP The indicator that was used to begin this folded scalar (+ or -) 
+.br
+\fI$indentation\fP The indentation that was used to begin this folded scalar
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The text value 
+.RE
+.PP
+
+.PP
+Definition at line 361 of file Parser.php.
+.SS "parseValue ($value)\fC [protected]\fP"Parses a YAML value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP A YAML value
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed A PHP value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When reference doesn't not exist 
+.RE
+.PP
+
+.PP
+Definition at line 328 of file Parser.php.
+.SS "parseValue ($value)\fC [protected]\fP"Parses a YAML value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP A YAML value
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed A PHP value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When reference doesn't not exist 
+.RE
+.PP
+
+.PP
+Definition at line 328 of file Parser.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

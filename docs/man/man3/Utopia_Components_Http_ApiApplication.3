@@ -1,0 +1,385 @@
+.TH "Utopia::Components::Http::ApiApplication" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Http::ApiApplication \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUtopia::Components::Http::IApplication\fP.
+.PP
+Inherited by \fBModuleApplication\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (ServiceContainer $sc, \fBAutoload\fP $autoload)"
+.br
+.ti -1c
+.RI "\fB__get\fP ($name)"
+.br
+.ti -1c
+.RI "\fB__call\fP ($name, $argument)"
+.br
+.ti -1c
+.RI "\fBget\fP ($name, $default=false)"
+.br
+.ti -1c
+.RI "\fBregisterNamespaces\fP (array $namespaces)"
+.br
+.ti -1c
+.RI "\fBregisterNamespace\fP ($namespace)"
+.br
+.ti -1c
+.RI "\fBregisterApi\fP ($name, \fBApiApplication\fP $api)"
+.br
+.ti -1c
+.RI "\fBgetRegisteredNamespaces\fP ()"
+.br
+.ti -1c
+.RI "\fBgetController\fP ()"
+.br
+.ti -1c
+.RI "\fBgetReturnValues\fP ($format='json')"
+.br
+.ti -1c
+.RI "\fBgetHeaders\fP ()"
+.br
+.ti -1c
+.RI "\fBsetHeader\fP ($string)"
+.br
+.ti -1c
+.RI "\fBgetStatus\fP ()"
+.br
+.ti -1c
+.RI "\fBrun\fP ()"
+.br
+.ti -1c
+.RI "\fBgetApis\fP ()"
+.br
+.ti -1c
+.RI "\fBgetApiValue\fP ($name, $default=false)"
+.br
+.ti -1c
+.RI "\fBsetUrl\fP ($url)"
+.br
+.ti -1c
+.RI "\fBsetMethod\fP ($method)"
+.br
+.ti -1c
+.RI "\fBsetPost\fP ($values)"
+.br
+.ti -1c
+.RI "\fBsetGet\fP ($values)"
+.br
+.ti -1c
+.RI "\fBsetFiles\fP ($values)"
+.br
+.ti -1c
+.RI "\fBgetUrl\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMethod\fP ()"
+.br
+.ti -1c
+.RI "\fBgetPost\fP ($name='', $default=false)"
+.br
+.ti -1c
+.RI "\fBgetGet\fP ($name='', $default=false)"
+.br
+.ti -1c
+.RI "\fBgetFiles\fP ($name='', $default=false)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBOKAY\fP = 200"
+.br
+.ti -1c
+.RI "const \fBNOTFOUND\fP = 404"
+.br
+.ti -1c
+.RI "const \fBERROR\fP = -1"
+.br
+.ti -1c
+.RI "const \fBINIT\fP = 0"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$event_name\fP = 'core.api.controllers'"
+.br
+.ti -1c
+.RI "\fB$dataSpec\fP"
+.br
+.ti -1c
+.RI "\fB$basicVarSpec\fP"
+.br
+.ti -1c
+.RI "\fB$data\fP"
+.br
+.ti -1c
+.RI "\fB$variables\fP"
+.br
+.ti -1c
+.RI "\fB$applications\fP"
+.br
+.ti -1c
+.RI "\fB$controller\fP"
+.br
+.ti -1c
+.RI "\fB$sc\fP"
+.br
+.ti -1c
+.RI "\fB$autoload\fP"
+.br
+.ti -1c
+.RI "\fB$exitCode\fP"
+.br
+.ti -1c
+.RI "\fB$routes\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file ApiController.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (ServiceContainer $sc, \fBAutoload\fP $autoload)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$sc\fP 
+.br
+\fI$autoload\fP 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBModuleApplication\fP.
+.PP
+Definition at line 48 of file ApiController.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "__call ($name, $argument)"just to catch fatal errors in the meantime
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$argument\fP 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBModuleApplication\fP, and \fBPageApplication\fP.
+.PP
+Definition at line 76 of file ApiController.php.
+.SS "__get ($name)"shorthand for $this->get
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file ApiController.php.
+.SS "get ($name, $default = \fCfalse\fP)"get api output if it is begginning with 'apis>'
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBModuleApplication\fP.
+.PP
+Definition at line 87 of file ApiController.php.
+.SS "getApis ()"get all api beneathes this application
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 391 of file ApiController.php.
+.SS "getApiValue ($name, $default = \fCfalse\fP)"get Api info if api is not yet run, run it
+.PP
+\fBParameters:\fP
+.RS 4
+\fImixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 415 of file ApiController.php.
+.SS "getController ()"check if route config cache is useful by seeing if the modification time of all registered controller are earlier than the cache.
+.PP
+if not, the cache file will be recreated by iternating all controllers 
+.PP
+Definition at line 188 of file ApiController.php.
+.SS "getRegisteredNamespaces ()"get registered namespaces
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 172 of file ApiController.php.
+.SS "getReturnValues ($format = \fC'json'\fP)"(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+trunk/lib/Components/mallocworks/Http/Utopia\\Components\\Http.IApplication::getReturnValues() 
+.RE
+.PP
+
+.PP
+Implements \fBIApplication\fP.
+.PP
+Definition at line 256 of file ApiController.php.
+.SS "getStatus ()"get exitCode(running status of api controller)
+.PP
+\fBReturns:\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 324 of file ApiController.php.
+.SS "registerApi ($name, \fBApiApplication\fP $api)"provides ability for api to call other apis
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP alias for the api 
+.br
+\fI$api\fP Api to register
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 145 of file ApiController.php.
+.SS "registerNamespace ($namespace)"register all relevant controllers in a namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$namespace\fP 
+.br
+\fI$function\fP callback function name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 125 of file ApiController.php.
+.SS "registerNamespaces (array $namespaces)"register all relevant controllers in an array of namespaces
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$namespace\fP 
+.br
+\fI$array\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file ApiController.php.
+.SS "run ()"main entry point to execute a controller
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$url\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+int exitCode 
+.RE
+.PP
+
+.PP
+Implements \fBIApplication\fP.
+.PP
+Reimplemented in \fBPageApplication\fP.
+.PP
+Definition at line 335 of file ApiController.php.
+.SS "setHeader ($string)"set response header
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$string\fP header string or array of header strings 
+.RE
+.PP
+
+.PP
+Definition at line 310 of file ApiController.php.
+.SS "setUrl ($url)"determine the controller class by url
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$url\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 468 of file ApiController.php.
+.SH "Field Documentation"
+.PP 
+.SS "$basicVarSpec\fC [protected]\fP"\fBInitial value:\fP
+.PP
+.nf
+ <<<EOF
+get:    { req: true, def: [], type: 'array' }
+post:   { req: true, def: [], type: 'array' }
+files:  { req: true, def: [], type: 'array' }
+EOF
+.fi
+.PP
+Definition at line 27 of file ApiController.php.
+.SS "$dataSpec\fC [protected]\fP"\fBInitial value:\fP
+.PP
+.nf
+ <<<EOF
+url:      { req: true, type: 'string' }
+method:   { req: true, def: 'GET', type: ['GET','POST','PUT','DELETE'] }
+response: { req: true, def: [], type: 'array' }
+headers:  { req: true, def: [], type: 'array' }
+EOF
+.fi
+.PP
+Definition at line 21 of file ApiController.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

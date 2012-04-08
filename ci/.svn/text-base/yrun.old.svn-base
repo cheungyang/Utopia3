@@ -1,0 +1,5 @@
+hihi
+#!/home/y/bin/php -d open_basedir=/home/ycheung/workspace:/tmp
+<?php
+
+include('run.php');

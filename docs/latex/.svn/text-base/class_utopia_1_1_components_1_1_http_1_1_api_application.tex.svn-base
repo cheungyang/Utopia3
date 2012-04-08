@@ -1,0 +1,585 @@
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application}{
+\section{ApiApplication Class Reference}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application}\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+}
+Inheritance diagram for ApiApplication:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_utopia_1_1_components_1_1_http_1_1_api_application}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a340e2fe39427e16d9b82e6e0c0cce2b8}{\_\-\_\-construct} (ServiceContainer \$sc, \hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload}{Autoload} \$autoload)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_abc8e9e31bb15c8a44c3210ec551407c8}{\_\-\_\-get} (\$name)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a0eb52356889d21276080a9b7ceabf51f}{\_\-\_\-call} (\$name, \$argument)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a8c34073e5e433931085430ecdf461065}{get} (\$name, \$default=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_afd147d473364c7df6b9b327bae802b82}{registerNamespaces} (array \$namespaces)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_aa518e2c8933dbf9ca5f424c27c03715e}{registerNamespace} (\$namespace)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_aae81fb635da71d7e0d698e4f7868c6ef}{registerApi} (\$name, \hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application}{ApiApplication} \$api)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_abbbcbfa8d80937eae9db2f1cad1b89dd}{getRegisteredNamespaces} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_aa8b89e0bad51878addc1300cd3e95b5c}{getController} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_ace0beea73e7d3c49c15ba49732966127}{getReturnValues} (\$format=\char`\"{}json\char`\"{})
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a157e0005d82edaa21cbea07fdc5c62da}{
+{\bfseries getHeaders} ()}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a157e0005d82edaa21cbea07fdc5c62da}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a0d954a045518b4e2aee77464e11d89f7}{setHeader} (\$string)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a9d21636071f529e2154051d3ea6e5921}{getStatus} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_afb0fafe7e02a3ae1993c01c19fad2bae}{run} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a66275d423679d28b87b21bbe4daa92b2}{getApis} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a7501532b7ea0d2390d2916d39b9e9a14}{getApiValue} (\$name, \$default=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_a0b6d0c531aa70b1811b166299edab8d0}{setUrl} (\$url)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a643c65610f8b3179a8c147cab7cbb652}{
+{\bfseries setMethod} (\$method)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a643c65610f8b3179a8c147cab7cbb652}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a9a44ac5feea9e2e436e5d07c31d0654b}{
+{\bfseries setPost} (\$values)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a9a44ac5feea9e2e436e5d07c31d0654b}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a56235f0b27116793e4d5f87f010f95b8}{
+{\bfseries setGet} (\$values)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a56235f0b27116793e4d5f87f010f95b8}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a737f93fa64ec1a0a724b1f1a4d84595d}{
+{\bfseries setFiles} (\$values)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a737f93fa64ec1a0a724b1f1a4d84595d}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_accd14bda49a1044b4d8dd93f020f11ee}{
+{\bfseries getUrl} ()}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_accd14bda49a1044b4d8dd93f020f11ee}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_af3e37e1a6ed9b8c87f86f659873a83b7}{
+{\bfseries getMethod} ()}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_af3e37e1a6ed9b8c87f86f659873a83b7}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a088255257a5c5ab652cd0c6efa788b0e}{
+{\bfseries getPost} (\$name='', \$default=false)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a088255257a5c5ab652cd0c6efa788b0e}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a37a7718f10c4920d57c3df2ff3896578}{
+{\bfseries getGet} (\$name='', \$default=false)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a37a7718f10c4920d57c3df2ff3896578}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a6a79fb2ff18849eb3e232a75c4213ab9}{
+{\bfseries getFiles} (\$name='', \$default=false)}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a6a79fb2ff18849eb3e232a75c4213ab9}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a88611ee29b7698dd27a512bb1e8665b2}{
+const {\bfseries OKAY} = 200}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a88611ee29b7698dd27a512bb1e8665b2}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_ac1beb8709364a7a10f0b42e62e15aa37}{
+const {\bfseries NOTFOUND} = 404}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_ac1beb8709364a7a10f0b42e62e15aa37}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a7f79d7b73cfb40bb7855d4260393cc0f}{
+const {\bfseries ERROR} = -\/1}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a7f79d7b73cfb40bb7855d4260393cc0f}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a57a69f62cb572acac15fa0e1a6cac3ee}{
+const {\bfseries INIT} = 0}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a57a69f62cb572acac15fa0e1a6cac3ee}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_af0ef64c378868cc2f0ccb14e57b44f46}{
+{\bfseries \$event\_\-name} = 'core.api.controllers'}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_af0ef64c378868cc2f0ccb14e57b44f46}
+
+\item 
+{\bfseries \$dataSpec}
+\item 
+{\bfseries \$basicVarSpec}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a6efc15b5a2314dd4b5aaa556a375c6d6}{
+{\bfseries \$data}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a6efc15b5a2314dd4b5aaa556a375c6d6}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a205bcd6b62c65ad1312e897a222eef19}{
+{\bfseries \$variables}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a205bcd6b62c65ad1312e897a222eef19}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_afef56ede1225281b9c96d0cf2f0a0196}{
+{\bfseries \$applications}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_afef56ede1225281b9c96d0cf2f0a0196}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a388ef7b1db5e6f728e63cee704ce6e23}{
+{\bfseries \$controller}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a388ef7b1db5e6f728e63cee704ce6e23}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a5482c8bd14f7e5ffa394a30a0ae45a70}{
+{\bfseries \$sc}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a5482c8bd14f7e5ffa394a30a0ae45a70}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a9efb4b2d7105a707e0fab1ba3330c8b9}{
+{\bfseries \$autoload}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a9efb4b2d7105a707e0fab1ba3330c8b9}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a354f17f08a3db07ffff5a6b5ab6d1c84}{
+{\bfseries \$exitCode}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a354f17f08a3db07ffff5a6b5ab6d1c84}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a8f7eb04a54e0f0bfc0cedeb9899ce4a8}{
+{\bfseries \$routes}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a8f7eb04a54e0f0bfc0cedeb9899ce4a8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file ApiController.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a340e2fe39427e16d9b82e6e0c0cce2b8}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{ServiceContainer \$}]{sc, }
+\item[{{\bf Autoload} \$}]{autoload}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a340e2fe39427e16d9b82e6e0c0cce2b8}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+ServiceContainer & {\em \$sc} & \\
+\hline
+Autoload & {\em \$autoload} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_utopia_1_1_components_1_1_http_1_1_module_application_a340e2fe39427e16d9b82e6e0c0cce2b8}{ModuleApplication}.
+
+
+
+Definition at line 48 of file ApiController.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a0eb52356889d21276080a9b7ceabf51f}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!\_\-\_\-call@{\_\-\_\-call}}
+\index{\_\-\_\-call@{\_\-\_\-call}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{\_\-\_\-call}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-call (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{argument}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a0eb52356889d21276080a9b7ceabf51f}
+just to catch fatal errors in the meantime
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+array & {\em \$argument} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_utopia_1_1_components_1_1_http_1_1_module_application_a0eb52356889d21276080a9b7ceabf51f}{ModuleApplication}, and \hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_a0eb52356889d21276080a9b7ceabf51f}{PageApplication}.
+
+
+
+Definition at line 76 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_abc8e9e31bb15c8a44c3210ec551407c8}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!\_\-\_\-get@{\_\-\_\-get}}
+\index{\_\-\_\-get@{\_\-\_\-get}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{\_\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_abc8e9e31bb15c8a44c3210ec551407c8}
+shorthand for \$this-\/$>$get
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 66 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a8c34073e5e433931085430ecdf461065}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!get@{get}}
+\index{get@{get}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{default = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a8c34073e5e433931085430ecdf461065}
+get api output if it is begginning with 'apis$>$'
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$name} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_utopia_1_1_components_1_1_http_1_1_module_application_a8c34073e5e433931085430ecdf461065}{ModuleApplication}.
+
+
+
+Definition at line 87 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a66275d423679d28b87b21bbe4daa92b2}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!getApis@{getApis}}
+\index{getApis@{getApis}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{getApis}]{\setlength{\rightskip}{0pt plus 5cm}getApis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a66275d423679d28b87b21bbe4daa92b2}
+get all api beneathes this application
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 391 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a7501532b7ea0d2390d2916d39b9e9a14}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!getApiValue@{getApiValue}}
+\index{getApiValue@{getApiValue}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{getApiValue}]{\setlength{\rightskip}{0pt plus 5cm}getApiValue (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{default = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a7501532b7ea0d2390d2916d39b9e9a14}
+get Api info if api is not yet run, run it
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 415 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_aa8b89e0bad51878addc1300cd3e95b5c}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!getController@{getController}}
+\index{getController@{getController}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{getController}]{\setlength{\rightskip}{0pt plus 5cm}getController (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_aa8b89e0bad51878addc1300cd3e95b5c}
+check if route config cache is useful by seeing if the modification time of all registered controller are earlier than the cache.
+
+if not, the cache file will be recreated by iternating all controllers 
+
+Definition at line 188 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_abbbcbfa8d80937eae9db2f1cad1b89dd}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!getRegisteredNamespaces@{getRegisteredNamespaces}}
+\index{getRegisteredNamespaces@{getRegisteredNamespaces}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{getRegisteredNamespaces}]{\setlength{\rightskip}{0pt plus 5cm}getRegisteredNamespaces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_abbbcbfa8d80937eae9db2f1cad1b89dd}
+get registered namespaces
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 172 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_ace0beea73e7d3c49c15ba49732966127}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!getReturnValues@{getReturnValues}}
+\index{getReturnValues@{getReturnValues}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{getReturnValues}]{\setlength{\rightskip}{0pt plus 5cm}getReturnValues (
+\begin{DoxyParamCaption}
+\item[{\$}]{format = {\ttfamily \char`\"{}json\char`\"{}}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_ace0beea73e7d3c49c15ba49732966127}
+(non-\/PHPdoc) \begin{DoxySeeAlso}{See also}
+trunk/lib/Components/mallocworks/Http/Utopia$\backslash$Components$\backslash$Http.IApplication::getReturnValues() 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_application_ace0beea73e7d3c49c15ba49732966127}{IApplication}.
+
+
+
+Definition at line 256 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a9d21636071f529e2154051d3ea6e5921}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!getStatus@{getStatus}}
+\index{getStatus@{getStatus}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{getStatus}]{\setlength{\rightskip}{0pt plus 5cm}getStatus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a9d21636071f529e2154051d3ea6e5921}
+get exitCode(running status of api controller)
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 324 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_aae81fb635da71d7e0d698e4f7868c6ef}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!registerApi@{registerApi}}
+\index{registerApi@{registerApi}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{registerApi}]{\setlength{\rightskip}{0pt plus 5cm}registerApi (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{{\bf ApiApplication} \$}]{api}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_aae81fb635da71d7e0d698e4f7868c6ef}
+provides ability for api to call other apis
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & alias for the api \\
+\hline
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application}{ApiApplication} & {\em \$api} & Api to register\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 145 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_aa518e2c8933dbf9ca5f424c27c03715e}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!registerNamespace@{registerNamespace}}
+\index{registerNamespace@{registerNamespace}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{registerNamespace}]{\setlength{\rightskip}{0pt plus 5cm}registerNamespace (
+\begin{DoxyParamCaption}
+\item[{\$}]{namespace}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_aa518e2c8933dbf9ca5f424c27c03715e}
+register all relevant controllers in a namespace
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$namespace} & \\
+\hline
+string & {\em \$function} & callback function name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 125 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_afd147d473364c7df6b9b327bae802b82}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!registerNamespaces@{registerNamespaces}}
+\index{registerNamespaces@{registerNamespaces}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{registerNamespaces}]{\setlength{\rightskip}{0pt plus 5cm}registerNamespaces (
+\begin{DoxyParamCaption}
+\item[{array \$}]{namespaces}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_afd147d473364c7df6b9b327bae802b82}
+register all relevant controllers in an array of namespaces
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$namespace} & \\
+\hline
+array & {\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 105 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_afb0fafe7e02a3ae1993c01c19fad2bae}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!run@{run}}
+\index{run@{run}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_afb0fafe7e02a3ae1993c01c19fad2bae}
+main entry point to execute a controller
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int exitCode 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_application_afb0fafe7e02a3ae1993c01c19fad2bae}{IApplication}.
+
+
+
+Reimplemented in \hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_afb0fafe7e02a3ae1993c01c19fad2bae}{PageApplication}.
+
+
+
+Definition at line 335 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a0d954a045518b4e2aee77464e11d89f7}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!setHeader@{setHeader}}
+\index{setHeader@{setHeader}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{setHeader}]{\setlength{\rightskip}{0pt plus 5cm}setHeader (
+\begin{DoxyParamCaption}
+\item[{\$}]{string}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a0d954a045518b4e2aee77464e11d89f7}
+set response header
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$string} & header string or array of header strings \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 310 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a0b6d0c531aa70b1811b166299edab8d0}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!setUrl@{setUrl}}
+\index{setUrl@{setUrl}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{setUrl}]{\setlength{\rightskip}{0pt plus 5cm}setUrl (
+\begin{DoxyParamCaption}
+\item[{\$}]{url}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a0b6d0c531aa70b1811b166299edab8d0}
+determine the controller class by url
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 468 of file ApiController.php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a6e1576371b15495013bd0235bc52e84d}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!\$basicVarSpec@{\$basicVarSpec}}
+\index{\$basicVarSpec@{\$basicVarSpec}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{\$basicVarSpec}]{\setlength{\rightskip}{0pt plus 5cm}\$basicVarSpec\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a6e1576371b15495013bd0235bc52e84d}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ <<<EOF
+get:    { req: true, def: [], type: 'array' }
+post:   { req: true, def: [], type: 'array' }
+files:  { req: true, def: [], type: 'array' }
+EOF
+\end{DoxyCode}
+
+
+Definition at line 27 of file ApiController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_api_application_a2c03506d4d5ec05e8ff518e1e13dc585}{
+\index{Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}!\$dataSpec@{\$dataSpec}}
+\index{\$dataSpec@{\$dataSpec}!Utopia::Components::Http::ApiApplication@{Utopia::Components::Http::ApiApplication}}
+\subsubsection[{\$dataSpec}]{\setlength{\rightskip}{0pt plus 5cm}\$dataSpec\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_http_1_1_api_application_a2c03506d4d5ec05e8ff518e1e13dc585}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ <<<EOF
+url:      { req: true, type: 'string' }
+method:   { req: true, def: 'GET', type: ['GET','POST','PUT','DELETE'] }
+response: { req: true, def: [], type: 'array' }
+headers:  { req: true, def: [], type: 'array' }
+EOF
+\end{DoxyCode}
+
+
+Definition at line 21 of file ApiController.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/old/ApiController.php\end{DoxyCompactItemize}

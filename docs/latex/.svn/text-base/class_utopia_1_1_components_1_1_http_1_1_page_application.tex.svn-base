@@ -1,0 +1,193 @@
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application}{
+\section{PageApplication Class Reference}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application}\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+}
+Inheritance diagram for PageApplication:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_utopia_1_1_components_1_1_http_1_1_page_application}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_a3d31ab70e80b9632bc66920d67ce5e48}{
+{\bfseries \_\-\_\-construct} (\$sc, \$autoload)}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_a3d31ab70e80b9632bc66920d67ce5e48}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_a0eb52356889d21276080a9b7ceabf51f}{\_\-\_\-call} (\$name, \$argument)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_a6d6c81cae3e12d8b34488c271aca3a86}{setMeta} (\$name, \$value='')
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_a10a50365fc134c0aade214000287f906}{getMetaTags} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_afb0fafe7e02a3ae1993c01c19fad2bae}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_af0ef64c378868cc2f0ccb14e57b44f46}{
+{\bfseries \$event\_\-name} = 'core.page.controllers'}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_af0ef64c378868cc2f0ccb14e57b44f46}
+
+\item 
+{\bfseries \$dataSpec}
+\item 
+{\bfseries \$avaiable\_\-tags}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file PageController.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_a0eb52356889d21276080a9b7ceabf51f}{
+\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}!\_\-\_\-call@{\_\-\_\-call}}
+\index{\_\-\_\-call@{\_\-\_\-call}!Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+\subsubsection[{\_\-\_\-call}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-call (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{argument}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_a0eb52356889d21276080a9b7ceabf51f}
+just to catch fatal errors in the meantime
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+array & {\em \$argument} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_utopia_1_1_components_1_1_http_1_1_module_application_a0eb52356889d21276080a9b7ceabf51f}{ModuleApplication}.
+
+
+
+Definition at line 51 of file PageController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_a10a50365fc134c0aade214000287f906}{
+\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}!getMetaTags@{getMetaTags}}
+\index{getMetaTags@{getMetaTags}!Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+\subsubsection[{getMetaTags}]{\setlength{\rightskip}{0pt plus 5cm}getMetaTags (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_a10a50365fc134c0aade214000287f906}
+formulate meta tags for SEO
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 84 of file PageController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_afb0fafe7e02a3ae1993c01c19fad2bae}{
+\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}!run@{run}}
+\index{run@{run}!Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_afb0fafe7e02a3ae1993c01c19fad2bae}
+inherent \hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_afb0fafe7e02a3ae1993c01c19fad2bae}{ApiApplication::run} run all dependencies first at page level only
+
+(non-\/PHPdoc) \begin{DoxySeeAlso}{See also}
+lib/Components/mallocworks/Http/Utopia$\backslash$Components$\backslash$Http.ApiApplication::run() 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_application_afb0fafe7e02a3ae1993c01c19fad2bae}{IApplication}.
+
+
+
+Definition at line 110 of file PageController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_a6d6c81cae3e12d8b34488c271aca3a86}{
+\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}!setMeta@{setMeta}}
+\index{setMeta@{setMeta}!Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+\subsubsection[{setMeta}]{\setlength{\rightskip}{0pt plus 5cm}setMeta (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{value = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_a6d6c81cae3e12d8b34488c271aca3a86}
+enter meta information
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | string & {\em \$name} & \\
+\hline
+string & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 63 of file PageController.php.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_a0f1ff0570581a9d24f0a47b88de24c81}{
+\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}!\$avaiable\_\-tags@{\$avaiable\_\-tags}}
+\index{\$avaiable\_\-tags@{\$avaiable\_\-tags}!Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+\subsubsection[{\$avaiable\_\-tags}]{\setlength{\rightskip}{0pt plus 5cm}\$avaiable\_\-tags\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_a0f1ff0570581a9d24f0a47b88de24c81}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ array(
+        'content-type' => 'text/html; charset=UTF-8',
+        'content-language' => 'zh-Hant',
+        'robots' => 'FOLLOW',
+        'description' => '',
+        'keywords' => '',
+        'copyright' => '',
+        'title' => ''
+    )
+\end{DoxyCode}
+
+
+Definition at line 28 of file PageController.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_http_1_1_page_application_a2c03506d4d5ec05e8ff518e1e13dc585}{
+\index{Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}!\$dataSpec@{\$dataSpec}}
+\index{\$dataSpec@{\$dataSpec}!Utopia::Components::Http::PageApplication@{Utopia::Components::Http::PageApplication}}
+\subsubsection[{\$dataSpec}]{\setlength{\rightskip}{0pt plus 5cm}\$dataSpec\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_http_1_1_page_application_a2c03506d4d5ec05e8ff518e1e13dc585}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ <<<EOF
+url:            { req: true, type: string }
+method:         { req: true, def: 'GET', type: ['GET','POST','PUT','DELETE'] }
+response:   { req: true, def: [], type: 'array' }
+template:       { req: false, type: 'string' }
+script:     { req: false, type: 'array' }
+style:      { req: false, type: 'array' }
+headers:    { req: false, type: 'array' }
+meta:       { req: false, type: 'array' }
+EOF
+\end{DoxyCode}
+
+
+Reimplemented from \hyperlink{class_utopia_1_1_components_1_1_http_1_1_module_application}{ModuleApplication}.
+
+
+
+Definition at line 16 of file PageController.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/old/PageController.php\end{DoxyCompactItemize}

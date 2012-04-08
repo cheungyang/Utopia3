@@ -1,0 +1,26 @@
+.TH "Utopia" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia \- 
+.SH SYNOPSIS
+.br
+.PP
+.SH "Detailed Description"
+.PP 
+Helper 
+.PP
+\fBAuthor:\fP
+.RS 4
+Alva Cheung <mallocworks@gmail.com>  mallocworks http://mallocworks.com/license 
+.RE
+.PP
+\fBVersion:\fP
+.RS 4
+SVN: <svn_id> \fB2010-01-04 15:00:00   Helper  Alva Cheung <mallocworks@gmail.com>  mallocworks http://mallocworks.com/license  Release: \fP \fB2010-01-04 15:00:00 \fP
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

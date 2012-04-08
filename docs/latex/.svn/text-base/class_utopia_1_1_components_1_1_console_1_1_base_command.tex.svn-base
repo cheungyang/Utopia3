@@ -1,0 +1,80 @@
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command}{
+\section{BaseCommand Class Reference}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command}\index{Utopia::Components::Console::BaseCommand@{Utopia::Components::Console::BaseCommand}}
+}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_console_1_1_base_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{configure} ()
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_a5badab6f355fb39953c34224dd0b3c50}{
+{\bfseries getCmdName} ()}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_a5badab6f355fb39953c34224dd0b3c50}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_a7cd7e34c76d47bf32d63020c7eb5be54}{
+{\bfseries getCmdDescription} ()}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_a7cd7e34c76d47bf32d63020c7eb5be54}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_a49d13c2efdcd9bc925130705807366a6}{
+{\bfseries getCmdHelp} ()}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_a49d13c2efdcd9bc925130705807366a6}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_aee15392af12e202bf42ea30d9e280097}{
+{\bfseries getCmdAliases} ()}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_aee15392af12e202bf42ea30d9e280097}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_ab18dfe4118823df6002d6b6e8571bd49}{
+{\bfseries getCmdDefinition} ()}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_ab18dfe4118823df6002d6b6e8571bd49}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_a6bb8bc25d9590deadb315da58853c9d6}{
+{\bfseries getDefinitionDefault} (\$name)}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_a6bb8bc25d9590deadb315da58853c9d6}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_ab2fc40d43824ea3e1ce5d86dee0d763b}{
+{\bfseries \$name} = '\_\-\_\-NO\_\-NAME\_\-\_\-'}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_ab2fc40d43824ea3e1ce5d86dee0d763b}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_a7c22723c2ce0d66da8eee43133bd91f1}{
+{\bfseries \$command\_\-details} = array()}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_a7c22723c2ce0d66da8eee43133bd91f1}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file BaseCommand.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_console_1_1_base_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{
+\index{Utopia::Components::Console::BaseCommand@{Utopia::Components::Console::BaseCommand}!configure@{configure}}
+\index{configure@{configure}!Utopia::Components::Console::BaseCommand@{Utopia::Components::Console::BaseCommand}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}configure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_console_1_1_base_command_a9be5e0bdb5720efed6ddb6426c5c16ee}
+inherent from  
+
+Definition at line 25 of file BaseCommand.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Console/BaseCommand.php\end{DoxyCompactItemize}

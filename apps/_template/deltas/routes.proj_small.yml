@@ -1,0 +1,8 @@
+###PROJ_SMALL###.modules.###CTR_SMALL###:
+  base_uri: '###PROJ_SMALL###/modules/###CTR_SMALL###'
+  description: 'description here'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\###PROJ_CAP###\Controllers\###PROJ_CAP######CTR_CAP###Controller'

@@ -1,0 +1,911 @@
+[2011-08-28 14:38:25][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 14:38:25][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 14:38:25][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for error.catch_all
+[2011-08-28 14:38:25][WARNING][ClassDispatcher::dispatch]url 'hello/ycheung/1234' cannot find a route to match url
+[2011-08-28 14:38:25][WARNING][FileCache::_isExpired]key 'f03ffa3f63a032080291ccc516300bf6' not exist for expiration test
+[2011-08-28 14:38:25][DEBUG][FileCache::get]key 'f03ffa3f63a032080291ccc516300bf6' expired
+[2011-08-28 14:38:25][WARNING][FileCache::_isExpired]key '8d43c280675a5ce5950880cba3533c8f' not exist for expiration test
+[2011-08-28 14:38:26][DEBUG][FileCache::get]key '8d43c280675a5ce5950880cba3533c8f' expired
+[2011-08-28 14:38:26][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 14:38:26][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 14:38:26][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 14:38:26][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 14:38:26][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 14:38:26][ERROR][::testNoLogs]error string
+[2011-08-28 14:38:26][ERROR][::testNoLogs]error string2
+[2011-08-28 14:38:26][WARNING][::testNoLogs]warning string
+[2011-08-28 14:38:26][NOTICE][::testNoLogs]notice string
+[2011-08-28 14:38:26][DEBUG][::testNoLogs]debug string
+[2011-08-28 14:38:26][TRIVAL][::testNoLogs]trival string
+[2011-08-28 14:38:26][ERROR][::testPrintNormal]hello
+[2011-08-28 14:38:26][ERROR][::testPrintNormal]hello
+[2011-08-28 14:38:26][WARNING][::testPrintNormal]hello
+[2011-08-28 14:38:26][NOTICE][::testPrintNormal]hello
+[2011-08-28 14:38:26][DEBUG][::testPrintNormal]hello
+[2011-08-28 14:38:26][TRIVAL][::testPrintNormal]hello
+[2011-08-28 14:38:26][ERROR][::testPrintColor]hello
+[2011-08-28 14:38:26][ERROR][::testPrintColor]hello
+[2011-08-28 14:38:26][WARNING][::testPrintColor]hello
+[2011-08-28 14:38:26][NOTICE][::testPrintColor]hello
+[2011-08-28 14:38:26][DEBUG][::testPrintColor]hello
+[2011-08-28 14:38:26][TRIVAL][::testPrintColor]hello
+[2011-08-28 14:38:26][ERROR][::testResponseNormal]hello
+[2011-08-28 14:38:26][ERROR][::testResponseNormal]hello
+[2011-08-28 14:38:26][WARNING][::testResponseNormal]hello
+[2011-08-28 14:38:26][NOTICE][::testResponseNormal]hello
+[2011-08-28 14:38:26][DEBUG][::testResponseNormal]hello
+[2011-08-28 14:38:26][TRIVAL][::testResponseNormal]hello
+[2011-08-28 14:38:26][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 14:38:27][ERROR][::testFileNormal]hello
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key '8a779072c5185cea07e1608ccd7c324d' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key '8a779072c5185cea07e1608ccd7c324d' expired
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key 'da290dfa10daf5bb0d415e6d7184a7c0' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key 'da290dfa10daf5bb0d415e6d7184a7c0' expired
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key '50f3c6cb4513ebcf49c6d3eba63968d9' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key '50f3c6cb4513ebcf49c6d3eba63968d9' expired
+[2011-08-28 14:38:27][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 14:38:27][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 14:38:27][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 14:38:27][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 14:38:27][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 14:38:27][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 14:38:27][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 14:38:27][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key '03ae819a0bee676873ea9f0d3ab6d50d' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key '03ae819a0bee676873ea9f0d3ab6d50d' expired
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key '1922af28a1ce3760403d4b6141dc4ec8' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key '1922af28a1ce3760403d4b6141dc4ec8' expired
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key 'f3ae841eea215b55187d6bdafc07beb1' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key 'f3ae841eea215b55187d6bdafc07beb1' expired
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' expired
+[2011-08-28 14:38:27][WARNING][FileCache::_isExpired]key 'e44394101e071038cff6dfcb536d03b9' not exist for expiration test
+[2011-08-28 14:38:27][DEBUG][FileCache::get]key 'e44394101e071038cff6dfcb536d03b9' expired
+[2011-08-28 14:38:28][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 14:38:28][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name' is not of type 'string'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name' is not of type 'array'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name' is not of type 'int'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name' is not of type 'float'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name' is not of type 'bool'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name>first' is not of type 'string'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name>first' is not of type 'array'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name>first' is not of type 'int'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name>first' is not of type 'float'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]field 'name>first' is not of type 'bool'
+[2011-08-28 14:38:28][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 14:40:26][WARNING][ClassDispatcher::_loadRoutes]route info empty for 'apps/ctr_viewer/deltas/routes.common.yml', wrong filename?
+[2011-08-28 14:40:26][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 14:40:26][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 14:40:26][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 14:40:26][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 14:40:26][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 14:40:26][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 14:40:26][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 14:40:26][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 14:40:26][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 14:40:26][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 14:40:26][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 14:40:26][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 14:50:35][WARNING][ClassDispatcher::_loadRoutes]route info empty for 'apps/ctr_viewer/deltas/routes.common.yml', wrong filename?
+[2011-08-28 14:50:35][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:35][WARNING][ClassDispatcher::dispatch]url 'hello/shout/ycheung' cannot find a route to match url
+[2011-08-28 14:50:35][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/ycheung' for method 'GET'
+[2011-08-28 14:50:35][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:35][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:50:35][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:50:36][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:36][WARNING][ClassDispatcher::dispatch]url 'hello/shout/ycheung' cannot find a route to match url
+[2011-08-28 14:50:36][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/ycheung' for method 'GET'
+[2011-08-28 14:50:36][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:36][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:50:36][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:50:46][WARNING][ClassDispatcher::_loadRoutes]route info empty for 'apps/ctr_viewer/deltas/routes.common.yml', wrong filename?
+[2011-08-28 14:50:46][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:46][WARNING][ClassDispatcher::dispatch]url 'hello/shout/ycheung' cannot find a route to match url
+[2011-08-28 14:50:46][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/ycheung' for method 'GET'
+[2011-08-28 14:50:46][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:46][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:50:46][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:50:46][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:46][WARNING][ClassDispatcher::dispatch]url 'hello/shout/ycheung' cannot find a route to match url
+[2011-08-28 14:50:46][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/ycheung' for method 'GET'
+[2011-08-28 14:50:46][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:50:46][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:50:46][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:51:15][WARNING][ClassDispatcher::_loadRoutes]route info empty for 'apps/ctr_viewer/deltas/routes.common.yml', wrong filename?
+[2011-08-28 14:51:15][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for error.catch_all
+[2011-08-28 14:51:15][WARNING][ClassDispatcher::dispatch]url 'hello/shout/ycheung' cannot find a route to match url
+[2011-08-28 14:51:15][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/ycheung' for method 'GET'
+[2011-08-28 14:51:15][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:51:15][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:51:15][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:51:15][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for error.catch_all
+[2011-08-28 14:51:15][WARNING][ClassDispatcher::dispatch]url 'hello/shout/ycheung' cannot find a route to match url
+[2011-08-28 14:51:15][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/ycheung' for method 'GET'
+[2011-08-28 14:51:15][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:51:15][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:51:15][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.api.hello
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.module.hello
+[2011-08-28 14:56:26][DEBUG][ClassDispatcher::acceptUrl]hello/shout/ycheung accepted by route hello.shout
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.api.hello
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.module.hello
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for hello.shout
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:56:26][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:56:26][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.api.hello
+[2011-08-28 14:56:26][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.module.hello
+[2011-08-28 14:56:26][DEBUG][ClassDispatcher::acceptUrl]hello/shout/ycheung accepted by route hello.shout
+[2011-08-28 14:56:27][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.api.hello
+[2011-08-28 14:56:27][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.module.hello
+[2011-08-28 14:56:27][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for hello.shout
+[2011-08-28 14:56:27][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for error.catch_all
+[2011-08-28 14:56:27][WARNING][ClassDispatcher::dispatch]url 'hello/header/ycheung' cannot find a route to match url
+[2011-08-28 14:56:27][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/ycheung' for method 'GET'
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.api.hello
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.module.hello
+[2011-08-28 14:58:40][DEBUG][ClassDispatcher::acceptUrl]hello/shout/ycheung accepted by route hello.shout
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.api.hello
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.module.hello
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for hello.shout
+[2011-08-28 14:58:40][DEBUG][ClassDispatcher::acceptUrl]hello/header/ycheung accepted by route hello.header
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.api.hello
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ycheung not match regex for tests.module.hello
+[2011-08-28 14:58:40][DEBUG][ClassDispatcher::acceptUrl]hello/shout/ycheung accepted by route hello.shout
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.api.hello
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for tests.module.hello
+[2011-08-28 14:58:40][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ycheung not match regex for hello.shout
+[2011-08-28 14:58:40][DEBUG][ClassDispatcher::acceptUrl]hello/header/ycheung accepted by route hello.header
+[2011-08-28 14:59:20][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 14:59:20][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 14:59:20][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 14:59:20][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 14:59:20][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 14:59:20][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 14:59:20][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 14:59:20][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:00:11][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 15:00:11][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 15:00:11][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 15:00:11][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 15:00:11][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 15:00:11][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 15:00:11][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 15:00:11][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:00:29][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 15:00:29][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 15:00:29][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 15:00:29][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 15:00:29][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 15:00:29][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 15:00:29][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 15:00:29][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:00:42][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:00:42][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:00:42][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for error.catch_all
+[2011-08-28 15:00:42][WARNING][ClassDispatcher::dispatch]url 'hello/ycheung/1234' cannot find a route to match url
+[2011-08-28 15:00:42][WARNING][FileCache::_isExpired]key 'f03ffa3f63a032080291ccc516300bf6' not exist for expiration test
+[2011-08-28 15:00:42][DEBUG][FileCache::get]key 'f03ffa3f63a032080291ccc516300bf6' expired
+[2011-08-28 15:00:42][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:00:42][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:00:42][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:00:42][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:00:42][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:00:42][ERROR][::testNoLogs]error string
+[2011-08-28 15:00:42][ERROR][::testNoLogs]error string2
+[2011-08-28 15:00:42][WARNING][::testNoLogs]warning string
+[2011-08-28 15:00:42][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:00:42][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:00:42][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:00:42][ERROR][::testPrintNormal]hello
+[2011-08-28 15:00:42][ERROR][::testPrintNormal]hello
+[2011-08-28 15:00:42][WARNING][::testPrintNormal]hello
+[2011-08-28 15:00:42][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:00:43][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:00:43][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:00:43][ERROR][::testPrintColor]hello
+[2011-08-28 15:00:43][ERROR][::testPrintColor]hello
+[2011-08-28 15:00:43][WARNING][::testPrintColor]hello
+[2011-08-28 15:00:43][NOTICE][::testPrintColor]hello
+[2011-08-28 15:00:43][DEBUG][::testPrintColor]hello
+[2011-08-28 15:00:43][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:00:43][ERROR][::testResponseNormal]hello
+[2011-08-28 15:00:43][ERROR][::testResponseNormal]hello
+[2011-08-28 15:00:43][WARNING][::testResponseNormal]hello
+[2011-08-28 15:00:43][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:00:43][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:00:43][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:00:43][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:00:43][ERROR][::testFileNormal]hello
+[2011-08-28 15:00:43][WARNING][FileCache::_isExpired]key '8a779072c5185cea07e1608ccd7c324d' not exist for expiration test
+[2011-08-28 15:00:43][DEBUG][FileCache::get]key '8a779072c5185cea07e1608ccd7c324d' expired
+[2011-08-28 15:00:43][WARNING][FileCache::_isExpired]key '50f3c6cb4513ebcf49c6d3eba63968d9' not exist for expiration test
+[2011-08-28 15:00:43][DEBUG][FileCache::get]key '50f3c6cb4513ebcf49c6d3eba63968d9' expired
+[2011-08-28 15:00:43][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 15:00:43][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 15:00:43][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 15:00:43][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 15:00:43][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 15:00:44][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 15:00:44][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 15:00:44][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:00:44][WARNING][FileCache::_isExpired]key '03ae819a0bee676873ea9f0d3ab6d50d' not exist for expiration test
+[2011-08-28 15:00:44][DEBUG][FileCache::get]key '03ae819a0bee676873ea9f0d3ab6d50d' expired
+[2011-08-28 15:00:44][WARNING][FileCache::_isExpired]key '1922af28a1ce3760403d4b6141dc4ec8' not exist for expiration test
+[2011-08-28 15:00:44][DEBUG][FileCache::get]key '1922af28a1ce3760403d4b6141dc4ec8' expired
+[2011-08-28 15:00:44][WARNING][FileCache::_isExpired]key 'f3ae841eea215b55187d6bdafc07beb1' not exist for expiration test
+[2011-08-28 15:00:44][DEBUG][FileCache::get]key 'f3ae841eea215b55187d6bdafc07beb1' expired
+[2011-08-28 15:00:44][WARNING][FileCache::_isExpired]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' not exist for expiration test
+[2011-08-28 15:00:44][DEBUG][FileCache::get]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' expired
+[2011-08-28 15:00:44][WARNING][FileCache::_isExpired]key 'e44394101e071038cff6dfcb536d03b9' not exist for expiration test
+[2011-08-28 15:00:44][DEBUG][FileCache::get]key 'e44394101e071038cff6dfcb536d03b9' expired
+[2011-08-28 15:00:44][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:00:44][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name' is not of type 'string'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name' is not of type 'array'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name' is not of type 'int'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name' is not of type 'float'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name' is not of type 'bool'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name>first' is not of type 'string'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name>first' is not of type 'array'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name>first' is not of type 'int'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]field 'name>first' is not of type 'float'
+[2011-08-28 15:00:44][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:00:45][WARNING][Validator::_validate]field 'name>first' is not of type 'bool'
+[2011-08-28 15:00:45][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:02:01][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:02:01][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:02:02][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for error.catch_all
+[2011-08-28 15:02:02][WARNING][ClassDispatcher::dispatch]url 'hello/ycheung/1234' cannot find a route to match url
+[2011-08-28 15:02:02][WARNING][FileCache::_isExpired]key 'f03ffa3f63a032080291ccc516300bf6' not exist for expiration test
+[2011-08-28 15:02:02][DEBUG][FileCache::get]key 'f03ffa3f63a032080291ccc516300bf6' expired
+[2011-08-28 15:02:02][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:02:02][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:02:02][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:02:02][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:02:02][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:02:02][ERROR][::testNoLogs]error string
+[2011-08-28 15:02:02][ERROR][::testNoLogs]error string2
+[2011-08-28 15:02:02][WARNING][::testNoLogs]warning string
+[2011-08-28 15:02:02][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:02:02][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:02:02][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:02:02][ERROR][::testPrintNormal]hello
+[2011-08-28 15:02:02][ERROR][::testPrintNormal]hello
+[2011-08-28 15:02:02][WARNING][::testPrintNormal]hello
+[2011-08-28 15:02:02][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:02:02][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:02:02][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:02:02][ERROR][::testPrintColor]hello
+[2011-08-28 15:02:02][ERROR][::testPrintColor]hello
+[2011-08-28 15:02:02][WARNING][::testPrintColor]hello
+[2011-08-28 15:02:02][NOTICE][::testPrintColor]hello
+[2011-08-28 15:02:02][DEBUG][::testPrintColor]hello
+[2011-08-28 15:02:02][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:02:02][ERROR][::testResponseNormal]hello
+[2011-08-28 15:02:02][ERROR][::testResponseNormal]hello
+[2011-08-28 15:02:03][WARNING][::testResponseNormal]hello
+[2011-08-28 15:02:03][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:02:03][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:02:03][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:02:03][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:02:03][ERROR][::testFileNormal]hello
+[2011-08-28 15:02:03][WARNING][FileCache::_isExpired]key '8a779072c5185cea07e1608ccd7c324d' not exist for expiration test
+[2011-08-28 15:02:03][DEBUG][FileCache::get]key '8a779072c5185cea07e1608ccd7c324d' expired
+[2011-08-28 15:02:04][WARNING][FileCache::_isExpired]key '50f3c6cb4513ebcf49c6d3eba63968d9' not exist for expiration test
+[2011-08-28 15:02:04][DEBUG][FileCache::get]key '50f3c6cb4513ebcf49c6d3eba63968d9' expired
+[2011-08-28 15:02:04][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 15:02:04][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 15:02:04][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 15:02:04][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 15:02:04][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 15:02:04][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 15:02:04][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 15:02:04][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:02:04][WARNING][FileCache::_isExpired]key '03ae819a0bee676873ea9f0d3ab6d50d' not exist for expiration test
+[2011-08-28 15:02:04][DEBUG][FileCache::get]key '03ae819a0bee676873ea9f0d3ab6d50d' expired
+[2011-08-28 15:02:05][WARNING][FileCache::_isExpired]key '1922af28a1ce3760403d4b6141dc4ec8' not exist for expiration test
+[2011-08-28 15:02:05][DEBUG][FileCache::get]key '1922af28a1ce3760403d4b6141dc4ec8' expired
+[2011-08-28 15:02:05][WARNING][FileCache::_isExpired]key 'f3ae841eea215b55187d6bdafc07beb1' not exist for expiration test
+[2011-08-28 15:02:05][DEBUG][FileCache::get]key 'f3ae841eea215b55187d6bdafc07beb1' expired
+[2011-08-28 15:02:05][WARNING][FileCache::_isExpired]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' not exist for expiration test
+[2011-08-28 15:02:05][DEBUG][FileCache::get]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' expired
+[2011-08-28 15:02:05][WARNING][FileCache::_isExpired]key 'e44394101e071038cff6dfcb536d03b9' not exist for expiration test
+[2011-08-28 15:02:05][DEBUG][FileCache::get]key 'e44394101e071038cff6dfcb536d03b9' expired
+[2011-08-28 15:02:05][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:02:05][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name' is not of type 'string'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name' is not of type 'array'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name' is not of type 'int'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name' is not of type 'float'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name' is not of type 'bool'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name>first' is not of type 'string'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name>first' is not of type 'array'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name>first' is not of type 'int'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name>first' is not of type 'float'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]field 'name>first' is not of type 'bool'
+[2011-08-28 15:02:05][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:03:31][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:03:31][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:03:31][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for error.catch_all
+[2011-08-28 15:03:31][WARNING][ClassDispatcher::dispatch]url 'hello/ycheung/1234' cannot find a route to match url
+[2011-08-28 15:03:31][WARNING][FileCache::_isExpired]key 'f03ffa3f63a032080291ccc516300bf6' not exist for expiration test
+[2011-08-28 15:03:31][DEBUG][FileCache::get]key 'f03ffa3f63a032080291ccc516300bf6' expired
+[2011-08-28 15:03:31][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:03:31][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:03:31][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:03:31][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:03:31][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:03:31][ERROR][::testNoLogs]error string
+[2011-08-28 15:03:31][ERROR][::testNoLogs]error string2
+[2011-08-28 15:03:31][WARNING][::testNoLogs]warning string
+[2011-08-28 15:03:31][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:03:31][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:03:31][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:03:31][ERROR][::testPrintNormal]hello
+[2011-08-28 15:03:31][ERROR][::testPrintNormal]hello
+[2011-08-28 15:03:31][WARNING][::testPrintNormal]hello
+[2011-08-28 15:03:31][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:03:31][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:03:31][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:03:31][ERROR][::testPrintColor]hello
+[2011-08-28 15:03:31][ERROR][::testPrintColor]hello
+[2011-08-28 15:03:31][WARNING][::testPrintColor]hello
+[2011-08-28 15:03:31][NOTICE][::testPrintColor]hello
+[2011-08-28 15:03:31][DEBUG][::testPrintColor]hello
+[2011-08-28 15:03:31][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:03:31][ERROR][::testResponseNormal]hello
+[2011-08-28 15:03:31][ERROR][::testResponseNormal]hello
+[2011-08-28 15:03:31][WARNING][::testResponseNormal]hello
+[2011-08-28 15:03:32][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:03:32][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:03:32][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:03:32][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:03:32][ERROR][::testFileNormal]hello
+[2011-08-28 15:03:32][WARNING][FileCache::_isExpired]key '8a779072c5185cea07e1608ccd7c324d' not exist for expiration test
+[2011-08-28 15:03:32][DEBUG][FileCache::get]key '8a779072c5185cea07e1608ccd7c324d' expired
+[2011-08-28 15:03:32][WARNING][FileCache::_isExpired]key '50f3c6cb4513ebcf49c6d3eba63968d9' not exist for expiration test
+[2011-08-28 15:03:32][DEBUG][FileCache::get]key '50f3c6cb4513ebcf49c6d3eba63968d9' expired
+[2011-08-28 15:03:32][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 15:03:32][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 15:03:32][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 15:03:32][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 15:03:32][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 15:03:32][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 15:03:32][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 15:03:32][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:03:32][WARNING][FileCache::_isExpired]key '03ae819a0bee676873ea9f0d3ab6d50d' not exist for expiration test
+[2011-08-28 15:03:32][DEBUG][FileCache::get]key '03ae819a0bee676873ea9f0d3ab6d50d' expired
+[2011-08-28 15:03:32][WARNING][FileCache::_isExpired]key '1922af28a1ce3760403d4b6141dc4ec8' not exist for expiration test
+[2011-08-28 15:03:32][DEBUG][FileCache::get]key '1922af28a1ce3760403d4b6141dc4ec8' expired
+[2011-08-28 15:03:33][WARNING][FileCache::_isExpired]key 'f3ae841eea215b55187d6bdafc07beb1' not exist for expiration test
+[2011-08-28 15:03:33][DEBUG][FileCache::get]key 'f3ae841eea215b55187d6bdafc07beb1' expired
+[2011-08-28 15:03:33][WARNING][FileCache::_isExpired]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' not exist for expiration test
+[2011-08-28 15:03:33][DEBUG][FileCache::get]key 'abbef7a887b56ba74dcdb6c1cf33ccb6' expired
+[2011-08-28 15:03:33][WARNING][FileCache::_isExpired]key 'e44394101e071038cff6dfcb536d03b9' not exist for expiration test
+[2011-08-28 15:03:33][DEBUG][FileCache::get]key 'e44394101e071038cff6dfcb536d03b9' expired
+[2011-08-28 15:03:33][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:03:33][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name' is not of type 'string'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name' is not of type 'array'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name' is not of type 'int'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name' is not of type 'float'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name' is not of type 'bool'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name>first' is not of type 'string'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name>first' is not of type 'array'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name>first' is not of type 'int'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name>first' is not of type 'float'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]field 'name>first' is not of type 'bool'
+[2011-08-28 15:03:33][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:03:34][WARNING][FileCache::_isExpired]key 'bbf56a6521b625a7634f4f59c53923bf' not exist for expiration test
+[2011-08-28 15:03:34][DEBUG][FileCache::get]key 'bbf56a6521b625a7634f4f59c53923bf' expired
+[2011-08-28 15:03:34][WARNING][FileCache::_isExpired]key 'd75eb0bdaf5e400f521f3fa660b88cc9' not exist for expiration test
+[2011-08-28 15:03:34][DEBUG][FileCache::get]key 'd75eb0bdaf5e400f521f3fa660b88cc9' expired
+[2011-08-28 15:04:41][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:04:41][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:04:41][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for error.catch_all
+[2011-08-28 15:04:41][WARNING][ClassDispatcher::dispatch]url 'hello/ycheung/1234' cannot find a route to match url
+[2011-08-28 15:04:41][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:04:41][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:04:41][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:04:41][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:04:41][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:04:41][ERROR][::testNoLogs]error string
+[2011-08-28 15:04:41][ERROR][::testNoLogs]error string2
+[2011-08-28 15:04:41][WARNING][::testNoLogs]warning string
+[2011-08-28 15:04:41][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:04:41][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:04:41][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:04:41][ERROR][::testPrintNormal]hello
+[2011-08-28 15:04:42][ERROR][::testPrintNormal]hello
+[2011-08-28 15:04:42][WARNING][::testPrintNormal]hello
+[2011-08-28 15:04:42][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:04:42][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:04:42][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:04:42][ERROR][::testPrintColor]hello
+[2011-08-28 15:04:42][ERROR][::testPrintColor]hello
+[2011-08-28 15:04:42][WARNING][::testPrintColor]hello
+[2011-08-28 15:04:42][NOTICE][::testPrintColor]hello
+[2011-08-28 15:04:42][DEBUG][::testPrintColor]hello
+[2011-08-28 15:04:42][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:04:42][ERROR][::testResponseNormal]hello
+[2011-08-28 15:04:42][ERROR][::testResponseNormal]hello
+[2011-08-28 15:04:42][WARNING][::testResponseNormal]hello
+[2011-08-28 15:04:42][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:04:42][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:04:42][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:04:42][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:04:42][ERROR][::testFileNormal]hello
+[2011-08-28 15:04:42][WARNING][FileCache::_isExpired]key '50f3c6cb4513ebcf49c6d3eba63968d9' not exist for expiration test
+[2011-08-28 15:04:42][DEBUG][FileCache::get]key '50f3c6cb4513ebcf49c6d3eba63968d9' expired
+[2011-08-28 15:04:42][TRIVAL][ClassDispatcher::acceptUrl]hello/shout/ not match regex for error.catch_all
+[2011-08-28 15:04:42][WARNING][ClassDispatcher::dispatch]url 'hello/shout/' cannot find a route to match url
+[2011-08-28 15:04:42][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/shout/' for method 'GET'
+[2011-08-28 15:04:42][TRIVAL][ClassDispatcher::acceptUrl]hello/header/ not match regex for error.catch_all
+[2011-08-28 15:04:42][WARNING][ClassDispatcher::dispatch]url 'hello/header/' cannot find a route to match url
+[2011-08-28 15:04:42][ERROR][BaseController::_loadWorkflows]failed to dispatch url 'hello/header/' for method 'GET'
+[2011-08-28 15:04:42][WARNING][Template::buildTemplate]module 'module_name' not found
+[2011-08-28 15:04:43][TRIVAL][Template::render]loading template from '/tmp/565e49866851854deadc91c03f0b7c6d.template'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:04:43][WARNING][Validator::_validate]required field 'name' missing
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name' is not of type 'string'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name' is not of type 'array'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name' is not of type 'int'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name' is not of type 'float'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name' is not of type 'bool'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name>first' is not of type 'string'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name>first' is not of type 'array'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name>first' is not of type 'int'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name>first' is not of type 'float'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]field 'name>first' is not of type 'bool'
+[2011-08-28 15:04:43][WARNING][Validator::_validate]children error for field 'name'
+[2011-08-28 15:07:18][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:07:18][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for core.hello
+[2011-08-28 15:07:18][TRIVAL][ClassDispatcher::acceptUrl]hello/ycheung/1234 not match regex for error.catch_all
+[2011-08-28 15:07:18][WARNING][ClassDispatcher::dispatch]url 'hello/ycheung/1234' cannot find a route to match url
+[2011-08-28 15:08:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:08:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:08:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 15:08:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 15:08:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:08:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:08:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 15:08:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:08:04][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 15:08:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:08:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 15:08:04][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 15:10:30][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:10:30][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:10:30][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 15:10:30][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 15:10:30][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:10:30][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:10:30][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 15:10:57][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:10:57][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:10:57][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 15:10:57][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 15:10:57][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:10:57][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:10:57][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 15:10:57][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 15:10:57][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 15:10:57][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 15:10:57][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 15:10:57][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 15:11:24][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:11:24][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:11:24][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:11:24][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:11:24][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:14:42][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:14:42][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:14:42][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:14:42][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:14:42][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:15:57][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:15:57][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:15:57][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:15:57][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:15:57][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:16:55][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:16:55][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:16:55][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:16:55][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:16:55][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:19:37][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:19:37][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:19:37][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 15:19:37][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 15:19:37][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 15:20:06][ERROR][::testNoLogs]error string
+[2011-08-28 15:20:06][ERROR][::testNoLogs]error string2
+[2011-08-28 15:20:06][WARNING][::testNoLogs]warning string
+[2011-08-28 15:20:06][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:20:06][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:20:06][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:20:06][ERROR][::testPrintNormal]hello
+[2011-08-28 15:20:06][ERROR][::testPrintNormal]hello
+[2011-08-28 15:20:06][WARNING][::testPrintNormal]hello
+[2011-08-28 15:20:06][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:20:06][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:20:06][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:20:06][ERROR][::testPrintColor]hello
+[2011-08-28 15:20:06][ERROR][::testPrintColor]hello
+[2011-08-28 15:20:06][WARNING][::testPrintColor]hello
+[2011-08-28 15:20:06][NOTICE][::testPrintColor]hello
+[2011-08-28 15:20:06][DEBUG][::testPrintColor]hello
+[2011-08-28 15:20:06][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:20:06][ERROR][::testResponseNormal]hello
+[2011-08-28 15:20:06][ERROR][::testResponseNormal]hello
+[2011-08-28 15:20:06][WARNING][::testResponseNormal]hello
+[2011-08-28 15:20:06][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:20:06][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:20:06][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:20:07][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:20:07][ERROR][::testFileNormal]hello
+[2011-08-28 15:21:32][ERROR][::testNoLogs]error string
+[2011-08-28 15:21:32][ERROR][::testNoLogs]error string2
+[2011-08-28 15:21:32][WARNING][::testNoLogs]warning string
+[2011-08-28 15:21:32][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:21:32][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:21:32][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:21:32][ERROR][::testPrintNormal]hello
+[2011-08-28 15:21:32][ERROR][::testPrintNormal]hello
+[2011-08-28 15:21:32][WARNING][::testPrintNormal]hello
+[2011-08-28 15:21:32][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:21:32][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:21:32][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:21:32][ERROR][::testPrintColor]hello
+[2011-08-28 15:21:32][ERROR][::testPrintColor]hello
+[2011-08-28 15:21:32][WARNING][::testPrintColor]hello
+[2011-08-28 15:21:32][NOTICE][::testPrintColor]hello
+[2011-08-28 15:21:32][DEBUG][::testPrintColor]hello
+[2011-08-28 15:21:32][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:21:32][ERROR][::testResponseNormal]hello
+[2011-08-28 15:21:32][ERROR][::testResponseNormal]hello
+[2011-08-28 15:21:32][WARNING][::testResponseNormal]hello
+[2011-08-28 15:21:32][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:21:32][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:21:32][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:21:32][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:21:32][ERROR][::testFileNormal]hello
+[2011-08-28 15:22:12][ERROR][::testNoLogs]error string
+[2011-08-28 15:22:12][ERROR][::testNoLogs]error string2
+[2011-08-28 15:22:12][WARNING][::testNoLogs]warning string
+[2011-08-28 15:22:12][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:22:12][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:22:12][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:22:12][ERROR][::testPrintNormal]hello
+[2011-08-28 15:22:12][ERROR][::testPrintNormal]hello
+[2011-08-28 15:22:12][WARNING][::testPrintNormal]hello
+[2011-08-28 15:22:12][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:22:12][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:22:12][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:22:12][ERROR][::testPrintColor]hello
+[2011-08-28 15:22:12][ERROR][::testPrintColor]hello
+[2011-08-28 15:22:12][WARNING][::testPrintColor]hello
+[2011-08-28 15:22:12][NOTICE][::testPrintColor]hello
+[2011-08-28 15:22:12][DEBUG][::testPrintColor]hello
+[2011-08-28 15:22:12][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:22:13][ERROR][::testResponseNormal]hello
+[2011-08-28 15:22:13][ERROR][::testResponseNormal]hello
+[2011-08-28 15:22:13][WARNING][::testResponseNormal]hello
+[2011-08-28 15:22:13][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:22:13][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:22:13][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:22:13][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:22:13][ERROR][::testFileNormal]hello
+[2011-08-28 15:23:27][ERROR][::testNoLogs]error string
+[2011-08-28 15:23:27][ERROR][::testNoLogs]error string2
+[2011-08-28 15:23:27][WARNING][::testNoLogs]warning string
+[2011-08-28 15:23:27][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:23:27][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:23:27][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:23:27][ERROR][::testPrintNormal]hello
+[2011-08-28 15:23:27][ERROR][::testPrintNormal]hello
+[2011-08-28 15:23:27][WARNING][::testPrintNormal]hello
+[2011-08-28 15:23:27][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:23:27][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:23:27][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:23:27][ERROR][::testPrintColor]hello
+[2011-08-28 15:23:27][ERROR][::testPrintColor]hello
+[2011-08-28 15:23:27][WARNING][::testPrintColor]hello
+[2011-08-28 15:23:28][NOTICE][::testPrintColor]hello
+[2011-08-28 15:23:28][DEBUG][::testPrintColor]hello
+[2011-08-28 15:23:28][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:23:28][ERROR][::testResponseNormal]hello
+[2011-08-28 15:23:28][ERROR][::testResponseNormal]hello
+[2011-08-28 15:23:28][WARNING][::testResponseNormal]hello
+[2011-08-28 15:23:28][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:23:28][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:23:28][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:23:28][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:23:28][ERROR][::testFileNormal]hello
+[2011-08-28 15:23:43][ERROR][::testNoLogs]error string
+[2011-08-28 15:23:43][ERROR][::testNoLogs]error string2
+[2011-08-28 15:23:43][WARNING][::testNoLogs]warning string
+[2011-08-28 15:23:43][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:23:43][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:23:43][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:23:43][ERROR][::testPrintNormal]hello
+[2011-08-28 15:23:43][ERROR][::testPrintNormal]hello
+[2011-08-28 15:23:43][WARNING][::testPrintNormal]hello
+[2011-08-28 15:23:43][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:23:43][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:23:43][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:23:43][ERROR][::testPrintColor]hello
+[2011-08-28 15:23:43][ERROR][::testPrintColor]hello
+[2011-08-28 15:23:43][WARNING][::testPrintColor]hello
+[2011-08-28 15:23:43][NOTICE][::testPrintColor]hello
+[2011-08-28 15:23:43][DEBUG][::testPrintColor]hello
+[2011-08-28 15:23:43][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:23:43][ERROR][::testResponseNormal]hello
+[2011-08-28 15:23:43][ERROR][::testResponseNormal]hello
+[2011-08-28 15:23:43][WARNING][::testResponseNormal]hello
+[2011-08-28 15:23:43][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:23:43][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:23:43][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:23:43][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:23:43][ERROR][::testFileNormal]hello
+[2011-08-28 15:26:00][ERROR][::testNoLogs]error string
+[2011-08-28 15:26:00][ERROR][::testNoLogs]error string2
+[2011-08-28 15:26:00][WARNING][::testNoLogs]warning string
+[2011-08-28 15:26:00][NOTICE][::testNoLogs]notice string
+[2011-08-28 15:26:00][DEBUG][::testNoLogs]debug string
+[2011-08-28 15:26:00][TRIVAL][::testNoLogs]trival string
+[2011-08-28 15:26:00][ERROR][::testPrintNormal]hello
+[2011-08-28 15:26:00][ERROR][::testPrintNormal]hello
+[2011-08-28 15:26:01][WARNING][::testPrintNormal]hello
+[2011-08-28 15:26:01][NOTICE][::testPrintNormal]hello
+[2011-08-28 15:26:01][DEBUG][::testPrintNormal]hello
+[2011-08-28 15:26:01][TRIVAL][::testPrintNormal]hello
+[2011-08-28 15:26:01][ERROR][::testPrintColor]hello
+[2011-08-28 15:26:01][ERROR][::testPrintColor]hello
+[2011-08-28 15:26:01][WARNING][::testPrintColor]hello
+[2011-08-28 15:26:01][NOTICE][::testPrintColor]hello
+[2011-08-28 15:26:01][DEBUG][::testPrintColor]hello
+[2011-08-28 15:26:01][TRIVAL][::testPrintColor]hello
+[2011-08-28 15:26:01][ERROR][::testResponseNormal]hello
+[2011-08-28 15:26:01][ERROR][::testResponseNormal]hello
+[2011-08-28 15:26:01][WARNING][::testResponseNormal]hello
+[2011-08-28 15:26:01][NOTICE][::testResponseNormal]hello
+[2011-08-28 15:26:01][DEBUG][::testResponseNormal]hello
+[2011-08-28 15:26:01][TRIVAL][::testResponseNormal]hello
+[2011-08-28 15:26:01][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:26:01][ERROR][::testFileNormal]hello
+[2011-08-28 15:26:37][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:26:37][ERROR][::testFileNormal]hello
+[2011-08-28 15:26:46][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:26:46][ERROR][::testFileNormal]hello
+[2011-08-28 15:27:09][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:27:31][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:29:31][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:29:40][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:31:41][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:32:53][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:33:28][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:34:41][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:47:38][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:50:03][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:50:25][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 15:50:27][ERROR][::testResponseClassFiltering]hello
+[2011-08-28 16:16:26][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:16:26][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:16:26][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:16:26][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:16:26][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:16:26][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:16:26][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:16:26][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:16:26][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:16:26][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:16:26][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:16:26][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:16:26][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 16:16:26][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 16:16:26][WARNING][ApcCache::delete]failed delete key 'phpunit-timestamp'
+[2011-08-28 16:16:27][WARNING][ApcCache::add]failed storing key 'phpunit-timestamp'
+[2011-08-28 16:16:27][WARNING][ApcCache::get]failed fetching key 'phpunit-timestamp'
+[2011-08-28 16:16:54][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:16:54][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:16:54][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:16:54][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:16:54][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:16:54][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:16:54][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:16:54][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:16:54][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:16:54][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:16:54][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:16:54][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:21:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:21:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:21:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:21:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:21:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:21:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:21:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:21:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:21:25][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:21:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:21:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:21:25][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:28:24][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:28:24][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:28:24][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:28:24][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:28:24][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:28:24][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:28:24][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:28:24][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:28:24][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:28:24][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:28:24][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:28:24][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:29:17][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:29:17][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:29:17][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:29:17][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:29:17][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:29:17][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:29:17][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:29:17][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:29:17][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:29:17][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:29:17][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:29:17][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:30:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:30:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:30:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:30:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:30:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:30:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:30:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:30:04][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:30:04][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:30:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:30:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:30:04][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:32:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:32:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:32:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:32:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:32:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:32:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:32:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:32:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:32:28][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:32:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:32:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:32:28][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:33:03][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:33:03][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:33:03][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:33:03][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:33:03][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:33:03][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:33:03][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:33:03][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:33:04][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:33:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:33:04][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:33:04][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:33:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:33:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:33:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:33:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:33:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:33:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:33:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:33:25][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:33:25][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:33:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:33:25][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:33:25][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:34:19][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:34:19][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:34:19][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:34:19][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:34:19][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:34:19][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:34:19][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:34:19][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:34:19][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:34:19][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:34:19][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:34:19][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:35:06][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:35:07][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:35:07][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:35:07][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:35:07][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:35:07][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:35:07][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:35:07][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:35:07][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:35:07][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:35:07][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:35:07][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:37:59][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:37:59][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:37:59][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:37:59][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:37:59][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:37:59][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:37:59][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:37:59][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:37:59][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:37:59][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:37:59][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:37:59][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:38:58][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:38:58][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:38:58][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:38:58][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:38:58][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:38:58][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:38:58][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:38:58][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:38:58][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:38:58][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:38:58][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:38:58][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:42:46][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:42:46][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:42:46][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:42:46][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:42:46][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:42:46][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:42:46][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:42:46][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:42:46][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:42:46][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:42:46][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:42:46][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:44:20][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:44:20][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:44:20][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:44:20][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:44:20][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:44:20][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:44:20][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:44:20][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:44:20][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:44:20][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:44:20][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:44:20][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url
+[2011-08-28 16:44:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:44:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:44:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234.html accepted by route core.hello
+[2011-08-28 16:44:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2.html accepted by route core.hello
+[2011-08-28 16:44:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:44:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:44:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234/extra1/extra2 accepted by route core.hello
+[2011-08-28 16:44:28][DEBUG][ClassDispatcher::acceptUrl]hello/ycheung/1234 accepted by route core.hello
+[2011-08-28 16:44:28][ERROR][ClassDispatcher::dispatch]workflow class for url 'hello/ycheung/1234' cannot be found
+[2011-08-28 16:44:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for core.hello
+[2011-08-28 16:44:28][TRIVAL][ClassDispatcher::acceptUrl]hello/error_string not match regex for error.catch_all
+[2011-08-28 16:44:28][WARNING][ClassDispatcher::dispatch]url 'hello/error_string' cannot find a route to match url

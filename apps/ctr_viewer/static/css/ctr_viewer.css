@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+body{ text-align: left; }
+fieldset{ border: 1px solid #ccc; background-color: #fff; padding: 0px 10px 10px 10px; width: 280px;}
+fieldset legend{ margin: 10px; color: #003355;}
+h4{display: block; font-weight: bold;}
+select, input{ padding: 2px 0px;}
+
+.debug{ border: 1px solid #AAA; color: #fff; background: #000; text-align: left; padding: 10px; overflow-y:auto; overflow-x:hidden; height: 150px; width: 99%;}
+.separator{ padding: 0px 2px;}
+.clear{clear:both;}
+.loading{background: url('/u3/apps/ctr_viewer/static/img/anim_loading_sm_082208.gif') no-repeat; margin-top: 20px; padding-left: 25px; display: none; font-size: 13px;}
+
+#submit_query{ padding: 5px 30px; margin-top: 20px; float: right; background-color: #003355; color: #fff;}
+#select_route_select{ width: 100%; }
+#form_configuration_url label, #form_configuration_method label, #form_configuration_params label{ width: 60px; display: block; float: left; text-align: right; color: #666; font-size: 10px; line-height: 30px;}
+#form_configuration_url .field, #form_configuration_method .field, #form_configuration_params .field{ margin-left: 5px; text-weight: bold;}
+#form_configuration_url .field input{ width: 200px;}
+#form_configuration_params .field input, #form_configuration_params .field select{ width: 210px;}
+#div_exec_container{ padding-left: 30px; font-size: 12px; width: 92%;}
+#div_exec_query { background-color: #ff9900; border: 1px solid #ff7722; margin: 10px 0px; padding: 10px 20px;}
+#div_exec_query .method{padding: 40px; background-color: #eee; color: #333; border: 1px solid #666; padding: 3px;}
+#div_exec_query .url{font-size: 14px; padding-left: 20px;}
+#div_exec_return{ overflow-x:auto; overflow-y:hidden;}
+	
+#hd{ background-color: #003355; height: 50px; color: white; font-weight: bold; line-height: 50px; padding-left: 20px; font-size: 16px;}
+#div_sidebar{background: #eee; padding:10px; margin-top: 5px;}
+#ft hr{ border: 1px solid #eee;}

@@ -1,0 +1,156 @@
+.TH "Utopia::Components::Model::MysqliDso" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Model::MysqliDso \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($config)"
+.br
+.ti -1c
+.RI "\fB__destruct\fP ()"
+.br
+.ti -1c
+.RI "\fBgetConnection\fP ()"
+.br
+.ti -1c
+.RI "\fBbegin\fP ()"
+.br
+.ti -1c
+.RI "\fBcommit\fP ()"
+.br
+.ti -1c
+.RI "\fBrollback\fP ()"
+.br
+.ti -1c
+.RI "\fBreset\fP ()"
+.br
+.ti -1c
+.RI "\fBexecute\fP (\fBMysqliQuery\fP $q)"
+.br
+.ti -1c
+.RI "\fBgetData\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$_stmt\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBdisconnect\fP ()"
+.br
+.ti -1c
+.RI "\fBrefValues\fP ($arr)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file MysqliDso.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($config)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$host\fP 
+.br
+\fI$user\fP 
+.br
+\fI$passwd\fP 
+.br
+\fI$db\fP 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file MysqliDso.php.
+.SS "__destruct ()"destructor
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file MysqliDso.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "begin ()"start a datasource transaction
+.PP
+\fBReturns:\fP
+.RS 4
+self 
+.RE
+.PP
+
+.PP
+Definition at line 85 of file MysqliDso.php.
+.SS "commit ()"commit a datasource transaction
+.PP
+\fBReturns:\fP
+.RS 4
+self 
+.RE
+.PP
+
+.PP
+Definition at line 100 of file MysqliDso.php.
+.SS "disconnect ()\fC [protected]\fP"disconnect a connection
+.PP
+\fBReturns:\fP
+.RS 4
+true 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file MysqliDso.php.
+.SS "execute (\fBMysqliQuery\fP $q)"execute a mysql query
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$q\fP 
+.RE
+.PP
+
+.PP
+Definition at line 147 of file MysqliDso.php.
+.SS "getConnection ()"establish persistent datasource connection
+.PP
+\fBReturns:\fP
+.RS 4
+connection object 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file MysqliDso.php.
+.SS "reset ()"void statment object 
+.PP
+Definition at line 127 of file MysqliDso.php.
+.SS "rollback ()"rollback a datasource transaction
+.PP
+\fBReturns:\fP
+.RS 4
+self 
+.RE
+.PP
+
+.PP
+Definition at line 114 of file MysqliDso.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,159 @@
+.TH "Symfony::Components::Console::Input::InputArgument" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::InputArgument \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($name, $mode=null, $description= '', $default=null)"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.ti -1c
+.RI "\fBisRequired\fP ()"
+.br
+.ti -1c
+.RI "\fBisArray\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDefault\fP ($default=null)"
+.br
+.ti -1c
+.RI "\fBgetDefault\fP ()"
+.br
+.ti -1c
+.RI "\fBgetDescription\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBREQUIRED\fP = 1"
+.br
+.ti -1c
+.RI "const \fBOPTIONAL\fP = 2"
+.br
+.ti -1c
+.RI "const \fBIS_ARRAY\fP = 4"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$name\fP"
+.br
+.ti -1c
+.RI "\fB$mode\fP"
+.br
+.ti -1c
+.RI "\fB$default\fP"
+.br
+.ti -1c
+.RI "\fB$description\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file InputArgument.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($name, $mode = \fCnull\fP, $description = \fC''\fP, $default = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The argument name 
+.br
+\fI$mode\fP The argument mode: self::REQUIRED or self::OPTIONAL 
+.br
+\fI$description\fP A description text 
+.br
+\fI$default\fP The default value (for self::OPTIONAL mode only)
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When argument mode is not valid 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file InputArgument.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "getDefault ()"Returns the default value.
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The default value 
+.RE
+.PP
+
+.PP
+Definition at line 116 of file InputArgument.php.
+.SS "getDescription ()"Returns the description text.
+.PP
+\fBReturns:\fP
+.RS 4
+string The description text 
+.RE
+.PP
+
+.PP
+Definition at line 126 of file InputArgument.php.
+.SS "getName ()"Returns the argument name.
+.PP
+\fBReturns:\fP
+.RS 4
+string The argument name 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file InputArgument.php.
+.SS "isArray ()"Returns true if the argument can take multiple values.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if mode is self::IS_ARRAY, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 82 of file InputArgument.php.
+.SS "isRequired ()"Returns true if the argument is required.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if parameter mode is self::REQUIRED, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 72 of file InputArgument.php.
+.SS "setDefault ($default = \fCnull\fP)"Sets the default value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$default\fP The default value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\LogicException\fP When incorrect default value is given 
+.RE
+.PP
+
+.PP
+Definition at line 94 of file InputArgument.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,355 @@
+.TH "Utopia::Components::Model::MysqliQuery" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Model::MysqliQuery \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBreset\fP ()"
+.br
+.ti -1c
+.RI "\fBdistinct\fP ($bool=true)"
+.br
+.ti -1c
+.RI "\fBvalues\fP ($mixed)"
+.br
+.ti -1c
+.RI "\fBduplicatekey\fP ($mixed)"
+.br
+.ti -1c
+.RI "\fBfrom\fP ($mixed)"
+.br
+.ti -1c
+.RI "\fBleftJoin\fP ($table, $on)"
+.br
+.ti -1c
+.RI "\fBwhere\fP ($mixed, $value='__NOTHING__', $if=true)"
+.br
+.ti -1c
+.RI "\fBorWhere\fP ($mixed, $value='__NOTHING__', $if=true)"
+.br
+.ti -1c
+.RI "\fBset\fP ($mixed, $value='')"
+.br
+.ti -1c
+.RI "\fBhaving\fP ($mixed)"
+.br
+.ti -1c
+.RI "\fBgroup\fP ($mixed)"
+.br
+.ti -1c
+.RI "\fBorder\fP ($mixed, $order='DESC')"
+.br
+.ti -1c
+.RI "\fBlimit\fP ($int)"
+.br
+.ti -1c
+.RI "\fBoffset\fP ($mixed, $value='', $order='DESC')"
+.br
+.ti -1c
+.RI "\fBgetSql\fP ($spec=array())"
+.br
+.ti -1c
+.RI "\fBgetParams\fP ()"
+.br
+.ti -1c
+.RI "\fBgetStmtIdx\fP ($params)"
+.br
+.ti -1c
+.RI "\fBgetOperation\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBselect\fP ($mixed='*')"
+.br
+.ti -1c
+.RI "static \fBinsert\fP ($table)"
+.br
+.ti -1c
+.RI "static \fBdelete\fP ($table)"
+.br
+.ti -1c
+.RI "static \fBupdate\fP ($table)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$_op\fP"
+.br
+.ti -1c
+.RI "\fB$_dirty\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($op)"
+.br
+.ti -1c
+.RI "\fBgenSelectStmt\fP ()"
+.br
+.ti -1c
+.RI "\fBgenInsertStmt\fP ()"
+.br
+.ti -1c
+.RI "\fBgenDeleteStmt\fP ()"
+.br
+.ti -1c
+.RI "\fBgenUpdateStmt\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file MysqliQuery.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($op)\fC [protected]\fP"internal constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$op\fP query operation 
+.RE
+.PP
+
+.PP
+Definition at line 65 of file MysqliQuery.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "static delete ($table)\fC [static]\fP"entry for delete statements
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$table\fP 
+.RE
+.PP
+
+.PP
+Definition at line 43 of file MysqliQuery.php.
+.SS "distinct ($bool = \fCtrue\fP)"distinct flag
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$bool\fP 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file MysqliQuery.php.
+.SS "duplicatekey ($mixed)"INSERT: on duplicate update keys
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP key| array of keys to update 
+.RE
+.PP
+
+.PP
+Definition at line 131 of file MysqliQuery.php.
+.SS "from ($mixed)"SELECT: from
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 150 of file MysqliQuery.php.
+.SS "getParams ()"return array of parameters
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 399 of file MysqliQuery.php.
+.SS "getSql ($spec = \fCarray()\fP)"main function call to get sql
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$spec\fP database specification
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 384 of file MysqliQuery.php.
+.SS "group ($mixed)"SELECT: group
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 276 of file MysqliQuery.php.
+.SS "having ($mixed)"SELECT: having
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 261 of file MysqliQuery.php.
+.SS "static insert ($table)\fC [static]\fP"entry to insert statements
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$table\fP 
+.RE
+.PP
+
+.PP
+Definition at line 32 of file MysqliQuery.php.
+.SS "leftJoin ($table, $on)"SELECT: left join Enter description here ... 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$table\fP 
+.br
+\fI$on\fP 
+.RE
+.PP
+
+.PP
+Definition at line 172 of file MysqliQuery.php.
+.SS "limit ($int)"SELECT: limit
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$int\fP 
+.RE
+.PP
+
+.PP
+Definition at line 319 of file MysqliQuery.php.
+.SS "offset ($mixed, $value = \fC''\fP, $order = \fC'DESC'\fP)"\fBParameters:\fP
+.RS 4
+\fI$int\fP SELECT: offset will replace with where for best practice if sufficient info is obtained
+.br
+\fI$mixed\fP int or key or field:value 
+.br
+\fI$value\fP value to offset 
+.br
+\fI$order\fP asc/desc 
+.RE
+.PP
+
+.PP
+Definition at line 343 of file MysqliQuery.php.
+.SS "order ($mixed, $order = \fC'DESC'\fP)"SELECT: order by
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP key or order array 
+.br
+\fI$order\fP asc/desc 
+.RE
+.PP
+
+.PP
+Definition at line 299 of file MysqliQuery.php.
+.SS "orWhere ($mixed, $value = \fC'__NOTHING__'\fP, $if = \fCtrue\fP)"to enter to new set of OR relationship in where clause
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP where key or array of wheres 
+.br
+\fI$value\fP key value 
+.br
+\fI$if\fP to identify resursive where 
+.RE
+.PP
+
+.PP
+Definition at line 233 of file MysqliQuery.php.
+.SS "reset ()"reset inserted parameters
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 77 of file MysqliQuery.php.
+.SS "static select ($mixed = \fC'*'\fP)\fC [static]\fP"entry for select statements
+.PP
+\fBParameters:\fP
+.RS 4
+\fIarray|string\fP field(s) to select 
+.RE
+.PP
+
+.PP
+Definition at line 16 of file MysqliQuery.php.
+.SS "set ($mixed, $value = \fC''\fP)"INSERT|UPDATE: set
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP key or set array 
+.br
+\fI$value\fP key value 
+.RE
+.PP
+
+.PP
+Definition at line 245 of file MysqliQuery.php.
+.SS "static update ($table)\fC [static]\fP"entry for update statements
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$table\fP 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file MysqliQuery.php.
+.SS "values ($mixed)"INSERT|UPDATE: values
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 116 of file MysqliQuery.php.
+.SS "where ($mixed, $value = \fC'__NOTHING__'\fP, $if = \fCtrue\fP)"INSERT|UPDATE|SELECT|DELETE: where clause
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mixed\fP where key or array of wheres 
+.br
+\fI$value\fP key value 
+.br
+\fI$if\fP to identify resursive where 
+.RE
+.PP
+
+.PP
+Definition at line 186 of file MysqliQuery.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

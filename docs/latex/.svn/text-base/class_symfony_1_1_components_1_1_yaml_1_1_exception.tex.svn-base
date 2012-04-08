@@ -1,0 +1,22 @@
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_exception}{
+\section{Exception Class Reference}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_exception}\index{Symfony::Components::Yaml::Exception@{Symfony::Components::Yaml::Exception}}
+}
+Inheritance diagram for Exception:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_symfony_1_1_components_1_1_yaml_1_1_exception}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 21 of file Exception.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Exception.php\end{DoxyCompactItemize}

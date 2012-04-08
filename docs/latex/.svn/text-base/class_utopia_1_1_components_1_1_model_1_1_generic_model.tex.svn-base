@@ -1,0 +1,22 @@
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_generic_model}{
+\section{GenericModel Class Reference}
+\label{class_utopia_1_1_components_1_1_model_1_1_generic_model}\index{Utopia::Components::Model::GenericModel@{Utopia::Components::Model::GenericModel}}
+}
+Inheritance diagram for GenericModel:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_utopia_1_1_components_1_1_model_1_1_generic_model}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file GenericModel.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/GenericModel.php\end{DoxyCompactItemize}

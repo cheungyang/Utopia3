@@ -1,0 +1,91 @@
+.TH "Utopia::Components::Http::IController" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Http::IController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBacceptUrl\fP ($url)"
+.br
+.ti -1c
+.RI "\fBregisterExternalities\fP (\fBApiApplication\fP $api)"
+.br
+.ti -1c
+.RI "\fBdoExecute\fP (\fBApiApplication\fP $api)"
+.br
+.ti -1c
+.RI "\fBgetReturnValues\fP ()"
+.br
+.ti -1c
+.RI "\fBgetInputValues\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file IController.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "acceptUrl ($url)"set $event->setReturnValue($this); and return true when the url can the processed in this controller 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$event\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.SS "doExecute (\fBApiApplication\fP $api)"main execution function
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$api\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$exitcode 
+.RE
+.PP
+
+.SS "getInputValues ()"return processed input values
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.SS "getReturnValues ()"return array output
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.SS "registerExternalities (\fBApiApplication\fP $api)"This will be triggered when this controller accepts a url, where required apis/modules will be create and registered in the AppApplication/ModuleApplication/PageApplication
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$api\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

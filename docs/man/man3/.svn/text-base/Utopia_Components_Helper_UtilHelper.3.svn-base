@@ -1,0 +1,156 @@
+.TH "Utopia::Components::Helper::UtilHelper" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Helper::UtilHelper \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBuuid\fP ($engine='random')"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBgenerateId\fP ($seed='')"
+.br
+.ti -1c
+.RI "static \fBgenerateHash\fP ($seed)"
+.br
+.ti -1c
+.RI "static \fBcamelize\fP ($id)"
+.br
+.ti -1c
+.RI "static \fBunderscore\fP ($id)"
+.br
+.ti -1c
+.RI "static \fBserialize\fP ($array)"
+.br
+.ti -1c
+.RI "static \fBunserialize\fP ($str)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 31 of file UtilHelper.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "static camelize ($id)\fC [static]\fP"camelize strings
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$id\fP string to H::obj()->camelize
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file UtilHelper.php.
+.SS "static generateHash ($seed)\fC [static]\fP"generate one-to-one hashkey
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$seed\fP seed to generate hash
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file UtilHelper.php.
+.SS "static generateId ($seed = \fC''\fP)\fC [static]\fP"generate rand id
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$seed\fP seed to generate id
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file UtilHelper.php.
+.SS "static serialize ($array)\fC [static]\fP"fetch web page content
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$url\fP url
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void serialize array using json_encode as it is faster
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP array to serialize
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 183 of file UtilHelper.php.
+.SS "static underscore ($id)\fC [static]\fP"trun camelized string to underscored string
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$id\fP H::obj()->camelized string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file UtilHelper.php.
+.SS "static unserialize ($str)\fC [static]\fP"serialize array using json_encode as it is faster
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP array to unserialize
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+Definition at line 196 of file UtilHelper.php.
+.SS "uuid ($engine = \fC'random'\fP)"generate a random uuid by time
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 207 of file UtilHelper.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,52 @@
+\hypertarget{class_api_application_test}{
+\section{ApiApplicationTest Class Reference}
+\label{class_api_application_test}\index{ApiApplicationTest@{ApiApplicationTest}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_api_application_test_a21ba109cac25766104644b11982265e1}{
+{\bfseries testRegister} ()}
+\label{class_api_application_test_a21ba109cac25766104644b11982265e1}
+
+\item 
+\hypertarget{class_api_application_test_a6010f2628af6666b95f677a5accf6e16}{
+{\bfseries testServiceFail} ()}
+\label{class_api_application_test_a6010f2628af6666b95f677a5accf6e16}
+
+\item 
+\hypertarget{class_api_application_test_a4867aec4c13f10f14c808cbdb9d34dd2}{
+{\bfseries testServiceSuccess} ()}
+\label{class_api_application_test_a4867aec4c13f10f14c808cbdb9d34dd2}
+
+\item 
+\hypertarget{class_api_application_test_af58097385dc18a259b16152b15cdb306}{
+{\bfseries testRegisterApi} ()}
+\label{class_api_application_test_af58097385dc18a259b16152b15cdb306}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_api_application_test_a0bc688732d2b3b162ffebaf7812e78da}{
+{\bfseries setUp} ()}
+\label{class_api_application_test_a0bc688732d2b3b162ffebaf7812e78da}
+
+\item 
+\hypertarget{class_api_application_test_a80fe3d17e658907fc75346a0ec9d6fc7}{
+{\bfseries tearDown} ()}
+\label{class_api_application_test_a80fe3d17e658907fc75346a0ec9d6fc7}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file ApiApplicationTest.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/old/tests/ApiApplicationTest.php\end{DoxyCompactItemize}

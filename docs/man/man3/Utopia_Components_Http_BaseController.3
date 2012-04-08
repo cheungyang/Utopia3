@@ -1,0 +1,159 @@
+.TH "Utopia::Components::Http::BaseController" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Http::BaseController \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (ServiceContainer $sc, \fBAutoload\fP $autoload)"
+.br
+.ti -1c
+.RI "\fB__call\fP ($name, $arguments)"
+.br
+.ti -1c
+.RI "\fBexecute\fP (\fBApiApplication\fP $api)"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetDescription\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSpec\fP ($filters=array())"
+.br
+.ti -1c
+.RI "\fBgetAccepts\fP ()"
+.br
+.ti -1c
+.RI "\fBgetExternal\fP ()"
+.br
+.ti -1c
+.RI "\fBgetReturnStatus\fP ()"
+.br
+.ti -1c
+.RI "\fBacceptUrl\fP ($event)"
+.br
+.ti -1c
+.RI "\fBgetUrlRegex\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBOKAY\fP = 200"
+.br
+.ti -1c
+.RI "const \fBERROR\fP = -1"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBbaseAcceptUrl\fP (array $event)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$controllerdetails\fP"
+.br
+.ti -1c
+.RI "\fB$name\fP"
+.br
+.ti -1c
+.RI "\fB$sc\fP"
+.br
+.ti -1c
+.RI "\fB$autoload\fP"
+.br
+.ti -1c
+.RI "\fB$data\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file BaseController.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (ServiceContainer $sc, \fBAutoload\fP $autoload)"constructor 
+.PP
+Definition at line 27 of file BaseController.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "__call ($name, $arguments)"handles all asXXX() function calls 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$arguments\fP 
+.RE
+.PP
+
+.PP
+Definition at line 49 of file BaseController.php.
+.SS "acceptUrl ($event)"\fBBaseController::baseAcceptUrl\fP has worked on formulating a regular expression to check url and url extracting Additional check will be provided here.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$event\fP 
+.RE
+.PP
+
+.PP
+Definition at line 124 of file BaseController.php.
+.SS "baseAcceptUrl (array $event)\fC [protected]\fP"basic check for acceptUrl
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$event\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+false|array 
+.RE
+.PP
+
+.PP
+Array ( [url] => /path/to/dest.php?a=a [method] => GET )
+.PP
+Definition at line 144 of file BaseController.php.
+.SS "execute (\fBApiApplication\fP $api)"main interface with outside
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$api\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+int; 
+.RE
+.PP
+
+.PP
+Definition at line 64 of file BaseController.php.
+.SS "getUrlRegex ()"get regex for acceptUrl by settings
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 187 of file BaseController.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

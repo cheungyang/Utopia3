@@ -1,0 +1,80 @@
+.TH "Utopia::Components::Http::IApplication" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Http::IApplication \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBApiApplication\fP, \fBModuleApplication\fP, and \fBPageApplication\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetReturnValues\fP ($format='json')"
+.br
+.ti -1c
+.RI "\fBrun\fP ()"
+.br
+.ti -1c
+.RI "\fBsetMethod\fP ($value)"
+.br
+.ti -1c
+.RI "\fBsetPost\fP ($value)"
+.br
+.ti -1c
+.RI "\fBsetGet\fP ($value)"
+.br
+.ti -1c
+.RI "\fBsetFiles\fP ($value)"
+.br
+.ti -1c
+.RI "\fBgetPost\fP ()"
+.br
+.ti -1c
+.RI "\fBgetGet\fP ()"
+.br
+.ti -1c
+.RI "\fBgetFiles\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file IApplication.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "getReturnValues ($format = \fC'json'\fP)"return value of desireable format
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$format\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Implemented in \fBApiApplication\fP.
+.SS "run ()"main entry point to execute a controller
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$url\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+int exitCode 
+.RE
+.PP
+
+.PP
+Implemented in \fBApiApplication\fP, and \fBPageApplication\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

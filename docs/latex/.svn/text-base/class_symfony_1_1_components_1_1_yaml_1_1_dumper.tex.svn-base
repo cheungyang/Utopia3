@@ -1,0 +1,85 @@
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_dumper}{
+\section{Dumper Class Reference}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_dumper}\index{Symfony::Components::Yaml::Dumper@{Symfony::Components::Yaml::Dumper}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_dumper_aaf2b680b27a8e095d36669b16375152b}{dump} (\$input, \$inline=0, \$indent=0)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_dumper_aaf2b680b27a8e095d36669b16375152b}{dump} (\$input, \$inline=0, \$indent=0)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 20 of file Dumper.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_dumper_aaf2b680b27a8e095d36669b16375152b}{
+\index{Symfony::Components::Yaml::Dumper@{Symfony::Components::Yaml::Dumper}!dump@{dump}}
+\index{dump@{dump}!Symfony::Components::Yaml::Dumper@{Symfony::Components::Yaml::Dumper}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{input, }
+\item[{\$}]{inline = {\ttfamily 0}, }
+\item[{\$}]{indent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_dumper_aaf2b680b27a8e095d36669b16375152b}
+Dumps a PHP value to YAML.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$input} & The PHP value \\
+\hline
+integer & {\em \$inline} & The level where you switch to inline YAML \\
+\hline
+integer & {\em \$indent} & The level o indentation indentation (used internally)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The YAML representation of the PHP value 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file Dumper.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_dumper_aaf2b680b27a8e095d36669b16375152b}{
+\index{Symfony::Components::Yaml::Dumper@{Symfony::Components::Yaml::Dumper}!dump@{dump}}
+\index{dump@{dump}!Symfony::Components::Yaml::Dumper@{Symfony::Components::Yaml::Dumper}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{input, }
+\item[{\$}]{inline = {\ttfamily 0}, }
+\item[{\$}]{indent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_dumper_aaf2b680b27a8e095d36669b16375152b}
+Dumps a PHP value to YAML.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$input} & The PHP value \\
+\hline
+integer & {\em \$inline} & The level where you switch to inline YAML \\
+\hline
+integer & {\em \$indent} & The level o indentation indentation (used internally)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The YAML representation of the PHP value 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file Dumper.php.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Dumper.php\item 
+trunk/lib/components/symfony/Yaml/Dumper.php\end{DoxyCompactItemize}

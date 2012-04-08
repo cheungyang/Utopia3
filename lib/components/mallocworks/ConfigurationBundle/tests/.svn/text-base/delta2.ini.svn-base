@@ -1,0 +1,3 @@
+['property=common;role=api;environment=dev']
+component1.foo = delta2.FOO
+component1.bar = delta2.BAR

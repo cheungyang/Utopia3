@@ -1,0 +1,143 @@
+.TH "Utopia::Components::Helper::FileHelper" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Helper::FileHelper \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBmakeDirs\fP ($dirs, $recursive=false, $mode=0755)"
+.br
+.ti -1c
+.RI "static \fBmoveFiles\fP ($filepair, $postfix='', $mode='')"
+.br
+.ti -1c
+.RI "static \fBcopyFiles\fP ($filepair, $postfix='', $mode='', $movefile=false)"
+.br
+.ti -1c
+.RI "static \fBfilterContents\fP ($files, $filters)"
+.br
+.ti -1c
+.RI "static \fBdeleteDirs\fP ($dirs)"
+.br
+.ti -1c
+.RI "static \fBlistFiles\fP ($dirnames, $postfix='')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 31 of file FileHelper.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "static copyFiles ($filepair, $postfix = \fC''\fP, $mode = \fC''\fP, $movefile = \fCfalse\fP)\fC [static]\fP"copy files
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$filepair\fP from, to 
+.br
+\fI$postfix\fP postfix to search 
+.br
+\fI$mode\fP file mode
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file FileHelper.php.
+.SS "static deleteDirs ($dirs)\fC [static]\fP"delete directories
+.PP
+\fBParameters:\fP
+.RS 4
+\fIarray\fP dirs to create
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 229 of file FileHelper.php.
+.SS "static filterContents ($files, $filters)\fC [static]\fP"replace content in files
+.PP
+\fBParameters:\fP
+.RS 4
+\fIarray\fP files 
+.br
+\fIarray\fP from text, to text
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 157 of file FileHelper.php.
+.SS "static listFiles ($dirnames, $postfix = \fC''\fP)\fC [static]\fP"list all files in a directory
+.PP
+\fBParameters:\fP
+.RS 4
+\fIarray|string\fP dirnames 
+.br
+\fIstring\fP extension whitelist of what to show
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 295 of file FileHelper.php.
+.SS "static makeDirs ($dirs, $recursive = \fCfalse\fP, $mode = \fC0755\fP)\fC [static]\fP"make directories
+.PP
+\fBParameters:\fP
+.RS 4
+\fIarray\fP dirs to create 
+.br
+\fIbool\fP recursively create dir
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 41 of file FileHelper.php.
+.SS "static moveFiles ($filepair, $postfix = \fC''\fP, $mode = \fC''\fP)\fC [static]\fP"move files
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$filepair\fP from, to 
+.br
+\fI$postfix\fP postfix to search 
+.br
+\fI$mode\fP file mode
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file FileHelper.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

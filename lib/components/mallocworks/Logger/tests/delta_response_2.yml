@@ -1,0 +1,10 @@
+property=common;environment=dev:
+  logger:
+    files:
+      - {filename: 'logs/logger.log', level: 9999}
+    prints:
+      - {level: 9999, color: "on", classes: []}
+    responses:
+      - {level: 0, classes: [FakeObject]}
+    errorlog:
+      - {level: 9999, color: "off", classes: []}

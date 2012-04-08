@@ -1,0 +1,37 @@
+tests.api.hello:
+  base_uri: 'tests/api/hello'
+  description: 'Hello Controller API'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\ApiWorkflow'
+  controller: 'Utopia\Projects\Common\Controllers\HelloController'
+  
+tests.module.hello:
+  base_uri: 'tests/module/hello'
+  description: 'Hello Controller Module'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\Common\Controllers\HelloController'
+  
+hello.shout:
+  base_uri: 'hello/shout'
+  description: 'Dump controller for testing'
+  methods: ['GET']
+  authentication: ~
+  required:
+    random_word: { type: '\w\d\.', info: 'random name', def: '' }
+  workflow: 'Utopia\Components\Workflow\ApiWorkflow'
+  controller: 'Utopia\Projects\Common\Controllers\DumpController'
+  
+hello.header:
+  base_uri: 'hello/header'
+  description: 'Dump controller for testing'
+  methods: ['GET']
+  authentication: ~
+  required:
+    random_word: { type: '\w\d\.', info: 'random name', def: '' }
+  workflow: 'Utopia\Components\Workflow\ApiWorkflow'
+  controller: 'Utopia\Projects\Common\Controllers\DumpController'

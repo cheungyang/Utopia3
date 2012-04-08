@@ -1,0 +1,799 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{
+\section{Command Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+}
+Inheritance diagram for Command:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_aa7843dae8184afc5ab27814533e12ba8}{\_\-\_\-construct} (\$name=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ac08817b122da6241cfda88dab20d1580}{setApplication} (Application \$application=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_acc17fc4b2880856deb16661a443fe08e}{run} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface} \$input, \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a9c05327374b79732c328c6f7811c8497}{setCode} ($\backslash$Closure \$code)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a633d4b963ba13775519a92a3c34780ec}{setDefinition} (\$definition)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ada012e6c80eda0d807425b598b1dc611}{getDefinition} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a04bb0142af0b8685a0b99955fce77569}{addArgument} (\$name, \$mode=null, \$description= '', \$default=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_af8a9f1b5fb3d9ba9ad9dc9564fe95c75}{addOption} (\$name, \$shortcut=null, \$mode=null, \$description= '', \$default=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2fe666694997d047711d7653eca2f132}{setName} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2614df64646ac71b70b1e1074258052b}{getNamespace} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a3d0963e68bb313b163a73f2803c64600}{getName} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2b284f11184201a8ba8a92de57f93580}{getFullName} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a31fad3e39336ea079ea758e051866627}{setDescription} (\$description)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2e7bb35c71bf1824456ceb944cb7a845}{getDescription} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a889da9425e850ea61ac47159c129a316}{setHelp} (\$help)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a4cc928ef4def3a84c181608d31bf7608}{getHelp} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a8cf8b0c92ba14df21ddb53284656e754}{getProcessedHelp} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a4d0b21202b9cb86f81d2f4a5a5511e33}{setAliases} (\$aliases)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a1e9e143d493aedb855d3c5edadb17bb2}{getAliases} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a689e3214627e1e86671c39f506bb5ff5}{getSynopsis} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_abc8e9e31bb15c8a44c3210ec551407c8}{\_\-\_\-get} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a84818e2c0f3af87f9b3c7a0818fe0425}{asText} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a5d92e59f543d48ffc4bb7a0bff21dd05}{asXml} (\$asDom=false)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{configure} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ab31c72b72ddaf7116db5d84c055d3c0b}{execute} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface} \$input, \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a5b0d2db2d500d4b87b996412d89099d3}{interact} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface} \$input, \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ae80be888d728ab1ac1618e14bb342820}{initialize} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface} \$input, \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a91c24bd0a7be052079e5b61662a81eeb}{mergeApplicationDefinition} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_aac754e69de0422d173417a192292d134}{getHelper} (\$name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ab2fc40d43824ea3e1ce5d86dee0d763b}{
+{\bfseries \$name}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ab2fc40d43824ea3e1ce5d86dee0d763b}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a3825c9b9060c2d6ef594385997cd60aa}{
+{\bfseries \$namespace}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a3825c9b9060c2d6ef594385997cd60aa}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a7e6d29edbd9ec5d8ec9d478cf98fba03}{
+{\bfseries \$aliases}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a7e6d29edbd9ec5d8ec9d478cf98fba03}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a1835bcd0ed2fc8d9ed387d652c403747}{
+{\bfseries \$definition}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a1835bcd0ed2fc8d9ed387d652c403747}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ae8c606891eb7e59cb0674a2dd63c5498}{
+{\bfseries \$help}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ae8c606891eb7e59cb0674a2dd63c5498}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a537fa9b460dddc2a67074faab810398a}{
+{\bfseries \$application}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a537fa9b460dddc2a67074faab810398a}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a87b032cba06009e3467abf1c8018d960}{
+{\bfseries \$description}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a87b032cba06009e3467abf1c8018d960}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_abff8c209339e9b78db03e000478e022d}{
+{\bfseries \$ignoreValidationErrors}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_abff8c209339e9b78db03e000478e022d}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_add2ba558af5729abb7d6d37a1f6936d6}{
+{\bfseries \$applicationDefinitionMerged}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_add2ba558af5729abb7d6d37a1f6936d6}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a7949acdaecc70b9f035c12a7069db132}{
+{\bfseries \$code}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a7949acdaecc70b9f035c12a7069db132}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 28 of file Command.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_aa7843dae8184afc5ab27814533e12ba8}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{\$}]{name = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_aa7843dae8184afc5ab27814533e12ba8}
+Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The name of the command\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$LogicException} & When the command name is empty \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 48 of file Command.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_abc8e9e31bb15c8a44c3210ec551407c8}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!\_\-\_\-get@{\_\-\_\-get}}
+\index{\_\-\_\-get@{\_\-\_\-get}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{\_\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_abc8e9e31bb15c8a44c3210ec551407c8}
+Gets a helper instance by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The helper name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The helper value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & if the helper is not defined \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 447 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a04bb0142af0b8685a0b99955fce77569}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!addArgument@{addArgument}}
+\index{addArgument@{addArgument}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{addArgument}]{\setlength{\rightskip}{0pt plus 5cm}addArgument (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{mode = {\ttfamily null}, }
+\item[{\$}]{description = {\ttfamily ''}, }
+\item[{\$}]{default = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a04bb0142af0b8685a0b99955fce77569}
+Adds an argument.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The argument name \\
+\hline
+integer & {\em \$mode} & The argument mode: InputArgument::REQUIRED or InputArgument::OPTIONAL \\
+\hline
+string & {\em \$description} & A description text \\
+\hline
+mixed & {\em \$default} & The default value (for InputArgument::OPTIONAL mode only)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 229 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_af8a9f1b5fb3d9ba9ad9dc9564fe95c75}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!addOption@{addOption}}
+\index{addOption@{addOption}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{addOption}]{\setlength{\rightskip}{0pt plus 5cm}addOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{shortcut = {\ttfamily null}, }
+\item[{\$}]{mode = {\ttfamily null}, }
+\item[{\$}]{description = {\ttfamily ''}, }
+\item[{\$}]{default = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_af8a9f1b5fb3d9ba9ad9dc9564fe95c75}
+Adds an option.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The option name \\
+\hline
+string & {\em \$shortcut} & The shortcut (can be null) \\
+\hline
+integer & {\em \$mode} & The option mode: self::PARAMETER\_\-REQUIRED, self::PARAMETER\_\-NONE or self::PARAMETER\_\-OPTIONAL \\
+\hline
+string & {\em \$description} & A description text \\
+\hline
+mixed & {\em \$default} & The default value (must be null for self::PARAMETER\_\-REQUIRED or self::PARAMETER\_\-NONE)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 247 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a84818e2c0f3af87f9b3c7a0818fe0425}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!asText@{asText}}
+\index{asText@{asText}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{asText}]{\setlength{\rightskip}{0pt plus 5cm}asText (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a84818e2c0f3af87f9b3c7a0818fe0425}
+Returns a text representation of the command.
+
+\begin{DoxyReturn}{Returns}
+string A string representing the command 
+\end{DoxyReturn}
+
+
+Definition at line 457 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a5d92e59f543d48ffc4bb7a0bff21dd05}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!asXml@{asXml}}
+\index{asXml@{asXml}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{asXml}]{\setlength{\rightskip}{0pt plus 5cm}asXml (
+\begin{DoxyParamCaption}
+\item[{\$}]{asDom = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a5d92e59f543d48ffc4bb7a0bff21dd05}
+Returns an XML representation of the command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Boolean & {\em \$asDom} & Whether to return a DOM or an XML string\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$|$DOMDocument An XML string representing the command 
+\end{DoxyReturn}
+
+
+Definition at line 486 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!configure@{configure}}
+\index{configure@{configure}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}configure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a9be5e0bdb5720efed6ddb6426c5c16ee}
+Configures the current command. 
+
+Reimplemented in \hyperlink{class_utopia_1_1_components_1_1_console_1_1_base_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{BaseCommand}, \hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_help_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{HelpCommand}, and \hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_list_command_a9be5e0bdb5720efed6ddb6426c5c16ee}{ListCommand}.
+
+
+
+Definition at line 79 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ab31c72b72ddaf7116db5d84c055d3c0b}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!execute@{execute}}
+\index{execute@{execute}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}execute (
+\begin{DoxyParamCaption}
+\item[{{\bf InputInterface} \$}]{input, }
+\item[{{\bf OutputInterface} \$}]{output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ab31c72b72ddaf7116db5d84c055d3c0b}
+Executes the current command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+InputInterface & {\em \$input} & An InputInterface instance \\
+\hline
+OutputInterface & {\em \$output} & An OutputInterface instance\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 0 if everything went fine, or an error code
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$LogicException} & When this abstract class is not implemented \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_help_command_ab31c72b72ddaf7116db5d84c055d3c0b}{HelpCommand}, and \hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_list_command_ab31c72b72ddaf7116db5d84c055d3c0b}{ListCommand}.
+
+
+
+Definition at line 93 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a1e9e143d493aedb855d3c5edadb17bb2}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getAliases@{getAliases}}
+\index{getAliases@{getAliases}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getAliases}]{\setlength{\rightskip}{0pt plus 5cm}getAliases (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a1e9e143d493aedb855d3c5edadb17bb2}
+Returns the aliases for the command.
+
+\begin{DoxyReturn}{Returns}
+array An array of aliases for the command 
+\end{DoxyReturn}
+
+
+Definition at line 409 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ada012e6c80eda0d807425b598b1dc611}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getDefinition@{getDefinition}}
+\index{getDefinition@{getDefinition}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getDefinition}]{\setlength{\rightskip}{0pt plus 5cm}getDefinition (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ada012e6c80eda0d807425b598b1dc611}
+Gets the InputDefinition attached to this \hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command}.
+
+\begin{DoxyReturn}{Returns}
+InputDefinition An InputDefinition instance 
+\end{DoxyReturn}
+
+
+Definition at line 214 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2e7bb35c71bf1824456ceb944cb7a845}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getDescription}]{\setlength{\rightskip}{0pt plus 5cm}getDescription (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2e7bb35c71bf1824456ceb944cb7a845}
+Returns the description for the command.
+
+\begin{DoxyReturn}{Returns}
+string The description for the command 
+\end{DoxyReturn}
+
+
+Definition at line 339 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2b284f11184201a8ba8a92de57f93580}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getFullName@{getFullName}}
+\index{getFullName@{getFullName}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getFullName}]{\setlength{\rightskip}{0pt plus 5cm}getFullName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2b284f11184201a8ba8a92de57f93580}
+Returns the fully qualified command name.
+
+\begin{DoxyReturn}{Returns}
+string The fully qualified command name 
+\end{DoxyReturn}
+
+
+Definition at line 315 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a4cc928ef4def3a84c181608d31bf7608}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getHelp@{getHelp}}
+\index{getHelp@{getHelp}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getHelp}]{\setlength{\rightskip}{0pt plus 5cm}getHelp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a4cc928ef4def3a84c181608d31bf7608}
+Returns the help for the command.
+
+\begin{DoxyReturn}{Returns}
+string The help for the command 
+\end{DoxyReturn}
+
+
+Definition at line 363 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_aac754e69de0422d173417a192292d134}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getHelper@{getHelper}}
+\index{getHelper@{getHelper}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getHelper}]{\setlength{\rightskip}{0pt plus 5cm}getHelper (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_aac754e69de0422d173417a192292d134}
+Gets a helper instance by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The helper name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The helper value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & if the helper is not defined \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 433 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a3d0963e68bb313b163a73f2803c64600}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getName@{getName}}
+\index{getName@{getName}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getName}]{\setlength{\rightskip}{0pt plus 5cm}getName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a3d0963e68bb313b163a73f2803c64600}
+Returns the command name
+
+\begin{DoxyReturn}{Returns}
+string The command name 
+\end{DoxyReturn}
+
+
+Definition at line 305 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2614df64646ac71b70b1e1074258052b}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getNamespace@{getNamespace}}
+\index{getNamespace@{getNamespace}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getNamespace}]{\setlength{\rightskip}{0pt plus 5cm}getNamespace (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2614df64646ac71b70b1e1074258052b}
+Returns the command namespace.
+
+\begin{DoxyReturn}{Returns}
+string The command namespace 
+\end{DoxyReturn}
+
+
+Definition at line 295 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a8cf8b0c92ba14df21ddb53284656e754}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getProcessedHelp@{getProcessedHelp}}
+\index{getProcessedHelp@{getProcessedHelp}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getProcessedHelp}]{\setlength{\rightskip}{0pt plus 5cm}getProcessedHelp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a8cf8b0c92ba14df21ddb53284656e754}
+Returns the processed help for the command replacing the command.name\% and command.full\_\-name\% patterns with the real values dynamically.
+
+\begin{DoxyReturn}{Returns}
+string The processed help for the command 
+\end{DoxyReturn}
+
+
+Definition at line 374 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a689e3214627e1e86671c39f506bb5ff5}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!getSynopsis@{getSynopsis}}
+\index{getSynopsis@{getSynopsis}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{getSynopsis}]{\setlength{\rightskip}{0pt plus 5cm}getSynopsis (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a689e3214627e1e86671c39f506bb5ff5}
+Returns the synopsis for the command.
+
+\begin{DoxyReturn}{Returns}
+string The synopsis 
+\end{DoxyReturn}
+
+
+Definition at line 419 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ae80be888d728ab1ac1618e14bb342820}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!initialize@{initialize}}
+\index{initialize@{initialize}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}initialize (
+\begin{DoxyParamCaption}
+\item[{{\bf InputInterface} \$}]{input, }
+\item[{{\bf OutputInterface} \$}]{output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ae80be888d728ab1ac1618e14bb342820}
+Initializes the command just after the input has been validated.
+
+This is mainly useful when a lot of commands extends one main command where some things need to be initialized based on the input arguments and options.
+
+
+\begin{DoxyParams}[1]{Parameters}
+InputInterface & {\em \$input} & An InputInterface instance \\
+\hline
+OutputInterface & {\em \$output} & An OutputInterface instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 117 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a5b0d2db2d500d4b87b996412d89099d3}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!interact@{interact}}
+\index{interact@{interact}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{interact}]{\setlength{\rightskip}{0pt plus 5cm}interact (
+\begin{DoxyParamCaption}
+\item[{{\bf InputInterface} \$}]{input, }
+\item[{{\bf OutputInterface} \$}]{output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a5b0d2db2d500d4b87b996412d89099d3}
+Interacts with the user.
+
+
+\begin{DoxyParams}[1]{Parameters}
+InputInterface & {\em \$input} & An InputInterface instance \\
+\hline
+OutputInterface & {\em \$output} & An OutputInterface instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 104 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a91c24bd0a7be052079e5b61662a81eeb}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!mergeApplicationDefinition@{mergeApplicationDefinition}}
+\index{mergeApplicationDefinition@{mergeApplicationDefinition}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{mergeApplicationDefinition}]{\setlength{\rightskip}{0pt plus 5cm}mergeApplicationDefinition (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a91c24bd0a7be052079e5b61662a81eeb}
+Merges the application definition with the command definition. 
+
+Definition at line 173 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_acc17fc4b2880856deb16661a443fe08e}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!run@{run}}
+\index{run@{run}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+\item[{{\bf InputInterface} \$}]{input, }
+\item[{{\bf OutputInterface} \$}]{output}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_acc17fc4b2880856deb16661a443fe08e}
+Runs the command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+InputInterface & {\em \$input} & An InputInterface instance \\
+\hline
+OutputInterface & {\em \$output} & An OutputInterface instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 127 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a4d0b21202b9cb86f81d2f4a5a5511e33}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setAliases@{setAliases}}
+\index{setAliases@{setAliases}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setAliases}]{\setlength{\rightskip}{0pt plus 5cm}setAliases (
+\begin{DoxyParamCaption}
+\item[{\$}]{aliases}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a4d0b21202b9cb86f81d2f4a5a5511e33}
+Sets the aliases for the command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$aliases} & An array of aliases for the command\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 397 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ac08817b122da6241cfda88dab20d1580}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setApplication@{setApplication}}
+\index{setApplication@{setApplication}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setApplication}]{\setlength{\rightskip}{0pt plus 5cm}setApplication (
+\begin{DoxyParamCaption}
+\item[{Application \$}]{application = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_ac08817b122da6241cfda88dab20d1580}
+Sets the application instance for this command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Application & {\em \$application} & An Application instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a9c05327374b79732c328c6f7811c8497}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setCode@{setCode}}
+\index{setCode@{setCode}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setCode}]{\setlength{\rightskip}{0pt plus 5cm}setCode (
+\begin{DoxyParamCaption}
+\item[{$\backslash$Closure \$}]{code}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a9c05327374b79732c328c6f7811c8497}
+Sets the code to execute when running this command.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\backslash$Closure} & \$code A \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 163 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a633d4b963ba13775519a92a3c34780ec}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setDefinition@{setDefinition}}
+\index{setDefinition@{setDefinition}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setDefinition}]{\setlength{\rightskip}{0pt plus 5cm}setDefinition (
+\begin{DoxyParamCaption}
+\item[{\$}]{definition}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a633d4b963ba13775519a92a3c34780ec}
+Sets an array of argument and option instances.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | Definition & {\em \$definition} & An array of argument and option instances or a definition instance\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 196 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a31fad3e39336ea079ea758e051866627}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setDescription@{setDescription}}
+\index{setDescription@{setDescription}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setDescription}]{\setlength{\rightskip}{0pt plus 5cm}setDescription (
+\begin{DoxyParamCaption}
+\item[{\$}]{description}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a31fad3e39336ea079ea758e051866627}
+Sets the description for the command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$description} & The description for the command\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 327 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a889da9425e850ea61ac47159c129a316}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setHelp@{setHelp}}
+\index{setHelp@{setHelp}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setHelp}]{\setlength{\rightskip}{0pt plus 5cm}setHelp (
+\begin{DoxyParamCaption}
+\item[{\$}]{help}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a889da9425e850ea61ac47159c129a316}
+Sets the help for the command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$help} & The help for the command\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance 
+\end{DoxyReturn}
+
+
+Definition at line 351 of file Command.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2fe666694997d047711d7653eca2f132}{
+\index{Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}!setName@{setName}}
+\index{setName@{setName}!Symfony::Components::Console::Command::Command@{Symfony::Components::Console::Command::Command}}
+\subsubsection[{setName}]{\setlength{\rightskip}{0pt plus 5cm}setName (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command_a2fe666694997d047711d7653eca2f132}
+Sets the name of the command.
+
+This method can set both the namespace and the name if you separate them by a colon (:)
+
+\$command-\/$>$setName('foo:bar');
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The command name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} The current instance
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When command name given is empty \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 268 of file Command.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Command/Command.php\end{DoxyCompactItemize}

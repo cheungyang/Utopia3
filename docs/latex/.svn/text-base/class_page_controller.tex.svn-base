@@ -1,0 +1,44 @@
+\hypertarget{class_page_controller}{
+\section{PageController Class Reference}
+\label{class_page_controller}\index{PageController@{PageController}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_page_controller_a628300eb8464467d9344c7c59cc8770b}{
+{\bfseries getConfig} ()}
+\label{class_page_controller_a628300eb8464467d9344c7c59cc8770b}
+
+\item 
+\hypertarget{class_page_controller_adabf9c48e2c9bf149be4738eea4d84e7}{
+{\bfseries getModules} ()}
+\label{class_page_controller_adabf9c48e2c9bf149be4738eea4d84e7}
+
+\item 
+\hypertarget{class_page_controller_a66275d423679d28b87b21bbe4daa92b2}{
+{\bfseries getApis} ()}
+\label{class_page_controller_a66275d423679d28b87b21bbe4daa92b2}
+
+\item 
+\hypertarget{class_page_controller_ad0deb84858ef36ac73fd601013b2a468}{
+{\bfseries getCss} ()}
+\label{class_page_controller_ad0deb84858ef36ac73fd601013b2a468}
+
+\item 
+\hypertarget{class_page_controller_a44dda66b34b0fdcd6ca1d4b4de913dfa}{
+{\bfseries curlApis} ()}
+\label{class_page_controller_a44dda66b34b0fdcd6ca1d4b4de913dfa}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 2 of file PageController.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/PageController.php\end{DoxyCompactItemize}

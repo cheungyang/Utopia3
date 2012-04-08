@@ -1,0 +1,202 @@
+.TH "Utopia::Components::Template::Template" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Template::Template \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (ServiceContainer $sc, \fBAutoload\fP $autoload)"
+.br
+.ti -1c
+.RI "\fBsetEngineConfigs\fP (array $configs)"
+.br
+.ti -1c
+.RI "\fBsetEngineConfig\fP ($enginename, array $config)"
+.br
+.ti -1c
+.RI "\fBsetRenderEngine\fP ($engineName)"
+.br
+.ti -1c
+.RI "\fBsetApplication\fP ($app)"
+.br
+.ti -1c
+.RI "\fBsetTemplate\fP ($template)"
+.br
+.ti -1c
+.RI "\fBrender\fP (array $array=array(), $jscss=true)"
+.br
+.ti -1c
+.RI "\fBrenderSmarty\fP (array $array=array(), $jscss)"
+.br
+.ti -1c
+.RI "\fBrenderPhp\fP (array $array=array(), $jscss)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBsetCacheEnabled\fP ($flag)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBdisplayVariable\fP ($var, $d=null)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$sc\fP"
+.br
+.ti -1c
+.RI "\fB$autoload\fP"
+.br
+.in -1c
+.SS "Static Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fB$CACHE_ENABLED\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file Template.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (ServiceContainer $sc, \fBAutoload\fP $autoload)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$sc\fP 
+.br
+\fI$autoload\fP 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file Template.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "displayVariable ($var, $d = \fCnull\fP)\fC [protected]\fP"display variables depends on what it is used inside individual templates, ie {{$d->xxx}} TODO: use this to handle translation as well
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$var\fP 
+.RE
+.PP
+
+.PP
+Definition at line 276 of file Template.php.
+.SS "render (array $array = \fCarray()\fP, $jscss = \fCtrue\fP)"perform rendering by supplying array
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP 
+.br
+\fI$jscss\fP whether to render js/css 
+.RE
+.PP
+
+.PP
+Definition at line 115 of file Template.php.
+.SS "renderPhp (array $array = \fCarray()\fP, $jscss)"render pages using native php
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP inputs 
+.RE
+.PP
+
+.PP
+Definition at line 172 of file Template.php.
+.SS "renderSmarty (array $array = \fCarray()\fP, $jscss)"render pages using smarty template engine
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$array\fP inputs 
+.RE
+.PP
+
+.PP
+Definition at line 130 of file Template.php.
+.SS "setApplication ($app)"setup application object for parameter parsing
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$app\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 92 of file Template.php.
+.SS "static setCacheEnabled ($flag)\fC [static]\fP"set where the cache file locates
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$dir\fP set where the cache file locates
+.br
+\fI$dir\fP 
+.RE
+.PP
+
+.PP
+Definition at line 38 of file Template.php.
+.SS "setEngineConfig ($enginename, array $config)"for dependency injection to insert configuration parameters
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$config\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 67 of file Template.php.
+.SS "setRenderEngine ($engineName)"set rendering engine name ('php', 'smarty')
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$engineName\fP 
+.RE
+.PP
+
+.PP
+Definition at line 80 of file Template.php.
+.SS "setTemplate ($template)"set template file/string for display
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$template\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this; 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file Template.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

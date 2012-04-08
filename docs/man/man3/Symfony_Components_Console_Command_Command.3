@@ -1,0 +1,543 @@
+.TH "Symfony::Components::Console::Command::Command" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Command::Command \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBHelpCommand\fP, \fBListCommand\fP, and \fBBaseCommand\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($name=null)"
+.br
+.ti -1c
+.RI "\fBsetApplication\fP (Application $application=null)"
+.br
+.ti -1c
+.RI "\fBrun\fP (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)"
+.br
+.ti -1c
+.RI "\fBsetCode\fP (\\Closure $code)"
+.br
+.ti -1c
+.RI "\fBsetDefinition\fP ($definition)"
+.br
+.ti -1c
+.RI "\fBgetDefinition\fP ()"
+.br
+.ti -1c
+.RI "\fBaddArgument\fP ($name, $mode=null, $description= '', $default=null)"
+.br
+.ti -1c
+.RI "\fBaddOption\fP ($name, $shortcut=null, $mode=null, $description= '', $default=null)"
+.br
+.ti -1c
+.RI "\fBsetName\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetNamespace\fP ()"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetFullName\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDescription\fP ($description)"
+.br
+.ti -1c
+.RI "\fBgetDescription\fP ()"
+.br
+.ti -1c
+.RI "\fBsetHelp\fP ($help)"
+.br
+.ti -1c
+.RI "\fBgetHelp\fP ()"
+.br
+.ti -1c
+.RI "\fBgetProcessedHelp\fP ()"
+.br
+.ti -1c
+.RI "\fBsetAliases\fP ($aliases)"
+.br
+.ti -1c
+.RI "\fBgetAliases\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSynopsis\fP ()"
+.br
+.ti -1c
+.RI "\fB__get\fP ($name)"
+.br
+.ti -1c
+.RI "\fBasText\fP ()"
+.br
+.ti -1c
+.RI "\fBasXml\fP ($asDom=false)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBconfigure\fP ()"
+.br
+.ti -1c
+.RI "\fBexecute\fP (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)"
+.br
+.ti -1c
+.RI "\fBinteract\fP (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)"
+.br
+.ti -1c
+.RI "\fBinitialize\fP (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)"
+.br
+.ti -1c
+.RI "\fBmergeApplicationDefinition\fP ()"
+.br
+.ti -1c
+.RI "\fBgetHelper\fP ($name)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$name\fP"
+.br
+.ti -1c
+.RI "\fB$namespace\fP"
+.br
+.ti -1c
+.RI "\fB$aliases\fP"
+.br
+.ti -1c
+.RI "\fB$definition\fP"
+.br
+.ti -1c
+.RI "\fB$help\fP"
+.br
+.ti -1c
+.RI "\fB$application\fP"
+.br
+.ti -1c
+.RI "\fB$description\fP"
+.br
+.ti -1c
+.RI "\fB$ignoreValidationErrors\fP"
+.br
+.ti -1c
+.RI "\fB$applicationDefinitionMerged\fP"
+.br
+.ti -1c
+.RI "\fB$code\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 28 of file Command.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($name = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The name of the command
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\LogicException\fP When the command name is empty 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file Command.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "__get ($name)"Gets a helper instance by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The helper name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The helper value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP if the helper is not defined 
+.RE
+.PP
+
+.PP
+Definition at line 447 of file Command.php.
+.SS "addArgument ($name, $mode = \fCnull\fP, $description = \fC''\fP, $default = \fCnull\fP)"Adds an argument.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The argument name 
+.br
+\fI$mode\fP The argument mode: InputArgument::REQUIRED or InputArgument::OPTIONAL 
+.br
+\fI$description\fP A description text 
+.br
+\fI$default\fP The default value (for InputArgument::OPTIONAL mode only)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 229 of file Command.php.
+.SS "addOption ($name, $shortcut = \fCnull\fP, $mode = \fCnull\fP, $description = \fC''\fP, $default = \fCnull\fP)"Adds an option.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The option name 
+.br
+\fI$shortcut\fP The shortcut (can be null) 
+.br
+\fI$mode\fP The option mode: self::PARAMETER_REQUIRED, self::PARAMETER_NONE or self::PARAMETER_OPTIONAL 
+.br
+\fI$description\fP A description text 
+.br
+\fI$default\fP The default value (must be null for self::PARAMETER_REQUIRED or self::PARAMETER_NONE)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 247 of file Command.php.
+.SS "asText ()"Returns a text representation of the command.
+.PP
+\fBReturns:\fP
+.RS 4
+string A string representing the command 
+.RE
+.PP
+
+.PP
+Definition at line 457 of file Command.php.
+.SS "asXml ($asDom = \fCfalse\fP)"Returns an XML representation of the command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$asDom\fP Whether to return a DOM or an XML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string|DOMDocument An XML string representing the command 
+.RE
+.PP
+
+.PP
+Definition at line 486 of file Command.php.
+.SS "configure ()\fC [protected]\fP"Configures the current command. 
+.PP
+Reimplemented in \fBBaseCommand\fP, \fBHelpCommand\fP, and \fBListCommand\fP.
+.PP
+Definition at line 79 of file Command.php.
+.SS "execute (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)\fC [protected]\fP"Executes the current command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP An InputInterface instance 
+.br
+\fI$output\fP An OutputInterface instance
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+integer 0 if everything went fine, or an error code
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\LogicException\fP When this abstract class is not implemented 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBHelpCommand\fP, and \fBListCommand\fP.
+.PP
+Definition at line 93 of file Command.php.
+.SS "getAliases ()"Returns the aliases for the command.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of aliases for the command 
+.RE
+.PP
+
+.PP
+Definition at line 409 of file Command.php.
+.SS "getDefinition ()"Gets the InputDefinition attached to this \fBCommand\fP.
+.PP
+\fBReturns:\fP
+.RS 4
+InputDefinition An InputDefinition instance 
+.RE
+.PP
+
+.PP
+Definition at line 214 of file Command.php.
+.SS "getDescription ()"Returns the description for the command.
+.PP
+\fBReturns:\fP
+.RS 4
+string The description for the command 
+.RE
+.PP
+
+.PP
+Definition at line 339 of file Command.php.
+.SS "getFullName ()"Returns the fully qualified command name.
+.PP
+\fBReturns:\fP
+.RS 4
+string The fully qualified command name 
+.RE
+.PP
+
+.PP
+Definition at line 315 of file Command.php.
+.SS "getHelp ()"Returns the help for the command.
+.PP
+\fBReturns:\fP
+.RS 4
+string The help for the command 
+.RE
+.PP
+
+.PP
+Definition at line 363 of file Command.php.
+.SS "getHelper ($name)\fC [protected]\fP"Gets a helper instance by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The helper name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The helper value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP if the helper is not defined 
+.RE
+.PP
+
+.PP
+Definition at line 433 of file Command.php.
+.SS "getName ()"Returns the command name
+.PP
+\fBReturns:\fP
+.RS 4
+string The command name 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file Command.php.
+.SS "getNamespace ()"Returns the command namespace.
+.PP
+\fBReturns:\fP
+.RS 4
+string The command namespace 
+.RE
+.PP
+
+.PP
+Definition at line 295 of file Command.php.
+.SS "getProcessedHelp ()"Returns the processed help for the command replacing the command.name% and command.full_name% patterns with the real values dynamically.
+.PP
+\fBReturns:\fP
+.RS 4
+string The processed help for the command 
+.RE
+.PP
+
+.PP
+Definition at line 374 of file Command.php.
+.SS "getSynopsis ()"Returns the synopsis for the command.
+.PP
+\fBReturns:\fP
+.RS 4
+string The synopsis 
+.RE
+.PP
+
+.PP
+Definition at line 419 of file Command.php.
+.SS "initialize (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)\fC [protected]\fP"Initializes the command just after the input has been validated.
+.PP
+This is mainly useful when a lot of commands extends one main command where some things need to be initialized based on the input arguments and options.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP An InputInterface instance 
+.br
+\fI$output\fP An OutputInterface instance 
+.RE
+.PP
+
+.PP
+Definition at line 117 of file Command.php.
+.SS "interact (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)\fC [protected]\fP"Interacts with the user.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP An InputInterface instance 
+.br
+\fI$output\fP An OutputInterface instance 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file Command.php.
+.SS "mergeApplicationDefinition ()\fC [protected]\fP"Merges the application definition with the command definition. 
+.PP
+Definition at line 173 of file Command.php.
+.SS "run (\fBInputInterface\fP $input, \fBOutputInterface\fP $output)"Runs the command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP An InputInterface instance 
+.br
+\fI$output\fP An OutputInterface instance 
+.RE
+.PP
+
+.PP
+Definition at line 127 of file Command.php.
+.SS "setAliases ($aliases)"Sets the aliases for the command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$aliases\fP An array of aliases for the command
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 397 of file Command.php.
+.SS "setApplication (Application $application = \fCnull\fP)"Sets the application instance for this command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$application\fP An Application instance 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file Command.php.
+.SS "setCode (\\Closure $code)"Sets the code to execute when running this command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI\\Closure\fP $code A 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 163 of file Command.php.
+.SS "setDefinition ($definition)"Sets an array of argument and option instances.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$definition\fP An array of argument and option instances or a definition instance
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 196 of file Command.php.
+.SS "setDescription ($description)"Sets the description for the command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$description\fP The description for the command
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 327 of file Command.php.
+.SS "setHelp ($help)"Sets the help for the command.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$help\fP The help for the command
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance 
+.RE
+.PP
+
+.PP
+Definition at line 351 of file Command.php.
+.SS "setName ($name)"Sets the name of the command.
+.PP
+This method can set both the namespace and the name if you separate them by a colon (:)
+.PP
+$command->setName('foo:bar');
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The command name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBCommand\fP The current instance
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When command name given is empty 
+.RE
+.PP
+
+.PP
+Definition at line 268 of file Command.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

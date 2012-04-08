@@ -1,0 +1,180 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set}{
+\section{HelperSet Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set}\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_acf459bc7d6511255651ac511c1874cc4}{\_\-\_\-construct} (array \$helpers=array())
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a6af40a3612a185c1fc0e1d63e6a561f1}{set} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_interface}{HelperInterface} \$helper, \$alias=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a623d004aa083376c599112f235c0af9d}{has} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_af5ea6a083ddb07beb8a30dd32e309ceb}{get} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_ac7c7b717574b3a261875a71f2b15a95b}{setCommand} (\hyperlink{class_symfony_1_1_components_1_1_console_1_1_command_1_1_command}{Command} \$command=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a154e8997a5c7e497d5d54dcf340a80b1}{getCommand} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_aeeccfcd4e2765b8469c41f93ec023ee9}{
+{\bfseries \$helpers}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_aeeccfcd4e2765b8469c41f93ec023ee9}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a8f120409eb9f635ac30b3f9a6d5becdc}{
+{\bfseries \$command}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a8f120409eb9f635ac30b3f9a6d5becdc}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file HelperSet.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_acf459bc7d6511255651ac511c1874cc4}{
+\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{array \$}]{helpers = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_acf459bc7d6511255651ac511c1874cc4}
+
+\begin{DoxyParams}{Parameters}
+{\em Helper\mbox{[}$\,$\mbox{]}} & \$helpers An array of helper. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file HelperSet.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_af5ea6a083ddb07beb8a30dd32e309ceb}{
+\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}!get@{get}}
+\index{get@{get}!Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}get (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_af5ea6a083ddb07beb8a30dd32e309ceb}
+Gets a helper value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The helper name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_interface}{HelperInterface} The helper instance
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & if the helper is not defined \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 76 of file HelperSet.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a154e8997a5c7e497d5d54dcf340a80b1}{
+\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}!getCommand@{getCommand}}
+\index{getCommand@{getCommand}!Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+\subsubsection[{getCommand}]{\setlength{\rightskip}{0pt plus 5cm}getCommand (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a154e8997a5c7e497d5d54dcf340a80b1}
+Gets the command associated with this helper set.
+
+\begin{DoxyReturn}{Returns}
+Command A Command instance 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file HelperSet.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a623d004aa083376c599112f235c0af9d}{
+\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}!has@{has}}
+\index{has@{has}!Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+\subsubsection[{has}]{\setlength{\rightskip}{0pt plus 5cm}has (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a623d004aa083376c599112f235c0af9d}
+Returns true if the helper if defined.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The helper name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean true if the helper is defined, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file HelperSet.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a6af40a3612a185c1fc0e1d63e6a561f1}{
+\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}!set@{set}}
+\index{set@{set}!Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}set (
+\begin{DoxyParamCaption}
+\item[{{\bf HelperInterface} \$}]{helper, }
+\item[{\$}]{alias = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_a6af40a3612a185c1fc0e1d63e6a561f1}
+Sets a helper.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_interface}{HelperInterface} & {\em \$value} & The helper instance \\
+\hline
+string & {\em \$alias} & An alias \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file HelperSet.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_ac7c7b717574b3a261875a71f2b15a95b}{
+\index{Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}!setCommand@{setCommand}}
+\index{setCommand@{setCommand}!Symfony::Components::Console::Helper::HelperSet@{Symfony::Components::Console::Helper::HelperSet}}
+\subsubsection[{setCommand}]{\setlength{\rightskip}{0pt plus 5cm}setCommand (
+\begin{DoxyParamCaption}
+\item[{{\bf Command} \$}]{command = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_set_ac7c7b717574b3a261875a71f2b15a95b}
+Sets the command associated with this helper set.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Command & {\em \$command} & A Command instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 90 of file HelperSet.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Helper/HelperSet.php\end{DoxyCompactItemize}

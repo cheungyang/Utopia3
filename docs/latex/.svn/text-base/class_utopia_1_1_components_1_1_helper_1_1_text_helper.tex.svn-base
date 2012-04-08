@@ -1,0 +1,117 @@
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_text_helper}{
+\section{TextHelper Class Reference}
+\label{class_utopia_1_1_components_1_1_helper_1_1_text_helper}\index{Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a9feac54d6f2f8022808d672cd490366a}{getPureWords} (\$str)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a23cb9817d9a6acb62363cf5c4a20d5c8}{tokenize} (\$str)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a3c3e06d1e174e503317fd5adad9089f5}{getStrip} ()
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a5927da6b2d37a3791b7ff9800bc4953f}{stripHTML} (\$str='')
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file TextHelper.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a9feac54d6f2f8022808d672cd490366a}{
+\index{Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}!getPureWords@{getPureWords}}
+\index{getPureWords@{getPureWords}!Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}}
+\subsubsection[{getPureWords}]{\setlength{\rightskip}{0pt plus 5cm}static getPureWords (
+\begin{DoxyParamCaption}
+\item[{\$}]{str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a9feac54d6f2f8022808d672cd490366a}
+fetch web page content
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$str} & string to be cut\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 40 of file TextHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a3c3e06d1e174e503317fd5adad9089f5}{
+\index{Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}!getStrip@{getStrip}}
+\index{getStrip@{getStrip}!Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}}
+\subsubsection[{getStrip}]{\setlength{\rightskip}{0pt plus 5cm}static getStrip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a3c3e06d1e174e503317fd5adad9089f5}
+fetch web page content
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 73 of file TextHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a5927da6b2d37a3791b7ff9800bc4953f}{
+\index{Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}!stripHTML@{stripHTML}}
+\index{stripHTML@{stripHTML}!Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}}
+\subsubsection[{stripHTML}]{\setlength{\rightskip}{0pt plus 5cm}static stripHTML (
+\begin{DoxyParamCaption}
+\item[{\$}]{str = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a5927da6b2d37a3791b7ff9800bc4953f}
+remove spaces, tabs and line breaks on html
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$str} & string to be cut\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file TextHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a23cb9817d9a6acb62363cf5c4a20d5c8}{
+\index{Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}!tokenize@{tokenize}}
+\index{tokenize@{tokenize}!Utopia::Components::Helper::TextHelper@{Utopia::Components::Helper::TextHelper}}
+\subsubsection[{tokenize}]{\setlength{\rightskip}{0pt plus 5cm}static tokenize (
+\begin{DoxyParamCaption}
+\item[{\$}]{str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_text_helper_a23cb9817d9a6acb62363cf5c4a20d5c8}
+fetch web page content
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$str} & string to be cut\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 56 of file TextHelper.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Helper/TextHelper.php\end{DoxyCompactItemize}

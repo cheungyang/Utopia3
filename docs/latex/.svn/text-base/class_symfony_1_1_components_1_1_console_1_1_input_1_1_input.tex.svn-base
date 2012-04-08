@@ -1,0 +1,380 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input}{
+\section{Input Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input}\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+}
+Inheritance diagram for Input:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_abeb784e0b44c875c2f2d9b8f29cbf339}{\_\-\_\-construct} (\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} \$definition=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_adeccafc40674c113fca92360646172e7}{bind} (\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} \$definition)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a184909dab34698899937d810a9f5d393}{validate} ()
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a86591f361b2876ecec9e5537cd5f7247}{
+{\bfseries isInteractive} ()}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a86591f361b2876ecec9e5537cd5f7247}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_ae9da0afb3c02ed98c93ca90721cd5f06}{
+{\bfseries setInteractive} (\$interactive)}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_ae9da0afb3c02ed98c93ca90721cd5f06}
+
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1d4c324c5a088be98d99d3efbf3502e1}{getArguments} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_aa2048ce7fc84dc4f18393a0b0cc6d311}{getArgument} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a29321b949fe519107d5ccefa4ea87401}{setArgument} (\$name, \$value)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1739ff4835ce8b49da97341e16a8b4cc}{hasArgument} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1a49b8dded6e91a52e2fd07195d334da}{getOptions} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a86acce3c002ca1af709fd1b04f2f82fa}{getOption} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a7184fec9134a57cae6ef66b3588513d1}{setOption} (\$name, \$value)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a93cc4c82c649f5685d81ed5c3327e913}{hasOption} (\$name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a38d99acc70a1d8fd8f94455743b2d237}{parse} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1835bcd0ed2fc8d9ed387d652c403747}{
+{\bfseries \$definition}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1835bcd0ed2fc8d9ed387d652c403747}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a011800c63ece4cbbfa77136a20607023}{
+{\bfseries \$options}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a011800c63ece4cbbfa77136a20607023}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a61eded163d962fc248b3cf209000979b}{
+{\bfseries \$arguments}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a61eded163d962fc248b3cf209000979b}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a3aaa6994c28453a23335df4ed09859ef}{
+{\bfseries \$interactive} = true}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a3aaa6994c28453a23335df4ed09859ef}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Input.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_abeb784e0b44c875c2f2d9b8f29cbf339}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{{\bf InputDefinition} \$}]{definition = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_abeb784e0b44c875c2f2d9b8f29cbf339}
+Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} & {\em \$definition} & A \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 39 of file Input.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_adeccafc40674c113fca92360646172e7}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!bind@{bind}}
+\index{bind@{bind}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{bind}]{\setlength{\rightskip}{0pt plus 5cm}bind (
+\begin{DoxyParamCaption}
+\item[{{\bf InputDefinition} \$}]{definition}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_adeccafc40674c113fca92360646172e7}
+Binds the current \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input}{Input} instance with the given arguments and options.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} & {\em \$definition} & A \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} instance \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface_adeccafc40674c113fca92360646172e7}{InputInterface}.
+
+
+
+Definition at line 54 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_aa2048ce7fc84dc4f18393a0b0cc6d311}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!getArgument@{getArgument}}
+\index{getArgument@{getArgument}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{getArgument}]{\setlength{\rightskip}{0pt plus 5cm}getArgument (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_aa2048ce7fc84dc4f18393a0b0cc6d311}
+Returns the argument value for a given argument name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The argument name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The argument value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When argument given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface}.
+
+
+
+Definition at line 107 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1d4c324c5a088be98d99d3efbf3502e1}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!getArguments@{getArguments}}
+\index{getArguments@{getArguments}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{getArguments}]{\setlength{\rightskip}{0pt plus 5cm}getArguments (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1d4c324c5a088be98d99d3efbf3502e1}
+Returns the argument values.
+
+\begin{DoxyReturn}{Returns}
+array An array of argument values 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface}.
+
+
+
+Definition at line 93 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a86acce3c002ca1af709fd1b04f2f82fa}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!getOption@{getOption}}
+\index{getOption@{getOption}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{getOption}]{\setlength{\rightskip}{0pt plus 5cm}getOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a86acce3c002ca1af709fd1b04f2f82fa}
+Returns the option value for a given option name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The option name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed The option value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When option given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface}.
+
+
+
+Definition at line 164 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1a49b8dded6e91a52e2fd07195d334da}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!getOptions@{getOptions}}
+\index{getOptions@{getOptions}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{getOptions}]{\setlength{\rightskip}{0pt plus 5cm}getOptions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1a49b8dded6e91a52e2fd07195d334da}
+Returns the options values.
+
+\begin{DoxyReturn}{Returns}
+array An array of option values 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface}.
+
+
+
+Definition at line 150 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1739ff4835ce8b49da97341e16a8b4cc}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!hasArgument@{hasArgument}}
+\index{hasArgument@{hasArgument}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{hasArgument}]{\setlength{\rightskip}{0pt plus 5cm}hasArgument (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a1739ff4835ce8b49da97341e16a8b4cc}
+Returns true if an \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_argument}{InputArgument} object exists by name or position.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | integer & {\em \$name} & The \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_argument}{InputArgument} name or position\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean true if the \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_argument}{InputArgument} object exists, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 140 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a93cc4c82c649f5685d81ed5c3327e913}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!hasOption@{hasOption}}
+\index{hasOption@{hasOption}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{hasOption}]{\setlength{\rightskip}{0pt plus 5cm}hasOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a93cc4c82c649f5685d81ed5c3327e913}
+Returns true if an \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_option}{InputOption} object exists by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_option}{InputOption} name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean true if the \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_option}{InputOption} object exists, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 197 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a38d99acc70a1d8fd8f94455743b2d237}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!parse@{parse}}
+\index{parse@{parse}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}parse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}abstract, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a38d99acc70a1d8fd8f94455743b2d237}
+Processes command line arguments. 
+
+Reimplemented in \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a38d99acc70a1d8fd8f94455743b2d237}{ArgvInput}, and \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_array_input_a38d99acc70a1d8fd8f94455743b2d237}{ArrayInput}.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a29321b949fe519107d5ccefa4ea87401}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!setArgument@{setArgument}}
+\index{setArgument@{setArgument}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{setArgument}]{\setlength{\rightskip}{0pt plus 5cm}setArgument (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a29321b949fe519107d5ccefa4ea87401}
+Sets an argument value by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The argument name \\
+\hline
+string & {\em \$value} & The argument value\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When argument given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 124 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a7184fec9134a57cae6ef66b3588513d1}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!setOption@{setOption}}
+\index{setOption@{setOption}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{setOption}]{\setlength{\rightskip}{0pt plus 5cm}setOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a7184fec9134a57cae6ef66b3588513d1}
+Sets an option value by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The option name \\
+\hline
+string & {\em \$value} & The option value\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When option given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 181 of file Input.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a184909dab34698899937d810a9f5d393}{
+\index{Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}!validate@{validate}}
+\index{validate@{validate}!Symfony::Components::Console::Input::Input@{Symfony::Components::Console::Input::Input}}
+\subsubsection[{validate}]{\setlength{\rightskip}{0pt plus 5cm}validate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a184909dab34698899937d810a9f5d393}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$RuntimeException} & When not enough arguments are given \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface}{InputInterface}.
+
+
+
+Definition at line 71 of file Input.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Input/Input.php\end{DoxyCompactItemize}

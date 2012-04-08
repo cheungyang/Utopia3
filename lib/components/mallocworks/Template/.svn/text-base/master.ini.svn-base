@@ -1,0 +1,5 @@
+[generic]
+hostname = 'http://localhost:81/u3'
+
+[template.cache]
+ttl=3600

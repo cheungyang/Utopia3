@@ -1,0 +1,72 @@
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_model_factory}{
+\section{ModelFactory Class Reference}
+\label{class_utopia_1_1_components_1_1_model_1_1_model_factory}\index{Utopia::Components::Model::ModelFactory@{Utopia::Components::Model::ModelFactory}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_model_1_1_model_factory_a7d1ad109e1f833536053dda9717537f7}{getClassName} (array \$namespaces, \$name)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_model_1_1_model_factory_af5a19137f65f3b51ba3deefc9d3dfc67}{getEntityName} (array \$namespaces, \$name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file ModelFactory.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_model_factory_a7d1ad109e1f833536053dda9717537f7}{
+\index{Utopia::Components::Model::ModelFactory@{Utopia::Components::Model::ModelFactory}!getClassName@{getClassName}}
+\index{getClassName@{getClassName}!Utopia::Components::Model::ModelFactory@{Utopia::Components::Model::ModelFactory}}
+\subsubsection[{getClassName}]{\setlength{\rightskip}{0pt plus 5cm}static getClassName (
+\begin{DoxyParamCaption}
+\item[{array \$}]{namespaces, }
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_model_factory_a7d1ad109e1f833536053dda9717537f7}
+return the class name to call return \hyperlink{class_utopia_1_1_components_1_1_model_1_1_generic_model}{GenericModel} if there are no existing model class in current settings, \$namespaces comes from service.yml value, \$name come from class initialization, eg. \$sc-\/$>$model('article')
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$namespaces} & \\
+\hline
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file ModelFactory.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_model_factory_af5a19137f65f3b51ba3deefc9d3dfc67}{
+\index{Utopia::Components::Model::ModelFactory@{Utopia::Components::Model::ModelFactory}!getEntityName@{getEntityName}}
+\index{getEntityName@{getEntityName}!Utopia::Components::Model::ModelFactory@{Utopia::Components::Model::ModelFactory}}
+\subsubsection[{getEntityName}]{\setlength{\rightskip}{0pt plus 5cm}static getEntityName (
+\begin{DoxyParamCaption}
+\item[{array \$}]{namespaces, }
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_model_factory_af5a19137f65f3b51ba3deefc9d3dfc67}
+for DependencyInjection supply parameters to ServiceContainer::parameters
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$namespaces} & \\
+\hline
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 39 of file ModelFactory.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/ModelFactory.php\end{DoxyCompactItemize}

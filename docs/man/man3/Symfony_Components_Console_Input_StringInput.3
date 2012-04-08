@@ -1,0 +1,65 @@
+.TH "Symfony::Components::Console::Input::StringInput" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::StringInput \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Input::ArgvInput\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($input, \fBInputDefinition\fP $definition=null)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBREGEX_STRING\fP = '([^ ]+?)(?: |(?<!\\\\\\\\)'|(?<!\\\\\\\\)\\'|$)'"
+.br
+.ti -1c
+.RI "const \fBREGEX_QUOTED_STRING\fP = '(?:'([^'\\\\\\\\]*(?:\\\\\\\\.[^'\\\\\\\\]*)*)'|\\'([^\\'\\\\\\\\]*(?:\\\\\\\\.[^\\'\\\\\\\\]*)*)\\')'"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBtokenize\fP ($input)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 25 of file StringInput.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($input, \fBInputDefinition\fP $definition = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP An array of parameters from the CLI (in the argv format) 
+.br
+\fI$definition\fP A \fBInputDefinition\fP instance 
+.RE
+.PP
+
+.PP
+Definition at line 36 of file StringInput.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "tokenize ($input)\fC [protected]\fP"\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When unable to parse input (should never happen) 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file StringInput.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

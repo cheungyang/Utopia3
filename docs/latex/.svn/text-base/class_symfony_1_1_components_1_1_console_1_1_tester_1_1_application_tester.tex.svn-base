@@ -1,0 +1,159 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester}{
+\section{ApplicationTester Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester}\index{Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a2eb2e7d3cfca55bcf1b6027faeaa39e5}{\_\-\_\-construct} (Application \$application)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_aa4cd2dd1019b302411156821840f1a32}{run} (array \$input, \$options=array())
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a7a670e79fbadef8696ef172b959a8b35}{getDisplay} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a4380f30ae9202fa49ebd2439572f9cdb}{getInput} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_aefad4c11248b7c6fa6581c25d82bf9c6}{getOutput} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a537fa9b460dddc2a67074faab810398a}{
+{\bfseries \$application}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a537fa9b460dddc2a67074faab810398a}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_ad6dc42004a9f1865676e24cab0b0445b}{
+{\bfseries \$display}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_ad6dc42004a9f1865676e24cab0b0445b}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a69b271260be394b90709736cccb22c76}{
+{\bfseries \$input}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a69b271260be394b90709736cccb22c76}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a73004ce9cd673c1bfafd1dc351134797}{
+{\bfseries \$output}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a73004ce9cd673c1bfafd1dc351134797}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file ApplicationTester.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a2eb2e7d3cfca55bcf1b6027faeaa39e5}{
+\index{Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{Application \$}]{application}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a2eb2e7d3cfca55bcf1b6027faeaa39e5}
+Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Application & {\em \$application} & A Application instance to test. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file ApplicationTester.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a7a670e79fbadef8696ef172b959a8b35}{
+\index{Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}!getDisplay@{getDisplay}}
+\index{getDisplay@{getDisplay}!Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}}
+\subsubsection[{getDisplay}]{\setlength{\rightskip}{0pt plus 5cm}getDisplay (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a7a670e79fbadef8696ef172b959a8b35}
+Gets the display returned by the last execution of the application.
+
+\begin{DoxyReturn}{Returns}
+string The display 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file ApplicationTester.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a4380f30ae9202fa49ebd2439572f9cdb}{
+\index{Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}!getInput@{getInput}}
+\index{getInput@{getInput}!Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}}
+\subsubsection[{getInput}]{\setlength{\rightskip}{0pt plus 5cm}getInput (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_a4380f30ae9202fa49ebd2439572f9cdb}
+Gets the input instance used by the last execution of the application.
+
+\begin{DoxyReturn}{Returns}
+InputInterface The current input instance 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file ApplicationTester.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_aefad4c11248b7c6fa6581c25d82bf9c6}{
+\index{Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}!getOutput@{getOutput}}
+\index{getOutput@{getOutput}!Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}}
+\subsubsection[{getOutput}]{\setlength{\rightskip}{0pt plus 5cm}getOutput (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_aefad4c11248b7c6fa6581c25d82bf9c6}
+Gets the output instance used by the last execution of the application.
+
+\begin{DoxyReturn}{Returns}
+OutputInterface The current output instance 
+\end{DoxyReturn}
+
+
+Definition at line 99 of file ApplicationTester.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_aa4cd2dd1019b302411156821840f1a32}{
+\index{Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}!run@{run}}
+\index{run@{run}!Symfony::Components::Console::Tester::ApplicationTester@{Symfony::Components::Console::Tester::ApplicationTester}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+\item[{array \$}]{input, }
+\item[{\$}]{options = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_tester_1_1_application_tester_aa4cd2dd1019b302411156821840f1a32}
+Executes the application.
+
+Available options:
+
+$\ast$ interactive: Sets the input interactive flag $\ast$ decorated: Sets the output decorated flag $\ast$ verbosity: Sets the output verbosity flag
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$input} & An array of arguments and options \\
+\hline
+array & {\em \$options} & An array of options \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file ApplicationTester.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Tester/ApplicationTester.php\end{DoxyCompactItemize}

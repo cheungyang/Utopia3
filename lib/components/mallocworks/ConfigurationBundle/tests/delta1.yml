@@ -1,0 +1,4 @@
+property=common;role=api;environment=dev:
+  component1:
+    foo: delta1.FOO
+    bar: delta1.BAR

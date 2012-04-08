@@ -1,0 +1,253 @@
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml}{
+\section{Yaml Class Reference}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml}\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a864e42e0c0857cf55be1ec4f008edc3b}{setSpecVersion} (\$version)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a85e91f9d5d0fe9f3cc335c1b3e7bf8c1}{getSpecVersion} ()
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}{load} (\$input)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a7316b7295161b4744e2817b2b65b29f9}{dump} (\$array, \$inline=2)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a864e42e0c0857cf55be1ec4f008edc3b}{setSpecVersion} (\$version)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a85e91f9d5d0fe9f3cc335c1b3e7bf8c1}{getSpecVersion} ()
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}{load} (\$input)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a7316b7295161b4744e2817b2b65b29f9}{dump} (\$array, \$inline=2)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_aeba8bdcde5ed61970a73834881646ed8}{
+static {\bfseries \$spec} = '1.2'}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_aeba8bdcde5ed61970a73834881646ed8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 20 of file Yaml.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a7316b7295161b4744e2817b2b65b29f9}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!dump@{dump}}
+\index{dump@{dump}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}static dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{array, }
+\item[{\$}]{inline = {\ttfamily 2}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a7316b7295161b4744e2817b2b65b29f9}
+Dumps a PHP array to a YAML string.
+
+The dump method, when supplied with an array, will do its best to convert the array into friendly YAML.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$array} & PHP array \\
+\hline
+integer & {\em \$inline} & The level where you switch to inline YAML\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string representing the original PHP array 
+\end{DoxyReturn}
+
+
+Definition at line 111 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a7316b7295161b4744e2817b2b65b29f9}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!dump@{dump}}
+\index{dump@{dump}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}static dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{array, }
+\item[{\$}]{inline = {\ttfamily 2}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a7316b7295161b4744e2817b2b65b29f9}
+Dumps a PHP array to a YAML string.
+
+The dump method, when supplied with an array, will do its best to convert the array into friendly YAML.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$array} & PHP array \\
+\hline
+integer & {\em \$inline} & The level where you switch to inline YAML\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string representing the original PHP array 
+\end{DoxyReturn}
+
+
+Definition at line 111 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a85e91f9d5d0fe9f3cc335c1b3e7bf8c1}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!getSpecVersion@{getSpecVersion}}
+\index{getSpecVersion@{getSpecVersion}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{getSpecVersion}]{\setlength{\rightskip}{0pt plus 5cm}static getSpecVersion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a85e91f9d5d0fe9f3cc335c1b3e7bf8c1}
+Gets the YAML specification version to use.
+
+\begin{DoxyReturn}{Returns}
+string The YAML specification version 
+\end{DoxyReturn}
+
+
+Definition at line 45 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a85e91f9d5d0fe9f3cc335c1b3e7bf8c1}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!getSpecVersion@{getSpecVersion}}
+\index{getSpecVersion@{getSpecVersion}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{getSpecVersion}]{\setlength{\rightskip}{0pt plus 5cm}static getSpecVersion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a85e91f9d5d0fe9f3cc335c1b3e7bf8c1}
+Gets the YAML specification version to use.
+
+\begin{DoxyReturn}{Returns}
+string The YAML specification version 
+\end{DoxyReturn}
+
+
+Definition at line 45 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!load@{load}}
+\index{load@{load}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}static load (
+\begin{DoxyParamCaption}
+\item[{\$}]{input}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}
+Loads YAML into a PHP array.
+
+The load method, when supplied with a YAML stream (string or file), will do its best to convert YAML in a file into a PHP array.
+
+Usage: {\ttfamily  \$array = \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}{Yaml::load}('config.yml'); print\_\-r(\$array); }
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$input} & Path of YAML file or string containing YAML\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array The YAML converted to a PHP array
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & If the YAML is not valid \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 68 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!load@{load}}
+\index{load@{load}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}static load (
+\begin{DoxyParamCaption}
+\item[{\$}]{input}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}
+Loads YAML into a PHP array.
+
+The load method, when supplied with a YAML stream (string or file), will do its best to convert YAML in a file into a PHP array.
+
+Usage: {\ttfamily  \$array = \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_yaml_ae9c877233944ff7dc1a24e61895c25a0}{Yaml::load}('config.yml'); print\_\-r(\$array); }
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$input} & Path of YAML file or string containing YAML\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array The YAML converted to a PHP array
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & If the YAML is not valid \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 68 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a864e42e0c0857cf55be1ec4f008edc3b}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!setSpecVersion@{setSpecVersion}}
+\index{setSpecVersion@{setSpecVersion}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{setSpecVersion}]{\setlength{\rightskip}{0pt plus 5cm}static setSpecVersion (
+\begin{DoxyParamCaption}
+\item[{\$}]{version}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a864e42e0c0857cf55be1ec4f008edc3b}
+Sets the YAML specification version to use.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$version} & The YAML specification version\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When version of YAML specs is not supported \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 31 of file Yaml.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a864e42e0c0857cf55be1ec4f008edc3b}{
+\index{Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}!setSpecVersion@{setSpecVersion}}
+\index{setSpecVersion@{setSpecVersion}!Symfony::Components::Yaml::Yaml@{Symfony::Components::Yaml::Yaml}}
+\subsubsection[{setSpecVersion}]{\setlength{\rightskip}{0pt plus 5cm}static setSpecVersion (
+\begin{DoxyParamCaption}
+\item[{\$}]{version}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_yaml_a864e42e0c0857cf55be1ec4f008edc3b}
+Sets the YAML specification version to use.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$version} & The YAML specification version\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When version of YAML specs is not supported \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 31 of file Yaml.php.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Yaml.php\item 
+trunk/lib/components/symfony/Yaml/Yaml.php\end{DoxyCompactItemize}

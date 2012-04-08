@@ -1,0 +1,304 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input}{
+\section{ArgvInput Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input}\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+}
+Inheritance diagram for ArgvInput:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a0bf35c6e58f69ff7460b27b4b2f025bc}{\_\-\_\-construct} (array \$argv=null, \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} \$definition=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_af2c0efe177067f350eb7d027d5cb0d48}{getFirstArgument} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a0e8e5ab4feedf51eb06791d59c730463}{hasParameterOption} (\$values)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a38d99acc70a1d8fd8f94455743b2d237}{parse} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a3c01732860bd9ae6217ec2e1870e00fd}{parseShortOption} (\$token)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a9ad982c2161431cfc3ae0d3396e310ce}{parseShortOptionSet} (\$name)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_ad577fbade94b435028ae463707df0a0b}{parseLongOption} (\$token)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a497f1014327bfbc138b4c4e7f1852106}{parseArgument} (\$token)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a7c82bd001b1072d631bc9f692e6522ef}{addShortOption} (\$shortcut, \$value)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_aa82dc00580e8f0388fff7e987c2b4aa8}{addLongOption} (\$name, \$value)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a72ead29e4317fbc4335fd3ba764e8b59}{
+{\bfseries \$tokens}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a72ead29e4317fbc4335fd3ba764e8b59}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a88925ebaf6173a1412197d8134d0a0a6}{
+{\bfseries \$parsed}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a88925ebaf6173a1412197d8134d0a0a6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 41 of file ArgvInput.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a0bf35c6e58f69ff7460b27b4b2f025bc}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{array \$}]{argv = {\ttfamily null}, }
+\item[{{\bf InputDefinition} \$}]{definition = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a0bf35c6e58f69ff7460b27b4b2f025bc}
+Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$argv} & An array of parameters from the CLI (in the argv format) \\
+\hline
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} & {\em \$definition} & A \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file ArgvInput.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_aa82dc00580e8f0388fff7e987c2b4aa8}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!addLongOption@{addLongOption}}
+\index{addLongOption@{addLongOption}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{addLongOption}]{\setlength{\rightskip}{0pt plus 5cm}addLongOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{name, }
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_aa82dc00580e8f0388fff7e987c2b4aa8}
+Adds a long option value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & The long option key \\
+\hline
+mixed & {\em \$value} & The value for the option\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$RuntimeException} & When option given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 187 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a7c82bd001b1072d631bc9f692e6522ef}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!addShortOption@{addShortOption}}
+\index{addShortOption@{addShortOption}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{addShortOption}]{\setlength{\rightskip}{0pt plus 5cm}addShortOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{shortcut, }
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a7c82bd001b1072d631bc9f692e6522ef}
+Adds a short option value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$shortcut} & The short option key \\
+\hline
+mixed & {\em \$value} & The value for the option\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$RuntimeException} & When option given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 170 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_af2c0efe177067f350eb7d027d5cb0d48}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!getFirstArgument@{getFirstArgument}}
+\index{getFirstArgument@{getFirstArgument}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{getFirstArgument}]{\setlength{\rightskip}{0pt plus 5cm}getFirstArgument (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_af2c0efe177067f350eb7d027d5cb0d48}
+Returns the first argument from the raw parameters (not parsed).
+
+\begin{DoxyReturn}{Returns}
+string The value of the first argument or null otherwise 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface_af2c0efe177067f350eb7d027d5cb0d48}{InputInterface}.
+
+
+
+Definition at line 222 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a0e8e5ab4feedf51eb06791d59c730463}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!hasParameterOption@{hasParameterOption}}
+\index{hasParameterOption@{hasParameterOption}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{hasParameterOption}]{\setlength{\rightskip}{0pt plus 5cm}hasParameterOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{values}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a0e8e5ab4feedf51eb06791d59c730463}
+Returns true if the raw parameters (not parsed) contains a value.
+
+This method is to be used to introspect the input parameters before it has been validated. It must be used carefully.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$values} & The value(s) to look for in the raw parameters (can be an array)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean true if the value is contained in the raw parameters 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_input_1_1_input_interface_aaa3283309730799668395686a62ae21e}{InputInterface}.
+
+
+
+Definition at line 243 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a38d99acc70a1d8fd8f94455743b2d237}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!parse@{parse}}
+\index{parse@{parse}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}parse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a38d99acc70a1d8fd8f94455743b2d237}
+Processes command line arguments. 
+
+Reimplemented from \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_a38d99acc70a1d8fd8f94455743b2d237}{Input}.
+
+
+
+Definition at line 69 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a497f1014327bfbc138b4c4e7f1852106}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!parseArgument@{parseArgument}}
+\index{parseArgument@{parseArgument}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{parseArgument}]{\setlength{\rightskip}{0pt plus 5cm}parseArgument (
+\begin{DoxyParamCaption}
+\item[{\$}]{token}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a497f1014327bfbc138b4c4e7f1852106}
+Parses an argument.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$token} & The current token\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$RuntimeException} & When too many arguments are given \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 153 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_ad577fbade94b435028ae463707df0a0b}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!parseLongOption@{parseLongOption}}
+\index{parseLongOption@{parseLongOption}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{parseLongOption}]{\setlength{\rightskip}{0pt plus 5cm}parseLongOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{token}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_ad577fbade94b435028ae463707df0a0b}
+Parses a long option.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$token} & The current token \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 135 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a3c01732860bd9ae6217ec2e1870e00fd}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!parseShortOption@{parseShortOption}}
+\index{parseShortOption@{parseShortOption}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{parseShortOption}]{\setlength{\rightskip}{0pt plus 5cm}parseShortOption (
+\begin{DoxyParamCaption}
+\item[{\$}]{token}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a3c01732860bd9ae6217ec2e1870e00fd}
+Parses a short option.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$token} & The current token. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 88 of file ArgvInput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a9ad982c2161431cfc3ae0d3396e310ce}{
+\index{Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}!parseShortOptionSet@{parseShortOptionSet}}
+\index{parseShortOptionSet@{parseShortOptionSet}!Symfony::Components::Console::Input::ArgvInput@{Symfony::Components::Console::Input::ArgvInput}}
+\subsubsection[{parseShortOptionSet}]{\setlength{\rightskip}{0pt plus 5cm}parseShortOptionSet (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_argv_input_a9ad982c2161431cfc3ae0d3396e310ce}
+Parses a short option set.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$token} & The current token\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$RuntimeException} & When option given doesn't exist \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 111 of file ArgvInput.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Input/ArgvInput.php\end{DoxyCompactItemize}

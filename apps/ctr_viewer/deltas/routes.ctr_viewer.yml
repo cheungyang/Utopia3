@@ -1,0 +1,36 @@
+module.route.selector:
+  base_uri: 'ctr_viewer/module/route_selector'
+  description: 'Route Selector Module'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\CtrViewer\Controllers\RouteSelectorController'
+  
+module.route.configuration:
+  base_uri: 'ctr_viewer/module/route_configuration'
+  description: 'Route Configuration Module'
+  methods: ['GET']
+  authentication: ~
+  required:
+    route_name: { type: '\w\d\.', info: 'route name', def: '' }
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\CtrViewer\Controllers\RouteConfigurationController'
+  
+module.route.execution:
+  base_uri: 'ctr_viewer/module/route_execution'
+  description: 'API Execution Module'
+  methods: ['POST']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\CtrViewer\Controllers\RouteExecutionController'
+  
+module.ctrviewer.main:
+  base_uri: 'ctr_viewer'
+  description: 'Main Interface to Controller Viewer'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\CtrViewer\Controllers\CtrViewerController'

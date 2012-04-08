@@ -1,0 +1,136 @@
+.TH "Utopia::Components::Http::PageApplication" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Http::PageApplication \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUtopia::Components::Http::ModuleApplication\fP, and \fBUtopia::Components::Http::IApplication\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($sc, $autoload)"
+.br
+.ti -1c
+.RI "\fB__call\fP ($name, $argument)"
+.br
+.ti -1c
+.RI "\fBsetMeta\fP ($name, $value='')"
+.br
+.ti -1c
+.RI "\fBgetMetaTags\fP ()"
+.br
+.ti -1c
+.RI "\fBrun\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$event_name\fP = 'core.page.controllers'"
+.br
+.ti -1c
+.RI "\fB$dataSpec\fP"
+.br
+.ti -1c
+.RI "\fB$avaiable_tags\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file PageController.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "__call ($name, $argument)"just to catch fatal errors in the meantime
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$argument\fP 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBModuleApplication\fP.
+.PP
+Definition at line 51 of file PageController.php.
+.SS "getMetaTags ()"formulate meta tags for SEO
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file PageController.php.
+.SS "run ()"inherent \fBApiApplication::run\fP run all dependencies first at page level only
+.PP
+(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+lib/Components/mallocworks/Http/Utopia\\Components\\Http.ApiApplication::run() 
+.RE
+.PP
+
+.PP
+Implements \fBIApplication\fP.
+.PP
+Definition at line 110 of file PageController.php.
+.SS "setMeta ($name, $value = \fC''\fP)"enter meta information
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$value\fP 
+.RE
+.PP
+
+.PP
+Definition at line 63 of file PageController.php.
+.SH "Field Documentation"
+.PP 
+.SS "$avaiable_tags\fC [protected]\fP"\fBInitial value:\fP
+.PP
+.nf
+ array(
+        'content-type' => 'text/html; charset=UTF-8',
+        'content-language' => 'zh-Hant',
+        'robots' => 'FOLLOW',
+        'description' => '',
+        'keywords' => '',
+        'copyright' => '',
+        'title' => ''
+    )
+.fi
+.PP
+Definition at line 28 of file PageController.php.
+.SS "$dataSpec\fC [protected]\fP"\fBInitial value:\fP
+.PP
+.nf
+ <<<EOF
+url:            { req: true, type: string }
+method:         { req: true, def: 'GET', type: ['GET','POST','PUT','DELETE'] }
+response:   { req: true, def: [], type: 'array' }
+template:       { req: false, type: 'string' }
+script:     { req: false, type: 'array' }
+style:      { req: false, type: 'array' }
+headers:    { req: false, type: 'array' }
+meta:       { req: false, type: 'array' }
+EOF
+.fi
+.PP
+Reimplemented from \fBModuleApplication\fP.
+.PP
+Definition at line 16 of file PageController.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

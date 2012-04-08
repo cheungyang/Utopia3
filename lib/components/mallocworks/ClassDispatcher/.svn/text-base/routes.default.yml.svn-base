@@ -1,0 +1,8 @@
+error.catch_all:
+  base_uri: ''
+  description: 'Last resort to catch anything if all routes does not accept an url'
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Components\Controller\ErrorController'

@@ -1,0 +1,116 @@
+.TH "Symfony::Components::Console::Output::StreamOutput" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Output::StreamOutput \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Output::Output\fP.
+.PP
+Inherited by \fBConsoleOutput\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($stream, $verbosity=self::VERBOSITY_NORMAL, $decorated=null)"
+.br
+.ti -1c
+.RI "\fBgetStream\fP ()"
+.br
+.ti -1c
+.RI "\fBdoWrite\fP ($message, $newline)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBhasColorSupport\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$stream\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 29 of file StreamOutput.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($stream, $verbosity = \fCself::VERBOSITY_NORMAL\fP, $decorated = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$stream\fP A stream resource 
+.br
+\fI$verbosity\fP The verbosity level (self::VERBOSITY_QUIET, self::VERBOSITY_NORMAL, self::VERBOSITY_VERBOSE) 
+.br
+\fI$decorated\fP Whether to decorate messages or not (null for auto-guessing)
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When first argument is not a real stream 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file StreamOutput.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "doWrite ($message, $newline)"Writes a message to the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$message\fP A message to write to the output 
+.br
+\fI$newline\fP Whether to add a newline or not
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\RuntimeException\fP When unable to write output (should never happen) 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBOutput\fP.
+.PP
+Definition at line 75 of file StreamOutput.php.
+.SS "getStream ()"Gets the stream attached to this \fBStreamOutput\fP instance.
+.PP
+\fBReturns:\fP
+.RS 4
+resource A stream resource 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file StreamOutput.php.
+.SS "hasColorSupport ()\fC [protected]\fP"Returns true if the stream supports colorization.
+.PP
+Colorization is disabled if not supported by the stream:
+.PP
+.IP "\(bu" 2
+windows without ansicon
+.IP "\(bu" 2
+non tty consoles
+.PP
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the stream supports colorization, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 97 of file StreamOutput.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

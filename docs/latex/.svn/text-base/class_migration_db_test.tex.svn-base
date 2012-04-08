@@ -1,0 +1,37 @@
+\hypertarget{class_migration_db_test}{
+\section{MigrationDbTest Class Reference}
+\label{class_migration_db_test}\index{MigrationDbTest@{MigrationDbTest}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_migration_db_test_a272beb0bb939cb105da0997619ca5d5f}{
+{\bfseries testMigration} ()}
+\label{class_migration_db_test_a272beb0bb939cb105da0997619ca5d5f}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_migration_db_test_a0bc688732d2b3b162ffebaf7812e78da}{
+{\bfseries setUp} ()}
+\label{class_migration_db_test_a0bc688732d2b3b162ffebaf7812e78da}
+
+\item 
+\hypertarget{class_migration_db_test_a80fe3d17e658907fc75346a0ec9d6fc7}{
+{\bfseries tearDown} ()}
+\label{class_migration_db_test_a80fe3d17e658907fc75346a0ec9d6fc7}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 9 of file MigrationDbTest.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/tests/MigrationDbTest.php\end{DoxyCompactItemize}

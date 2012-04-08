@@ -1,0 +1,195 @@
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper}{
+\section{FileHelper Class Reference}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper}\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a120d63e8bda7f13312e93cb1f254326a}{makeDirs} (\$dirs, \$recursive=false, \$mode=0755)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a5e41180789a0172eb575841af21e48c1}{moveFiles} (\$filepair, \$postfix='', \$mode='')
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a3dbfee6e10446b5b846caefd7e860c5e}{copyFiles} (\$filepair, \$postfix='', \$mode='', \$movefile=false)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a684fc0c02b8b8229b2a64861ec29eac8}{filterContents} (\$files, \$filters)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a639558aae1d647043b608fdbf13484a5}{deleteDirs} (\$dirs)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a15eb6a9afa2897cb986edc27cf08cf3d}{listFiles} (\$dirnames, \$postfix='')
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file FileHelper.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a3dbfee6e10446b5b846caefd7e860c5e}{
+\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}!copyFiles@{copyFiles}}
+\index{copyFiles@{copyFiles}!Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+\subsubsection[{copyFiles}]{\setlength{\rightskip}{0pt plus 5cm}static copyFiles (
+\begin{DoxyParamCaption}
+\item[{\$}]{filepair, }
+\item[{\$}]{postfix = {\ttfamily ''}, }
+\item[{\$}]{mode = {\ttfamily ''}, }
+\item[{\$}]{movefile = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a3dbfee6e10446b5b846caefd7e860c5e}
+copy files
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$filepair} & from, to \\
+\hline
+string & {\em \$postfix} & postfix to search \\
+\hline
+int & {\em \$mode} & file mode\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 81 of file FileHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a639558aae1d647043b608fdbf13484a5}{
+\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}!deleteDirs@{deleteDirs}}
+\index{deleteDirs@{deleteDirs}!Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+\subsubsection[{deleteDirs}]{\setlength{\rightskip}{0pt plus 5cm}static deleteDirs (
+\begin{DoxyParamCaption}
+\item[{\$}]{dirs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a639558aae1d647043b608fdbf13484a5}
+delete directories
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & dirs to create\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 229 of file FileHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a684fc0c02b8b8229b2a64861ec29eac8}{
+\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}!filterContents@{filterContents}}
+\index{filterContents@{filterContents}!Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+\subsubsection[{filterContents}]{\setlength{\rightskip}{0pt plus 5cm}static filterContents (
+\begin{DoxyParamCaption}
+\item[{\$}]{files, }
+\item[{\$}]{filters}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a684fc0c02b8b8229b2a64861ec29eac8}
+replace content in files
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & files \\
+\hline
+{\em array} & from text, to text\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 157 of file FileHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a15eb6a9afa2897cb986edc27cf08cf3d}{
+\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}!listFiles@{listFiles}}
+\index{listFiles@{listFiles}!Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+\subsubsection[{listFiles}]{\setlength{\rightskip}{0pt plus 5cm}static listFiles (
+\begin{DoxyParamCaption}
+\item[{\$}]{dirnames, }
+\item[{\$}]{postfix = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a15eb6a9afa2897cb986edc27cf08cf3d}
+list all files in a directory
+
+
+\begin{DoxyParams}{Parameters}
+{\em array$|$string} & dirnames \\
+\hline
+{\em string} & extension whitelist of what to show\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 295 of file FileHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a120d63e8bda7f13312e93cb1f254326a}{
+\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}!makeDirs@{makeDirs}}
+\index{makeDirs@{makeDirs}!Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+\subsubsection[{makeDirs}]{\setlength{\rightskip}{0pt plus 5cm}static makeDirs (
+\begin{DoxyParamCaption}
+\item[{\$}]{dirs, }
+\item[{\$}]{recursive = {\ttfamily false}, }
+\item[{\$}]{mode = {\ttfamily 0755}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a120d63e8bda7f13312e93cb1f254326a}
+make directories
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & dirs to create \\
+\hline
+{\em bool} & recursively create dir\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 41 of file FileHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a5e41180789a0172eb575841af21e48c1}{
+\index{Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}!moveFiles@{moveFiles}}
+\index{moveFiles@{moveFiles}!Utopia::Components::Helper::FileHelper@{Utopia::Components::Helper::FileHelper}}
+\subsubsection[{moveFiles}]{\setlength{\rightskip}{0pt plus 5cm}static moveFiles (
+\begin{DoxyParamCaption}
+\item[{\$}]{filepair, }
+\item[{\$}]{postfix = {\ttfamily ''}, }
+\item[{\$}]{mode = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_file_helper_a5e41180789a0172eb575841af21e48c1}
+move files
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$filepair} & from, to \\
+\hline
+string & {\em \$postfix} & postfix to search \\
+\hline
+int & {\em \$mode} & file mode\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file FileHelper.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Helper/FileHelper.php\end{DoxyCompactItemize}

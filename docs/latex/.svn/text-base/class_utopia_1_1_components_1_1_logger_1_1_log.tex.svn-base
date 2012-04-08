@@ -1,0 +1,132 @@
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log}{
+\section{Log Class Reference}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log}\index{Utopia::Components::Logger::Log@{Utopia::Components::Logger::Log}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_ac6a14d15c340a54c1822063be2f453f4}{
+{\bfseries setCli} (\$cli)}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_ac6a14d15c340a54c1822063be2f453f4}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a882b9f7a326635eca4ff1b5531de18ff}{
+{\bfseries registerFileStreams} (array \$files)}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a882b9f7a326635eca4ff1b5531de18ff}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a54f03ec791a548df9b91171d03dbd74f}{
+{\bfseries registerFileStream} (\$level=999, \$filename='')}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a54f03ec791a548df9b91171d03dbd74f}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a3623e1fd216b95b20eeb0a751b66e800}{
+{\bfseries registerResponses} (array \$responses=array())}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a3623e1fd216b95b20eeb0a751b66e800}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_aa312b27a8a9e59c50bdf81f1b826d60b}{
+{\bfseries registerResponse} (\$level=999, \$identifier='default')}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_aa312b27a8a9e59c50bdf81f1b826d60b}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a4e28a7c244c6521e8b2cc63de10d6bf3}{
+{\bfseries registerPrints} (array \$prints=array())}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a4e28a7c244c6521e8b2cc63de10d6bf3}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a2372e8fa616466a708d799f34f369b62}{
+{\bfseries registerPrint} (\$level=999, \$prefix='')}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a2372e8fa616466a708d799f34f369b62}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a7cb8a5544724454f18a03cc2baffb2f7}{
+{\bfseries log} (\$message, \$level=Log::LEVEL\_\-ERROR)}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a7cb8a5544724454f18a03cc2baffb2f7}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a26639439cfb18bbef8971f95f8956827}{
+{\bfseries getResponseLog} (\$identifier='default')}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a26639439cfb18bbef8971f95f8956827}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_logger_1_1_log_a895e5722800766a91bf27c9b5e2cc579}{dump} (\$var)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_logger_1_1_log_adf6e151f76b1209e675d2f0e7c506397}{trace} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a31a68e08704b95f676ca98e296f82533}{
+const {\bfseries LEVEL\_\-ERROR} = 99}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a31a68e08704b95f676ca98e296f82533}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a2476288171fae603f5232088e70f0b75}{
+const {\bfseries LEVEL\_\-WARNING} = 50}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a2476288171fae603f5232088e70f0b75}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_ae3ce161701b7251a25fbab6231dda0d4}{
+const {\bfseries LEVEL\_\-NOTICE} = 20}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_ae3ce161701b7251a25fbab6231dda0d4}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a238eab83d6b968bf411000e504ca5aed}{
+const {\bfseries LEVEL\_\-DEBUG} = 10}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a238eab83d6b968bf411000e504ca5aed}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a3a92daec9672375c7935ebb86f9a5951}{
+const {\bfseries LEVEL\_\-TRIVAL} = 0}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a3a92daec9672375c7935ebb86f9a5951}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Log.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_a895e5722800766a91bf27c9b5e2cc579}{
+\index{Utopia::Components::Logger::Log@{Utopia::Components::Logger::Log}!dump@{dump}}
+\index{dump@{dump}!Utopia::Components::Logger::Log@{Utopia::Components::Logger::Log}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{var}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_a895e5722800766a91bf27c9b5e2cc579}
+outputs an var\_\-dump with debug\_\-backtrace
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$var} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 165 of file Log.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_logger_1_1_log_adf6e151f76b1209e675d2f0e7c506397}{
+\index{Utopia::Components::Logger::Log@{Utopia::Components::Logger::Log}!trace@{trace}}
+\index{trace@{trace}!Utopia::Components::Logger::Log@{Utopia::Components::Logger::Log}}
+\subsubsection[{trace}]{\setlength{\rightskip}{0pt plus 5cm}trace (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_logger_1_1_log_adf6e151f76b1209e675d2f0e7c506397}
+get debug backtrace 
+
+Definition at line 176 of file Log.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Logger/Log.php\end{DoxyCompactItemize}

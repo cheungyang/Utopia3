@@ -1,0 +1,148 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper}{
+\section{DialogHelper Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper}\index{Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}}
+}
+Inheritance diagram for DialogHelper:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a381f4e45926b401d2eb7555c3067021e}{ask} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output, \$question, \$default=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a8210bb95c0e501d7f912b5234e68ac32}{askConfirmation} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output, \$question, \$default=true)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a38bd0010f413ecb37c8095f105452607}{askAndValidate} (\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{OutputInterface} \$output, \$question,$\backslash$Closure \$validator, \$attempts=false)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a3d0963e68bb313b163a73f2803c64600}{getName} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file DialogHelper.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a381f4e45926b401d2eb7555c3067021e}{
+\index{Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}!ask@{ask}}
+\index{ask@{ask}!Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}}
+\subsubsection[{ask}]{\setlength{\rightskip}{0pt plus 5cm}ask (
+\begin{DoxyParamCaption}
+\item[{{\bf OutputInterface} \$}]{output, }
+\item[{\$}]{question, }
+\item[{\$}]{default = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a381f4e45926b401d2eb7555c3067021e}
+Asks a question to the user.
+
+
+\begin{DoxyParams}[1]{Parameters}
+OutputInterface & {\em \$output} & \\
+\hline
+string | array & {\em \$question} & The question to ask \\
+\hline
+string & {\em \$default} & The default answer if none is given by the user\\
+\hline
+ & {\em string} & The user answer \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 34 of file DialogHelper.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a38bd0010f413ecb37c8095f105452607}{
+\index{Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}!askAndValidate@{askAndValidate}}
+\index{askAndValidate@{askAndValidate}!Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}}
+\subsubsection[{askAndValidate}]{\setlength{\rightskip}{0pt plus 5cm}askAndValidate (
+\begin{DoxyParamCaption}
+\item[{{\bf OutputInterface} \$}]{output, }
+\item[{\$}]{question, }
+\item[{$\backslash$Closure \$}]{validator, }
+\item[{\$}]{attempts = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a38bd0010f413ecb37c8095f105452607}
+Asks for a value and validates the response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+OutputInterface & {\em \$output} & \\
+\hline
+string | array & {\em \$question} & \\
+\hline
+Closure & {\em \$validator} & \\
+\hline
+integer & {\em \$attempts} & Max number of times to ask before giving up (false by default, which means infinite)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$Exception} & When any of the validator returns an error \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 84 of file DialogHelper.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a8210bb95c0e501d7f912b5234e68ac32}{
+\index{Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}!askConfirmation@{askConfirmation}}
+\index{askConfirmation@{askConfirmation}!Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}}
+\subsubsection[{askConfirmation}]{\setlength{\rightskip}{0pt plus 5cm}askConfirmation (
+\begin{DoxyParamCaption}
+\item[{{\bf OutputInterface} \$}]{output, }
+\item[{\$}]{question, }
+\item[{\$}]{default = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a8210bb95c0e501d7f912b5234e68ac32}
+Asks a confirmation to the user.
+
+The question will be asked until the user answer by nothing, yes, or no.
+
+
+\begin{DoxyParams}[1]{Parameters}
+OutputInterface & {\em \$output} & \\
+\hline
+string | array & {\em \$question} & The question to ask \\
+\hline
+Boolean & {\em \$default} & The default answer if the user enters nothing\\
+\hline
+ & {\em Boolean} & true if the user has confirmed, false otherwise \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 56 of file DialogHelper.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a3d0963e68bb313b163a73f2803c64600}{
+\index{Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}!getName@{getName}}
+\index{getName@{getName}!Symfony::Components::Console::Helper::DialogHelper@{Symfony::Components::Console::Helper::DialogHelper}}
+\subsubsection[{getName}]{\setlength{\rightskip}{0pt plus 5cm}getName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_helper_1_1_dialog_helper_a3d0963e68bb313b163a73f2803c64600}
+Returns the helper's canonical name 
+
+Implements \hyperlink{interface_symfony_1_1_components_1_1_console_1_1_helper_1_1_helper_interface_a3d0963e68bb313b163a73f2803c64600}{HelperInterface}.
+
+
+
+Definition at line 108 of file DialogHelper.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Helper/DialogHelper.php\end{DoxyCompactItemize}

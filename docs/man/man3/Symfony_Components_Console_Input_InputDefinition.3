@@ -1,0 +1,406 @@
+.TH "Symfony::Components::Console::Input::InputDefinition" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::InputDefinition \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (array $definition=array())"
+.br
+.ti -1c
+.RI "\fBsetDefinition\fP (array $definition)"
+.br
+.ti -1c
+.RI "\fBsetArguments\fP ($arguments=array())"
+.br
+.ti -1c
+.RI "\fBaddArguments\fP ($arguments=array())"
+.br
+.ti -1c
+.RI "\fBaddArgument\fP (\fBInputArgument\fP $argument)"
+.br
+.ti -1c
+.RI "\fBgetArgument\fP ($name)"
+.br
+.ti -1c
+.RI "\fBhasArgument\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetArguments\fP ()"
+.br
+.ti -1c
+.RI "\fBgetArgumentCount\fP ()"
+.br
+.ti -1c
+.RI "\fBgetArgumentRequiredCount\fP ()"
+.br
+.ti -1c
+.RI "\fBgetArgumentDefaults\fP ()"
+.br
+.ti -1c
+.RI "\fBsetOptions\fP ($options=array())"
+.br
+.ti -1c
+.RI "\fBaddOptions\fP ($options=array())"
+.br
+.ti -1c
+.RI "\fBaddOption\fP (\fBInputOption\fP $option)"
+.br
+.ti -1c
+.RI "\fBgetOption\fP ($name)"
+.br
+.ti -1c
+.RI "\fBhasOption\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetOptions\fP ()"
+.br
+.ti -1c
+.RI "\fBhasShortcut\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetOptionForShortcut\fP ($shortcut)"
+.br
+.ti -1c
+.RI "\fBgetOptionDefaults\fP ()"
+.br
+.ti -1c
+.RI "\fBgetSynopsis\fP ()"
+.br
+.ti -1c
+.RI "\fBasText\fP ()"
+.br
+.ti -1c
+.RI "\fBasXml\fP ($asDom=false)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBshortcutToName\fP ($shortcut)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$arguments\fP"
+.br
+.ti -1c
+.RI "\fB$requiredCount\fP"
+.br
+.ti -1c
+.RI "\fB$hasAnArrayArgument\fP = false"
+.br
+.ti -1c
+.RI "\fB$hasOptional\fP"
+.br
+.ti -1c
+.RI "\fB$options\fP"
+.br
+.ti -1c
+.RI "\fB$shortcuts\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 28 of file InputDefinition.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (array $definition = \fCarray()\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$definition\fP An array of \fBInputArgument\fP and \fBInputOption\fP instance 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file InputDefinition.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "addArgument (\fBInputArgument\fP $argument)"Add an \fBInputArgument\fP object.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$argument\fP An \fBInputArgument\fP object
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\LogicException\fP When incorrect argument is given 
+.RE
+.PP
+
+.PP
+Definition at line 97 of file InputDefinition.php.
+.SS "addArguments ($arguments = \fCarray()\fP)"Add an array of \fBInputArgument\fP objects.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIInputArgument[]\fP $arguments An array of \fBInputArgument\fP objects 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file InputDefinition.php.
+.SS "addOption (\fBInputOption\fP $option)"Add an \fBInputOption\fP object.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$option\fP An \fBInputOption\fP object
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\LogicException\fP When option given already exist 
+.RE
+.PP
+
+.PP
+Definition at line 234 of file InputDefinition.php.
+.SS "addOptions ($options = \fCarray()\fP)"Add an array of \fBInputOption\fP objects.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIInputOption[]\fP $options An array of \fBInputOption\fP objects 
+.RE
+.PP
+
+.PP
+Definition at line 220 of file InputDefinition.php.
+.SS "asText ()"Returns a textual representation of the \fBInputDefinition\fP.
+.PP
+\fBReturns:\fP
+.RS 4
+string A string representing the \fBInputDefinition\fP 
+.RE
+.PP
+
+.PP
+Definition at line 370 of file InputDefinition.php.
+.SS "asXml ($asDom = \fCfalse\fP)"Returns an XML representation of the \fBInputDefinition\fP.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$asDom\fP Whether to return a DOM or an XML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string|DOMDocument An XML string representing the \fBInputDefinition\fP 
+.RE
+.PP
+
+.PP
+Definition at line 426 of file InputDefinition.php.
+.SS "getArgument ($name)"Returns an \fBInputArgument\fP by name or by position.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputArgument\fP name or position
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBInputArgument\fP An \fBInputArgument\fP object
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When argument given doesn't exist 
+.RE
+.PP
+
+.PP
+Definition at line 133 of file InputDefinition.php.
+.SS "getArgumentCount ()"Returns the number of InputArguments.
+.PP
+\fBReturns:\fP
+.RS 4
+integer The number of InputArguments 
+.RE
+.PP
+
+.PP
+Definition at line 173 of file InputDefinition.php.
+.SS "getArgumentDefaults ()"Gets the default values.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of default values 
+.RE
+.PP
+
+.PP
+Definition at line 193 of file InputDefinition.php.
+.SS "getArgumentRequiredCount ()"Returns the number of required InputArguments.
+.PP
+\fBReturns:\fP
+.RS 4
+integer The number of required InputArguments 
+.RE
+.PP
+
+.PP
+Definition at line 183 of file InputDefinition.php.
+.SS "getArguments ()"Gets the array of \fBInputArgument\fP objects.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of \fBInputArgument\fP objects 
+.RE
+.PP
+
+.PP
+Definition at line 163 of file InputDefinition.php.
+.SS "getOption ($name)"Returns an \fBInputOption\fP by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputOption\fP name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBInputOption\fP A \fBInputOption\fP object 
+.RE
+.PP
+
+.PP
+Definition at line 255 of file InputDefinition.php.
+.SS "getOptionDefaults ()"Gets an array of default values.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of all default values 
+.RE
+.PP
+
+.PP
+Definition at line 313 of file InputDefinition.php.
+.SS "getOptionForShortcut ($shortcut)"Gets an \fBInputOption\fP by shortcut.
+.PP
+\fBReturns:\fP
+.RS 4
+\fBInputOption\fP An \fBInputOption\fP object 
+.RE
+.PP
+
+.PP
+Definition at line 303 of file InputDefinition.php.
+.SS "getOptions ()"Gets the array of \fBInputOption\fP objects.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of \fBInputOption\fP objects 
+.RE
+.PP
+
+.PP
+Definition at line 281 of file InputDefinition.php.
+.SS "getSynopsis ()"Gets the synopsis.
+.PP
+\fBReturns:\fP
+.RS 4
+string The synopsis 
+.RE
+.PP
+
+.PP
+Definition at line 346 of file InputDefinition.php.
+.SS "hasArgument ($name)"Returns true if an \fBInputArgument\fP object exists by name or position.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputArgument\fP name or position
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the \fBInputArgument\fP object exists, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 151 of file InputDefinition.php.
+.SS "hasOption ($name)"Returns true if an \fBInputOption\fP object exists by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputOption\fP name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the \fBInputOption\fP object exists, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 271 of file InputDefinition.php.
+.SS "hasShortcut ($name)"Returns true if an \fBInputOption\fP object exists by shortcut.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputOption\fP shortcut
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the \fBInputOption\fP object exists, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 293 of file InputDefinition.php.
+.SS "setArguments ($arguments = \fCarray()\fP)"Sets the \fBInputArgument\fP objects.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$arguments\fP An array of \fBInputArgument\fP objects 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file InputDefinition.php.
+.SS "setOptions ($options = \fCarray()\fP)"Sets the \fBInputOption\fP objects.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$options\fP An array of \fBInputOption\fP objects 
+.RE
+.PP
+
+.PP
+Definition at line 208 of file InputDefinition.php.
+.SS "shortcutToName ($shortcut)\fC [protected]\fP"Returns the \fBInputOption\fP name given a shortcut.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$shortcut\fP The shortcut
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The \fBInputOption\fP name
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When option given does not exist 
+.RE
+.PP
+
+.PP
+Definition at line 332 of file InputDefinition.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

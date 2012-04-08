@@ -1,0 +1,14 @@
+property=common;environment=dev:
+
+  datamodel:
+    schemas:
+      - 'lib/components/mallocworks/DataModel/tests/schema.phpunit.yml'
+    
+  dataaccess:
+    mysql:
+      config:
+        host:     'localhost'
+        user:     'root'
+        password: ''
+        dbname:   'utopia3'
+        port:     3306

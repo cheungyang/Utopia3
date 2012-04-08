@@ -1,0 +1,192 @@
+.TH "Utopia::Components::Autoloader::Autoload" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Autoloader::Autoload \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBautoLoader\fP ($className)"
+.br
+.ti -1c
+.RI "\fBincludeNamespace\fP ($namespace, $directory, $depth=99)"
+.br
+.ti -1c
+.RI "\fBincludeNamespaces\fP (array $items)"
+.br
+.ti -1c
+.RI "\fBincludeComponentDependencies\fP ($classname)"
+.br
+.ti -1c
+.RI "\fBgetIncludedNamespaces\fP ()"
+.br
+.ti -1c
+.RI "\fBgetFilePathByClass\fP ($className)"
+.br
+.ti -1c
+.RI "\fBgetFilePath\fP ($filename, $fileType='php', $directories=array(), $forcesearch=false)"
+.br
+.ti -1c
+.RI "\fBgetNamespaceClasses\fP ($tgt_namespace, $forcesearch=false)"
+.br
+.ti -1c
+.RI "\fBgetNamespaceModtime\fP ($tgt_namespace, $forcesearch=false)"
+.br
+.ti -1c
+.RI "\fBgetNamespaceFiles\fP ($tgt_namespace)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file Autoload.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "autoLoader ($className)"autoload classes from classname
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$className\fP class name to be loaded
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 37 of file Autoload.php.
+.SS "getFilePath ($filename, $fileType = \fC'php'\fP, $directories = \fCarray()\fP, $forcesearch = \fCfalse\fP)"perform filename search
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$filename\fP string without extension 
+.br
+\fI$fileNameFormats\fP array('%s.php') 
+.br
+\fI$directories\fP array(array('dir', 'tracelevel')) 
+.br
+\fI$forcesearch\fP force search to be done
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string absolute filename if found; false if not found 
+.RE
+.PP
+
+.PP
+Definition at line 147 of file Autoload.php.
+.SS "getFilePathByClass ($className)"use registered namespaces to get included file
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$className\fP class name to include
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+false|string 
+.RE
+.PP
+
+.PP
+Definition at line 120 of file Autoload.php.
+.SS "getIncludedNamespaces ()"get includd namespaces
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 102 of file Autoload.php.
+.SS "getNamespaceClasses ($tgt_namespace, $forcesearch = \fCfalse\fP)"get class names of a selected namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$tgt_namespace\fP namespace name 
+.br
+\fI$forcesearch\fP ignore cache or not
+.br
+\fIarray\fP of class names 
+.RE
+.PP
+
+.PP
+Definition at line 200 of file Autoload.php.
+.SS "getNamespaceFiles ($tgt_namespace)"get all files information inside in a namespace for further processing
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$tgt_namespace\fP namespace name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 252 of file Autoload.php.
+.SS "getNamespaceModtime ($tgt_namespace, $forcesearch = \fCfalse\fP)"get the latest modified time for all classes in a namespace
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$tgt_namespace\fP namespace name 
+.br
+\fI$forcesearch\fP ignore cache
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+int linux timestamp 
+.RE
+.PP
+
+.PP
+Definition at line 228 of file Autoload.php.
+.SS "includeNamespace ($namespace, $directory, $depth = \fC99\fP)"including namespaces into autoload scope
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$namespace\fP 
+.br
+\fI$directory\fP 
+.br
+\fI$depth\fP how deep the autoloader look into
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIMallocworksException\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 69 of file Autoload.php.
+.SS "includeNamespaces (array $items)"handing an array of inclusion
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$items\fP array of namespaces:directories 
+.RE
+.PP
+
+.PP
+Definition at line 87 of file Autoload.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

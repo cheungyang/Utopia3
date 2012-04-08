@@ -1,0 +1,157 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output}{
+\section{StreamOutput Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output}\index{Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}}
+}
+Inheritance diagram for StreamOutput:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a959abad15338e0e09212fc15d8fbcba3}{\_\-\_\-construct} (\$stream, \$verbosity=self::VERBOSITY\_\-NORMAL, \$decorated=null)
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a3e5834ff3daeecd091712270886a16fb}{getStream} ()
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_ab7c4cdd27091c71fb685f223042a6d82}{doWrite} (\$message, \$newline)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a8e041c5c822c549689dd51c5419cfcf3}{hasColorSupport} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_aa658946a5d6cb700e35df1fc7854e7b3}{
+{\bfseries \$stream}}
+\label{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_aa658946a5d6cb700e35df1fc7854e7b3}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file StreamOutput.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a959abad15338e0e09212fc15d8fbcba3}{
+\index{Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{\$}]{stream, }
+\item[{\$}]{verbosity = {\ttfamily self::VERBOSITY\_\-NORMAL}, }
+\item[{\$}]{decorated = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a959abad15338e0e09212fc15d8fbcba3}
+Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$stream} & A stream resource \\
+\hline
+integer & {\em \$verbosity} & The verbosity level (self::VERBOSITY\_\-QUIET, self::VERBOSITY\_\-NORMAL, self::VERBOSITY\_\-VERBOSE) \\
+\hline
+Boolean & {\em \$decorated} & Whether to decorate messages or not (null for auto-\/guessing)\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When first argument is not a real stream \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 42 of file StreamOutput.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_ab7c4cdd27091c71fb685f223042a6d82}{
+\index{Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}!doWrite@{doWrite}}
+\index{doWrite@{doWrite}!Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}}
+\subsubsection[{doWrite}]{\setlength{\rightskip}{0pt plus 5cm}doWrite (
+\begin{DoxyParamCaption}
+\item[{\$}]{message, }
+\item[{\$}]{newline}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_ab7c4cdd27091c71fb685f223042a6d82}
+Writes a message to the output.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$message} & A message to write to the output \\
+\hline
+Boolean & {\em \$newline} & Whether to add a newline or not\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$RuntimeException} & When unable to write output (should never happen) \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented from \hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_output_ab7c4cdd27091c71fb685f223042a6d82}{Output}.
+
+
+
+Definition at line 75 of file StreamOutput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a3e5834ff3daeecd091712270886a16fb}{
+\index{Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}!getStream@{getStream}}
+\index{getStream@{getStream}!Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}}
+\subsubsection[{getStream}]{\setlength{\rightskip}{0pt plus 5cm}getStream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a3e5834ff3daeecd091712270886a16fb}
+Gets the stream attached to this \hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output}{StreamOutput} instance.
+
+\begin{DoxyReturn}{Returns}
+resource A stream resource 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file StreamOutput.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a8e041c5c822c549689dd51c5419cfcf3}{
+\index{Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}!hasColorSupport@{hasColorSupport}}
+\index{hasColorSupport@{hasColorSupport}!Symfony::Components::Console::Output::StreamOutput@{Symfony::Components::Console::Output::StreamOutput}}
+\subsubsection[{hasColorSupport}]{\setlength{\rightskip}{0pt plus 5cm}hasColorSupport (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_output_1_1_stream_output_a8e041c5c822c549689dd51c5419cfcf3}
+Returns true if the stream supports colorization.
+
+Colorization is disabled if not supported by the stream:
+
+
+\begin{DoxyItemize}
+\item windows without ansicon
+\item non tty consoles
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+Boolean true if the stream supports colorization, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 97 of file StreamOutput.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Output/StreamOutput.php\end{DoxyCompactItemize}

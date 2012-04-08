@@ -1,0 +1,81 @@
+.TH "Utopia::Components::DataParser::XmlParserEngine" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::DataParser::XmlParserEngine \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUtopia::Components::DataParser::IParserEngine\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetType\fP ()"
+.br
+.ti -1c
+.RI "\fBacceptExtract\fP ($input)"
+.br
+.ti -1c
+.RI "\fBacceptPack\fP ($data)"
+.br
+.ti -1c
+.RI "\fBextract\fP ($input, $args=array())"
+.br
+.ti -1c
+.RI "\fBpack\fP ($data)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file XmlParserEngine.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "acceptExtract ($input)"input can be file or data 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP 
+.RE
+.PP
+
+.PP
+Implements \fBIParserEngine\fP.
+.PP
+Definition at line 16 of file XmlParserEngine.php.
+.SS "acceptPack ($data)"data is persumably to be array 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP 
+.RE
+.PP
+
+.PP
+Implements \fBIParserEngine\fP.
+.PP
+Definition at line 38 of file XmlParserEngine.php.
+.SS "extract ($input, $args = \fCarray()\fP)"(non-PHPdoc) 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP 
+.br
+\fI$args\fP array('flatten'=>bool)
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+Components/mallocworks/DataParser/Utopia\\Components\\DataParser.IParserEngine::extract() 
+.RE
+.PP
+
+.PP
+Implements \fBIParserEngine\fP.
+.PP
+Definition at line 53 of file XmlParserEngine.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

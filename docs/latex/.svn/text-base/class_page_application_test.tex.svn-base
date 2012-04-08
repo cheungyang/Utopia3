@@ -1,0 +1,47 @@
+\hypertarget{class_page_application_test}{
+\section{PageApplicationTest Class Reference}
+\label{class_page_application_test}\index{PageApplicationTest@{PageApplicationTest}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_page_application_test_a89f1a3406961a29cfd7c274b062d92eb}{
+{\bfseries testService} ()}
+\label{class_page_application_test_a89f1a3406961a29cfd7c274b062d92eb}
+
+\item 
+\hypertarget{class_page_application_test_a4d16eb452835e8c1e2b8dec482a97809}{
+{\bfseries testRegisterpage} ()}
+\label{class_page_application_test_a4d16eb452835e8c1e2b8dec482a97809}
+
+\item 
+\hypertarget{class_page_application_test_a2e231b67ecc63e01d572bab067d7ca74}{
+{\bfseries testTemplates} ()}
+\label{class_page_application_test_a2e231b67ecc63e01d572bab067d7ca74}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_page_application_test_a0bc688732d2b3b162ffebaf7812e78da}{
+{\bfseries setUp} ()}
+\label{class_page_application_test_a0bc688732d2b3b162ffebaf7812e78da}
+
+\item 
+\hypertarget{class_page_application_test_a80fe3d17e658907fc75346a0ec9d6fc7}{
+{\bfseries tearDown} ()}
+\label{class_page_application_test_a80fe3d17e658907fc75346a0ec9d6fc7}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file PageApplicationTest.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/old/tests/PageApplicationTest.php\end{DoxyCompactItemize}

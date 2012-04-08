@@ -1,0 +1,203 @@
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper}{
+\section{UtilHelper Class Reference}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper}\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a73f74c2b520609b1b74972942f1406a7}{uuid} (\$engine=\char`\"{}random\char`\"{})
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a19b4eb8ac2ce0f8ecd30ab2a460a9b25}{generateId} (\$seed='')
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a6539ebb6a21fbd93451bbe596022ba05}{generateHash} (\$seed)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a842312778565a85a5db9129a05a1d33d}{camelize} (\$id)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_acf1af4791d9cec561cfb78986ad4b559}{underscore} (\$id)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_aa1d67a43aa10d596cf750c099d54b713}{serialize} (\$array)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a551df2ec312efca7928aada157fbec96}{unserialize} (\$str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file UtilHelper.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a842312778565a85a5db9129a05a1d33d}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!camelize@{camelize}}
+\index{camelize@{camelize}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{camelize}]{\setlength{\rightskip}{0pt plus 5cm}static camelize (
+\begin{DoxyParamCaption}
+\item[{\$}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a842312778565a85a5db9129a05a1d33d}
+camelize strings
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & string to H::obj()-\/$>$camelize\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file UtilHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a6539ebb6a21fbd93451bbe596022ba05}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!generateHash@{generateHash}}
+\index{generateHash@{generateHash}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{generateHash}]{\setlength{\rightskip}{0pt plus 5cm}static generateHash (
+\begin{DoxyParamCaption}
+\item[{\$}]{seed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a6539ebb6a21fbd93451bbe596022ba05}
+generate one-\/to-\/one hashkey
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$seed} & seed to generate hash\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file UtilHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a19b4eb8ac2ce0f8ecd30ab2a460a9b25}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!generateId@{generateId}}
+\index{generateId@{generateId}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{generateId}]{\setlength{\rightskip}{0pt plus 5cm}static generateId (
+\begin{DoxyParamCaption}
+\item[{\$}]{seed = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a19b4eb8ac2ce0f8ecd30ab2a460a9b25}
+generate rand id
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$seed} & seed to generate id\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 40 of file UtilHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_aa1d67a43aa10d596cf750c099d54b713}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!serialize@{serialize}}
+\index{serialize@{serialize}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}static serialize (
+\begin{DoxyParamCaption}
+\item[{\$}]{array}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_aa1d67a43aa10d596cf750c099d54b713}
+fetch web page content
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$url} & url\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void serialize array using json\_\-encode as it is faster
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$array} & array to serialize\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 183 of file UtilHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_acf1af4791d9cec561cfb78986ad4b559}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!underscore@{underscore}}
+\index{underscore@{underscore}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{underscore}]{\setlength{\rightskip}{0pt plus 5cm}static underscore (
+\begin{DoxyParamCaption}
+\item[{\$}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_acf1af4791d9cec561cfb78986ad4b559}
+trun camelized string to underscored string
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$id} & H::obj()-\/$>$camelized string\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file UtilHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a551df2ec312efca7928aada157fbec96}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!unserialize@{unserialize}}
+\index{unserialize@{unserialize}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{unserialize}]{\setlength{\rightskip}{0pt plus 5cm}static unserialize (
+\begin{DoxyParamCaption}
+\item[{\$}]{str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a551df2ec312efca7928aada157fbec96}
+serialize array using json\_\-encode as it is faster
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$array} & array to unserialize\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 196 of file UtilHelper.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a73f74c2b520609b1b74972942f1406a7}{
+\index{Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}!uuid@{uuid}}
+\index{uuid@{uuid}!Utopia::Components::Helper::UtilHelper@{Utopia::Components::Helper::UtilHelper}}
+\subsubsection[{uuid}]{\setlength{\rightskip}{0pt plus 5cm}uuid (
+\begin{DoxyParamCaption}
+\item[{\$}]{engine = {\ttfamily \char`\"{}random\char`\"{}}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_util_helper_a73f74c2b520609b1b74972942f1406a7}
+generate a random uuid by time
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 207 of file UtilHelper.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Helper/UtilHelper.php\end{DoxyCompactItemize}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="utopia3-components" default="build" basedir="../">
+ <property name="source" value="${basedir}/lib/components/mallocworks/${name.component}"/>
+
+ <target name="clean"
+         description="Clean up and create artifact directories">
+  <delete dir="${basedir}/build/${name.component}/api"/>
+  <delete dir="${basedir}/build/${name.component}/code-browser"/>
+  <delete dir="${basedir}/build/${name.component}/coverage"/>
+  <delete dir="${basedir}/build/${name.component}/logs"/>
+  <delete dir="${basedir}/build/${name.component}/pdepend"/>
+
+  <mkdir dir="${basedir}/build/${name.component}/api"/>
+  <mkdir dir="${basedir}/build/${name.component}/code-browser"/>
+  <mkdir dir="${basedir}/build/${name.component}/coverage"/>
+  <mkdir dir="${basedir}/build/${name.component}/logs"/>
+  <mkdir dir="${basedir}/build/${name.component}/pdepend"/>
+ </target>
+
+ <target name="phpunit"
+         description="Run unit tests using PHPUnit and generates junit.xml and clover.xml">
+  <exec dir="${basedir}" executable="phpunit" failonerror="true">
+    <arg value="--log-junit=${basedir}/build/${name.component}/logs/junit.xml" />
+    <arg value="--coverage-html=${basedir}/build/${name.component}/coverage/" />
+    <arg value="--coverage-clover=${basedir}/build/${name.component}/logs/clover.xml" />
+    <arg value="--syntax-check" />
+    <arg value="--testdox" />
+    <arg line="${source}"/>
+  </exec>
+ </target>
+
+<!--
+ <target name="parallelTasks"
+         description="Run the pdepend, phpmd, phpcpd, phpcs, phpdoc and phploc tasks in parallel using a maximum of 2 threads.">
+  <parallel threadCount="2">
+   <sequential>
+    <antcall target="pdepend"/>
+    <antcall target="phpmd"/>
+   </sequential>
+   <antcall target="phpcpd"/>
+   <antcall target="phpcs"/>
+   <antcall target="phpdoc"/>
+   <antcall target="phploc"/>
+  </parallel>
+ </target>
+-->
+
+ <target name="pdepend"
+         description="Generate jdepend.xml and software metrics charts using PHP_Depend">
+  <exec executable="pdepend">
+   <arg value="--jdepend-xml=${basedir}/build/${name.component}/logs/jdepend.xml" />
+   <arg value="--jdepend-chart=${basedir}/build/${name.component}/pdepend/dependencies.svg" />
+   <arg value="--overview-pyramid=${basedir}/build/${name.component}/pdepend/overview-pyramid.svg" />
+   <arg path="${source}" />
+  </exec>
+ </target>
+
+ <target name="phpmd"
+         description="Generate pmd.xml using PHPMD">
+  <exec executable="phpmd">
+   <arg path="${source}" />
+   <arg value="xml" />
+   <arg value="codesize,unusedcode,naming" />
+   <!--<arg value="${basedir}/build/${name.component}/phpmd.xml" />-->
+   <arg value="--reportfile" />
+   <arg value="${basedir}/build/${name.component}/logs/pmd.xml" />
+  </exec>
+ </target>
+
+ <target name="phpcpd"
+         description="Generate pmd-cpd.xml using PHPCPD">
+  <exec executable="phpcpd">
+   <arg value="--log-pmd" />
+   <arg value="${basedir}/build/${name.component}/logs/pmd-cpd.xml" />
+   <arg path="${source}" />
+  </exec>
+ </target>
+
+ <target name="phploc"
+         description="Generate phploc.csv">
+  <exec executable="phploc">
+   <arg value="--log-csv" />
+   <arg value="${basedir}/build/${name.component}/logs/phploc.csv" />
+   <arg path="${source}" />
+  </exec>
+ </target>
+
+ <target name="phpcs"
+         description="Generate checkstyle.xml using PHP_CodeSniffer">
+  <exec executable="phpcs" output="/dev/null">
+   <arg value="--report=checkstyle" />
+   <arg value="--report-file=${basedir}/build/${name.component}/logs/checkstyle.xml" />
+   <!--<arg value="standard=${basedir}/build/${name.component}/phpcs.xml" />-->
+   <arg value="--standard=PEAR"/>
+   <arg path="${source}" />
+  </exec>
+ </target>
+
+ <target name="phpdoc"
+         description="Generate API documentation using PHPDocumentor">
+  <exec executable="phpdoc">
+   <arg value="--directory" />
+   <arg path="${source}" />
+   <arg value="--target" />
+   <arg path="${basedir}/build/${name.component}/api" />
+  </exec>
+ </target>
+
+ <target name="phpcb"
+         description="Aggregate tool output with PHP_CodeBrowser">
+  <exec executable="phpcb">
+   <arg value="--log" />
+   <arg path="${basedir}/build/${name.component}/logs" />
+   <arg value="--source" />
+   <arg path="${source}" />
+   <arg value="--output" />
+   <arg path="${basedir}/build/${name.component}/code-browser" />
+  </exec>
+ </target>
+
+ <target name="build" depends="clean,phpcs,phpunit,phpcb"/>
+ <target name="secondary" depends="clean,pdepend,phpmd,phpcpd,phpcs,phpdoc,phploc,phpunit,phpcb"/>
+</project>
+

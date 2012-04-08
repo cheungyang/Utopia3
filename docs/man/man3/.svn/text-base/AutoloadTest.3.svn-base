@@ -1,0 +1,41 @@
+.TH "AutoloadTest" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AutoloadTest \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBtestBasic\fP ()"
+.br
+.ti -1c
+.RI "\fBtestPhp53\fP ()"
+.br
+.ti -1c
+.RI "\fBtestNamespace\fP ()"
+.br
+.ti -1c
+.RI "\fBtestGetNamespaceModtime\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsetUp\fP ()"
+.br
+.ti -1c
+.RI "\fBtearDown\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file AutoloadTest.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,16 @@
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_model_exception}{
+\section{ModelException Class Reference}
+\label{class_utopia_1_1_components_1_1_model_1_1_model_exception}\index{Utopia::Components::Model::ModelException@{Utopia::Components::Model::ModelException}}
+}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file ModelException.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/ModelException.php\end{DoxyCompactItemize}

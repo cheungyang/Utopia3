@@ -1,0 +1,298 @@
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template}{
+\section{Template Class Reference}
+\label{class_utopia_1_1_components_1_1_template_1_1_template}\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_a340e2fe39427e16d9b82e6e0c0cce2b8}{\_\-\_\-construct} (ServiceContainer \$sc, \hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload}{Autoload} \$autoload)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a9b1082bfeac59bc142f7683c069f9f9c}{
+{\bfseries setEngineConfigs} (array \$configs)}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a9b1082bfeac59bc142f7683c069f9f9c}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_a6e1742dd7a4a55976be2be324810318e}{setEngineConfig} (\$enginename, array \$config)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_aefaf29c0b98c33e9d9b88c84e2d3043f}{setRenderEngine} (\$engineName)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_a02ea9cdd85caf487b749b41a2f4f3d02}{setApplication} (\$app)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_a73aeb9f2e3ab69962bbd64ea9ee2c840}{setTemplate} (\$template)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_ab1ca887f4205d276edee20ec4dd19a08}{render} (array \$array=array(), \$jscss=true)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_af785b211e93f2b8a6ab84988b3064c7e}{renderSmarty} (array \$array=array(), \$jscss)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_adbfe2fd64010cc3966dac5d44418bd36}{renderPhp} (array \$array=array(), \$jscss)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_a940494d781ef7c3c39bea1ee1d8654d8}{setCacheEnabled} (\$flag)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_template_1_1_template_a5b15ec23f987d399c0e26f321917eeee}{displayVariable} (\$var, \$d=null)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a5482c8bd14f7e5ffa394a30a0ae45a70}{
+{\bfseries \$sc}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a5482c8bd14f7e5ffa394a30a0ae45a70}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a9efb4b2d7105a707e0fab1ba3330c8b9}{
+{\bfseries \$autoload}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a9efb4b2d7105a707e0fab1ba3330c8b9}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a40cdf845686368caa52370aee3698eb0}{
+static {\bfseries \$CACHE\_\-ENABLED} = false}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a40cdf845686368caa52370aee3698eb0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file Template.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a340e2fe39427e16d9b82e6e0c0cce2b8}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{ServiceContainer \$}]{sc, }
+\item[{{\bf Autoload} \$}]{autoload}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a340e2fe39427e16d9b82e6e0c0cce2b8}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+ServiceContainer & {\em \$sc} & \\
+\hline
+Autoload & {\em \$autoload} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 48 of file Template.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a5b15ec23f987d399c0e26f321917eeee}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!displayVariable@{displayVariable}}
+\index{displayVariable@{displayVariable}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{displayVariable}]{\setlength{\rightskip}{0pt plus 5cm}displayVariable (
+\begin{DoxyParamCaption}
+\item[{\$}]{var, }
+\item[{\$}]{d = {\ttfamily null}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a5b15ec23f987d399c0e26f321917eeee}
+display variables depends on what it is used inside individual templates, ie \{\{\$d-\/$>$xxx\}\} TODO: use this to handle translation as well
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$var} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 276 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_ab1ca887f4205d276edee20ec4dd19a08}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!render@{render}}
+\index{render@{render}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}render (
+\begin{DoxyParamCaption}
+\item[{array \$}]{array = {\ttfamily array()}, }
+\item[{\$}]{jscss = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_ab1ca887f4205d276edee20ec4dd19a08}
+perform rendering by supplying array
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$array} & \\
+\hline
+{\em \$jscss} & whether to render js/css \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 115 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_adbfe2fd64010cc3966dac5d44418bd36}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!renderPhp@{renderPhp}}
+\index{renderPhp@{renderPhp}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{renderPhp}]{\setlength{\rightskip}{0pt plus 5cm}renderPhp (
+\begin{DoxyParamCaption}
+\item[{array \$}]{array = {\ttfamily array()}, }
+\item[{\$}]{jscss}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_adbfe2fd64010cc3966dac5d44418bd36}
+render pages using native php
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$array} & inputs \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 172 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_af785b211e93f2b8a6ab84988b3064c7e}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!renderSmarty@{renderSmarty}}
+\index{renderSmarty@{renderSmarty}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{renderSmarty}]{\setlength{\rightskip}{0pt plus 5cm}renderSmarty (
+\begin{DoxyParamCaption}
+\item[{array \$}]{array = {\ttfamily array()}, }
+\item[{\$}]{jscss}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_af785b211e93f2b8a6ab84988b3064c7e}
+render pages using smarty template engine
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$array} & inputs \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 130 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a02ea9cdd85caf487b749b41a2f4f3d02}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!setApplication@{setApplication}}
+\index{setApplication@{setApplication}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{setApplication}]{\setlength{\rightskip}{0pt plus 5cm}setApplication (
+\begin{DoxyParamCaption}
+\item[{\$}]{app}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a02ea9cdd85caf487b749b41a2f4f3d02}
+setup application object for parameter parsing
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$app} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a940494d781ef7c3c39bea1ee1d8654d8}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!setCacheEnabled@{setCacheEnabled}}
+\index{setCacheEnabled@{setCacheEnabled}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{setCacheEnabled}]{\setlength{\rightskip}{0pt plus 5cm}static setCacheEnabled (
+\begin{DoxyParamCaption}
+\item[{\$}]{flag}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a940494d781ef7c3c39bea1ee1d8654d8}
+set where the cache file locates
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$dir} & set where the cache file locates\\
+\hline
+string & {\em \$dir} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a6e1742dd7a4a55976be2be324810318e}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!setEngineConfig@{setEngineConfig}}
+\index{setEngineConfig@{setEngineConfig}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{setEngineConfig}]{\setlength{\rightskip}{0pt plus 5cm}setEngineConfig (
+\begin{DoxyParamCaption}
+\item[{\$}]{enginename, }
+\item[{array \$}]{config}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a6e1742dd7a4a55976be2be324810318e}
+for dependency injection to insert configuration parameters
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$config} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 67 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_aefaf29c0b98c33e9d9b88c84e2d3043f}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!setRenderEngine@{setRenderEngine}}
+\index{setRenderEngine@{setRenderEngine}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{setRenderEngine}]{\setlength{\rightskip}{0pt plus 5cm}setRenderEngine (
+\begin{DoxyParamCaption}
+\item[{\$}]{engineName}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_aefaf29c0b98c33e9d9b88c84e2d3043f}
+set rendering engine name ('php', 'smarty')
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$engineName} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 80 of file Template.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_template_1_1_template_a73aeb9f2e3ab69962bbd64ea9ee2c840}{
+\index{Utopia::Components::Template::Template@{Utopia::Components::Template::Template}!setTemplate@{setTemplate}}
+\index{setTemplate@{setTemplate}!Utopia::Components::Template::Template@{Utopia::Components::Template::Template}}
+\subsubsection[{setTemplate}]{\setlength{\rightskip}{0pt plus 5cm}setTemplate (
+\begin{DoxyParamCaption}
+\item[{\$}]{template}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_template_1_1_template_a73aeb9f2e3ab69962bbd64ea9ee2c840}
+set template file/string for display
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$template} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this; 
+\end{DoxyReturn}
+
+
+Definition at line 104 of file Template.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Template/Template.php\end{DoxyCompactItemize}

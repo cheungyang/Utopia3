@@ -1,0 +1,27 @@
+.TH "Utopia::Components::Filter::DatetimeFilter" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Filter::DatetimeFilter \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUtopia::Components::Filter::IFilter\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBexecute\fP ($input, $params=array())"
+.br
+.ti -1c
+.RI "\fBgetData\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file DatetimeFilter.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

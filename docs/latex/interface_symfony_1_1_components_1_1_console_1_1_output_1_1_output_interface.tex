@@ -1,0 +1,105 @@
+\hypertarget{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}{
+\section{OutputInterface Interface Reference}
+\label{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}\index{Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}}
+}
+Inheritance diagram for OutputInterface:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_ae166cb9da545ba8a4d0c74ad02e6e7da}{write} (\$messages, \$newline=false, \$type=0)
+\item 
+\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_a8301c9b79b5f31943343c81ce7a221e8}{setVerbosity} (\$level)
+\item 
+\hyperlink{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_a2c6812e1983f0d47511390f5c2daf1ee}{setDecorated} (\$decorated)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 21 of file OutputInterface.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_a2c6812e1983f0d47511390f5c2daf1ee}{
+\index{Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}!setDecorated@{setDecorated}}
+\index{setDecorated@{setDecorated}!Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}}
+\subsubsection[{setDecorated}]{\setlength{\rightskip}{0pt plus 5cm}setDecorated (
+\begin{DoxyParamCaption}
+\item[{\$}]{decorated}
+\end{DoxyParamCaption}
+)}}
+\label{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_a2c6812e1983f0d47511390f5c2daf1ee}
+Sets the decorated flag.
+
+
+\begin{DoxyParams}[1]{Parameters}
+Boolean & {\em \$decorated} & Whether to decorated the messages or not \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_output_a2c6812e1983f0d47511390f5c2daf1ee}{Output}.
+
+\hypertarget{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_a8301c9b79b5f31943343c81ce7a221e8}{
+\index{Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}!setVerbosity@{setVerbosity}}
+\index{setVerbosity@{setVerbosity}!Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}}
+\subsubsection[{setVerbosity}]{\setlength{\rightskip}{0pt plus 5cm}setVerbosity (
+\begin{DoxyParamCaption}
+\item[{\$}]{level}
+\end{DoxyParamCaption}
+)}}
+\label{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_a8301c9b79b5f31943343c81ce7a221e8}
+Sets the verbosity of the output.
+
+
+\begin{DoxyParams}[1]{Parameters}
+integer & {\em \$level} & The level of verbosity \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_output_a8301c9b79b5f31943343c81ce7a221e8}{Output}.
+
+\hypertarget{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_ae166cb9da545ba8a4d0c74ad02e6e7da}{
+\index{Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}!write@{write}}
+\index{write@{write}!Symfony::Components::Console::Output::OutputInterface@{Symfony::Components::Console::Output::OutputInterface}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}write (
+\begin{DoxyParamCaption}
+\item[{\$}]{messages, }
+\item[{\$}]{newline = {\ttfamily false}, }
+\item[{\$}]{type = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}
+\label{interface_symfony_1_1_components_1_1_console_1_1_output_1_1_output_interface_ae166cb9da545ba8a4d0c74ad02e6e7da}
+Writes a message to the output.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$messages} & The message as an array of lines of a single string \\
+\hline
+Boolean & {\em \$newline} & Whether to add a newline or not \\
+\hline
+integer & {\em \$type} & The type of output\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When unknown output type is given \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \hyperlink{class_symfony_1_1_components_1_1_console_1_1_output_1_1_output_ae166cb9da545ba8a4d0c74ad02e6e7da}{Output}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Output/OutputInterface.php\end{DoxyCompactItemize}

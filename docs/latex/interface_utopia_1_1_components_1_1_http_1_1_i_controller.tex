@@ -1,0 +1,115 @@
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_controller}{
+\section{IController Interface Reference}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_controller}\index{Utopia::Components::Http::IController@{Utopia::Components::Http::IController}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_controller_ab21384ad1f3d3af286fca906ed5554d8}{acceptUrl} (\$url)
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_controller_a5e6e69f517ddb41187148f436521866b}{registerExternalities} (\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application}{ApiApplication} \$api)
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_controller_af59e2513c0e9763b8683c54f7b9b5265}{doExecute} (\hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application}{ApiApplication} \$api)
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_controller_aca79714577dd629e374906ebafa5aa76}{getReturnValues} ()
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_controller_ab9b7e4f6f5350243d8f6b9b9b21c8c8e}{getInputValues} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file IController.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_controller_ab21384ad1f3d3af286fca906ed5554d8}{
+\index{Utopia::Components::Http::IController@{Utopia::Components::Http::IController}!acceptUrl@{acceptUrl}}
+\index{acceptUrl@{acceptUrl}!Utopia::Components::Http::IController@{Utopia::Components::Http::IController}}
+\subsubsection[{acceptUrl}]{\setlength{\rightskip}{0pt plus 5cm}acceptUrl (
+\begin{DoxyParamCaption}
+\item[{\$}]{url}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_controller_ab21384ad1f3d3af286fca906ed5554d8}
+set \$event-\/$>$setReturnValue(\$this); and return true when the url can the processed in this controller 
+\begin{DoxyParams}{Parameters}
+{\em \$event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_controller_af59e2513c0e9763b8683c54f7b9b5265}{
+\index{Utopia::Components::Http::IController@{Utopia::Components::Http::IController}!doExecute@{doExecute}}
+\index{doExecute@{doExecute}!Utopia::Components::Http::IController@{Utopia::Components::Http::IController}}
+\subsubsection[{doExecute}]{\setlength{\rightskip}{0pt plus 5cm}doExecute (
+\begin{DoxyParamCaption}
+\item[{{\bf ApiApplication} \$}]{api}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_controller_af59e2513c0e9763b8683c54f7b9b5265}
+main execution function
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$api} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$exitcode 
+\end{DoxyReturn}
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_controller_ab9b7e4f6f5350243d8f6b9b9b21c8c8e}{
+\index{Utopia::Components::Http::IController@{Utopia::Components::Http::IController}!getInputValues@{getInputValues}}
+\index{getInputValues@{getInputValues}!Utopia::Components::Http::IController@{Utopia::Components::Http::IController}}
+\subsubsection[{getInputValues}]{\setlength{\rightskip}{0pt plus 5cm}getInputValues (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_controller_ab9b7e4f6f5350243d8f6b9b9b21c8c8e}
+return processed input values
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_controller_aca79714577dd629e374906ebafa5aa76}{
+\index{Utopia::Components::Http::IController@{Utopia::Components::Http::IController}!getReturnValues@{getReturnValues}}
+\index{getReturnValues@{getReturnValues}!Utopia::Components::Http::IController@{Utopia::Components::Http::IController}}
+\subsubsection[{getReturnValues}]{\setlength{\rightskip}{0pt plus 5cm}getReturnValues (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_controller_aca79714577dd629e374906ebafa5aa76}
+return array output
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_controller_a5e6e69f517ddb41187148f436521866b}{
+\index{Utopia::Components::Http::IController@{Utopia::Components::Http::IController}!registerExternalities@{registerExternalities}}
+\index{registerExternalities@{registerExternalities}!Utopia::Components::Http::IController@{Utopia::Components::Http::IController}}
+\subsubsection[{registerExternalities}]{\setlength{\rightskip}{0pt plus 5cm}registerExternalities (
+\begin{DoxyParamCaption}
+\item[{{\bf ApiApplication} \$}]{api}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_controller_a5e6e69f517ddb41187148f436521866b}
+This will be triggered when this controller accepts a url, where required apis/modules will be create and registered in the AppApplication/ModuleApplication/PageApplication
+
+
+\begin{DoxyParams}[1]{Parameters}
+AppApplication & {\em \$api} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/old/IController.php\end{DoxyCompactItemize}

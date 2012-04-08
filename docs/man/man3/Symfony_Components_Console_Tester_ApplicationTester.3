@@ -1,0 +1,110 @@
+.TH "Symfony::Components::Console::Tester::ApplicationTester" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Tester::ApplicationTester \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (Application $application)"
+.br
+.ti -1c
+.RI "\fBrun\fP (array $input, $options=array())"
+.br
+.ti -1c
+.RI "\fBgetDisplay\fP ()"
+.br
+.ti -1c
+.RI "\fBgetInput\fP ()"
+.br
+.ti -1c
+.RI "\fBgetOutput\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$application\fP"
+.br
+.ti -1c
+.RI "\fB$display\fP"
+.br
+.ti -1c
+.RI "\fB$input\fP"
+.br
+.ti -1c
+.RI "\fB$output\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 23 of file ApplicationTester.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (Application $application)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$application\fP A Application instance to test. 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file ApplicationTester.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "getDisplay ()"Gets the display returned by the last execution of the application.
+.PP
+\fBReturns:\fP
+.RS 4
+string The display 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file ApplicationTester.php.
+.SS "getInput ()"Gets the input instance used by the last execution of the application.
+.PP
+\fBReturns:\fP
+.RS 4
+InputInterface The current input instance 
+.RE
+.PP
+
+.PP
+Definition at line 89 of file ApplicationTester.php.
+.SS "getOutput ()"Gets the output instance used by the last execution of the application.
+.PP
+\fBReturns:\fP
+.RS 4
+OutputInterface The current output instance 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file ApplicationTester.php.
+.SS "run (array $input, $options = \fCarray()\fP)"Executes the application.
+.PP
+Available options:
+.PP
+* interactive: Sets the input interactive flag * decorated: Sets the output decorated flag * verbosity: Sets the output verbosity flag
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP An array of arguments and options 
+.br
+\fI$options\fP An array of options 
+.RE
+.PP
+
+.PP
+Definition at line 52 of file ApplicationTester.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

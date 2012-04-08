@@ -1,0 +1,15 @@
+property=common;environment=phpunit:
+  logger:
+    prints:
+      - {level: 999, color: 'off', 'classes': ''}    
+      
+  classdispatcher:
+    routes:
+      - 'apps/common/deltas/routes.common.yml'     
+      
+      
+property=common;environment=dev:
+      
+  classdispatcher:
+    routes:
+      - 'apps/common/deltas/routes.common.yml'     

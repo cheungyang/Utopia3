@@ -1,0 +1,77 @@
+property=ctr_viewer;environment=dev:
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\CtrViewer', 'apps/ctr_viewer', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/ctr_viewer/deltas/routes.ctr_viewer.yml'
+      - 'apps/common/deltas/routes.common.yml'     
+
+  logger:
+    responses:
+      - {level: 10}      
+    prints:
+      - {level: 999, color: 'off', 'classes': ''} 
+      
+
+      
+property=ctr_viewer;environment=phpunit:
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\CtrViewer', 'apps/ctr_viewer', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/ctr_viewer/deltas/routes.ctr_viewer.yml'
+      - 'apps/common/deltas/routes.common.yml'     
+
+
+      
+property=ctr_viewer;environment=stage:
+  generic:
+    hostname: 'http://kindriver.tpcity.corp.yahoo.com:81/u3'
+
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\CtrViewer', 'apps/ctr_viewer', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/ctr_viewer/deltas/routes.ctr_viewer.yml'
+      - 'apps/common/deltas/routes.common.yml'     
+
+  cache:
+    generic: {enable: 1, engine_class: 'Utopia\Components\Cache\FileCache'}
+    file:    {filename: '/tmp/utopia3_ctr_viewer_web.cache'}
+                  
+  logger:
+    responses:
+      - {level: 10}      
+    prints:
+      - {level: 999, color: 'off', 'classes': ''}
+
+
+      
+property=ctr_viewer;environment=prod:
+  generic:
+    hostname: 'http://175.41.131.233:9999/utopia3'
+    
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\CtrViewer', 'apps/ctr_viewer', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/ctr_viewer/deltas/routes.ctr_viewer.yml'
+      - 'apps/common/deltas/routes.common.yml'
+           
+  cache:
+    generic: {enable: 1, engine_class: 'Utopia\Components\Cache\FileCache'}
+    file:    {filename: '/tmp/utopia3_ctr_viewer_web.cache'}
+                  
+  logger:
+    responses:
+      - {level: 10}      
+    prints:
+      - {level: 999, color: 'off', 'classes': ''}

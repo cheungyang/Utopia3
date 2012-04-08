@@ -1,0 +1,512 @@
+.TH "Utopia::Components::Core::DataObject" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Core::DataObject \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (array $data=array())"
+.br
+.ti -1c
+.RI "\fB__set\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fB__get\fP ($name)"
+.br
+.ti -1c
+.RI "\fB__isset\fP ($name)"
+.br
+.ti -1c
+.RI "\fBset\fP ($name, $value, $overwrite=true)"
+.br
+.ti -1c
+.RI "\fBget\fP ($name, $default=null)"
+.br
+.ti -1c
+.RI "\fBkeys\fP ($name)"
+.br
+.ti -1c
+.RI "\fBcount\fP ($name)"
+.br
+.ti -1c
+.RI "\fBln\fP ($name, $replace)"
+.br
+.ti -1c
+.RI "\fBdelln\fP ($symlink)"
+.br
+.ti -1c
+.RI "\fBpr\fP ($name='')"
+.br
+.ti -1c
+.RI "\fBdel\fP ($name)"
+.br
+.ti -1c
+.RI "\fBinsert\fP ($name, $value, $position)"
+.br
+.ti -1c
+.RI "\fBmerge\fP ($name, $array)"
+.br
+.ti -1c
+.RI "\fBexists\fP ($name)"
+.br
+.ti -1c
+.RI "\fBisempty\fP ($name)"
+.br
+.ti -1c
+.RI "\fBpush\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBpop\fP ($name)"
+.br
+.ti -1c
+.RI "\fBunshift\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBshift\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetRangeValues\fP ($name, $from, $to)"
+.br
+.ti -1c
+.RI "\fBgetRangeKeys\fP ($name, $from, $to)"
+.br
+.ti -1c
+.RI "\fBdelRange\fP ($name, $from, $to=-1)"
+.br
+.ti -1c
+.RI "\fBsetPointer\fP ($name)"
+.br
+.ti -1c
+.RI "\fBdelPointer\fP ($name)"
+.br
+.ti -1c
+.RI "\fBcurrent\fP ()"
+.br
+.ti -1c
+.RI "\fBkey\fP ()"
+.br
+.ti -1c
+.RI "\fBnext\fP ()"
+.br
+.ti -1c
+.RI "\fBrewind\fP ()"
+.br
+.ti -1c
+.RI "\fBvalid\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file DataObject.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (array $data = \fCarray()\fP)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP dataobject name for caching 
+.br
+\fI$data\fP initial data 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file DataObject.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "count ($name)"get counts of an array
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C'
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+integer 
+.RE
+.PP
+
+.PP
+Definition at line 168 of file DataObject.php.
+.SS "current ()"(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+Iterator::current() 
+.RE
+.PP
+
+.PP
+Definition at line 493 of file DataObject.php.
+.SS "del ($name)"unset variables
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C'
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 222 of file DataObject.php.
+.SS "delln ($symlink)"remove symlink
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$symlink\fP name of symlink
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 193 of file DataObject.php.
+.SS "delPointer ($name)"remove the current key to focus on
+.PP
+\fBParameters:\fP
+.RS 4
+\fIthis\fP 
+.RE
+.PP
+
+.PP
+Definition at line 483 of file DataObject.php.
+.SS "delRange ($name, $from, $to = \fC-1\fP)"remove item of a range of the key
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push 
+.br
+\fI$from\fP from index 
+.br
+\fI$to\fP to index
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 446 of file DataObject.php.
+.SS "exists ($name)"check if a key exists
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to check
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 296 of file DataObject.php.
+.SS "get ($name, $default = \fCnull\fP)"get variables
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C' 
+.br
+\fI$default\fP default value
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Definition at line 127 of file DataObject.php.
+.SS "getRangeKeys ($name, $from, $to)"get the keys of a selection range
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push 
+.br
+\fI$from\fP from index 
+.br
+\fI$to\fP to index
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 430 of file DataObject.php.
+.SS "getRangeValues ($name, $from, $to)"get a selection range of a key
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push 
+.br
+\fI$from\fP from index 
+.br
+\fI$to\fP to index
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 412 of file DataObject.php.
+.SS "insert ($name, $value, $position)"insert a data in the middle of an array
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C' 
+.br
+\fI$value\fP data to insert 
+.br
+\fI$position\fP where the data be inserted
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 250 of file DataObject.php.
+.SS "isempty ($name)"check if a key is empty
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to check
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool 
+.RE
+.PP
+
+.PP
+Definition at line 307 of file DataObject.php.
+.SS "key ()"(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+Iterator::key() 
+.RE
+.PP
+
+.PP
+Definition at line 503 of file DataObject.php.
+.SS "keys ($name)"get keys of an array
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C'
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file DataObject.php.
+.SS "ln ($name, $replace)"add symlink
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C' 
+.br
+\fI$replace\fP name to replace
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 181 of file DataObject.php.
+.SS "merge ($name, $array)"merge an array to destination
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C' 
+.br
+\fI$value\fP data to insert 
+.br
+\fI$position\fP where the data be inserted
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 272 of file DataObject.php.
+.SS "next ()"(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+Iterator::next() 
+.RE
+.PP
+
+.PP
+Definition at line 513 of file DataObject.php.
+.SS "pop ($name)"pop a value from a key holder
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Definition at line 343 of file DataObject.php.
+.SS "pr ($name = \fC''\fP)"nice outputing
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C'
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 207 of file DataObject.php.
+.SS "push ($name, $value)"push a value into a key holder
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push 
+.br
+\fI$value\fP value to push
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 320 of file DataObject.php.
+.SS "rewind ()"(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+Iterator::rewind() 
+.RE
+.PP
+
+.PP
+Definition at line 522 of file DataObject.php.
+.SS "set ($name, $value, $overwrite = \fCtrue\fP)"set variables if value is null, $name is the full array to insert
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP params name 'A>B>C' 
+.br
+\fI$value\fP default value 
+.br
+\fI$overwrite\fP if overwrite if exist
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+AbstractData 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file DataObject.php.
+.SS "setPointer ($name)"set the current key to focus on
+.PP
+\fBParameters:\fP
+.RS 4
+\fIthis\fP 
+.RE
+.PP
+
+.PP
+Definition at line 473 of file DataObject.php.
+.SS "shift ($name)"shift a value into a key holder
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Definition at line 389 of file DataObject.php.
+.SS "unshift ($name, $value)"unshift a value into a key holder
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP key to push 
+.br
+\fI$value\fP value to push
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+this 
+.RE
+.PP
+
+.PP
+Definition at line 365 of file DataObject.php.
+.SS "valid ()"(non-PHPdoc) 
+.PP
+\fBSee also:\fP
+.RS 4
+Iterator::valid() 
+.RE
+.PP
+
+.PP
+Definition at line 531 of file DataObject.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

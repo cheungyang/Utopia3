@@ -1,0 +1,536 @@
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline}{
+\section{Inline Class Reference}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline}\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a2b63bee7aa8c67d20c14ff9ba4de63a2}{load} (\$value)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a8ef997303a6826dd4a87fff9c13b5d1d}{dump} (\$value)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_abf37f1e7c74d7a0ed52e64c25da8e454}{parseScalar} (\$scalar, \$delimiters=null, \$stringDelimiters=array('\char`\"{}', \char`\"{}'\char`\"{}), \&\$i = 0, \$evaluate = true) 
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a2b63bee7aa8c67d20c14ff9ba4de63a2}{load} (\$value)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a8ef997303a6826dd4a87fff9c13b5d1d}{dump} (\$value)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_abf37f1e7c74d7a0ed52e64c25da8e454}{parseScalar} (\$scalar, \$delimiters=null, \$stringDelimiters=array('\char`\"{}', \char`\"{}'\char`\"{}), \&\$i = 0, \$evaluate = true) 
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a87b5c4996630ab02b80f5abece2c2fe0}{
+const {\bfseries REGEX\_\-QUOTED\_\-STRING} = '(?:\char`\"{}(\mbox{[}$^\wedge$\char`\"{}$\backslash$$\backslash$$\backslash$$\backslash$\mbox{]}$\ast$(?:$\backslash$$\backslash$$\backslash$$\backslash$.\mbox{[}$^\wedge$\char`\"{}$\backslash$$\backslash$$\backslash$$\backslash$\mbox{]}$\ast$)$\ast$)\char`\"{}$|$$\backslash$'(\mbox{[}$^\wedge$$\backslash$'\mbox{]}$\ast$(?:$\backslash$'$\backslash$'\mbox{[}$^\wedge$$\backslash$'\mbox{]}$\ast$)$\ast$)$\backslash$')'}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a87b5c4996630ab02b80f5abece2c2fe0}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a14a553e044884f70a2f8fbbd4f2d21ac}{dumpArray} (\$value)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a217fb6f105d374552ebb185da7e13fc6}{parseQuotedScalar} (\$scalar, \&\$i)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a841085bbaa638bd7c47b77bd167d47bc}{parseSequence} (\$sequence, \&\$i=0)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a75c88cc2a3f4c2cf7f23330baa0d0a9f}{parseMapping} (\$mapping, \&\$i=0)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a65675de8bf326ce4d0f1833119db3bd5}{evaluateScalar} (\$scalar)
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a1d4101aacfa859fd673067059e704239}{
+static {\bfseries getTimestampRegex} ()}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a1d4101aacfa859fd673067059e704239}
+
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a14a553e044884f70a2f8fbbd4f2d21ac}{dumpArray} (\$value)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a217fb6f105d374552ebb185da7e13fc6}{parseQuotedScalar} (\$scalar, \&\$i)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a841085bbaa638bd7c47b77bd167d47bc}{parseSequence} (\$sequence, \&\$i=0)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a75c88cc2a3f4c2cf7f23330baa0d0a9f}{parseMapping} (\$mapping, \&\$i=0)
+\item 
+static \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_inline_a65675de8bf326ce4d0f1833119db3bd5}{evaluateScalar} (\$scalar)
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a1d4101aacfa859fd673067059e704239}{
+static {\bfseries getTimestampRegex} ()}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a1d4101aacfa859fd673067059e704239}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 20 of file Inline.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a8ef997303a6826dd4a87fff9c13b5d1d}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!dump@{dump}}
+\index{dump@{dump}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}static dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a8ef997303a6826dd4a87fff9c13b5d1d}
+Dumps a given PHP variable to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & The PHP variable to convert\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The YAML string representing the PHP array
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_exception}{Exception}} & When trying to dump PHP resource \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 71 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a8ef997303a6826dd4a87fff9c13b5d1d}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!dump@{dump}}
+\index{dump@{dump}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{dump}]{\setlength{\rightskip}{0pt plus 5cm}static dump (
+\begin{DoxyParamCaption}
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a8ef997303a6826dd4a87fff9c13b5d1d}
+Dumps a given PHP variable to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & The PHP variable to convert\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The YAML string representing the PHP array
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_exception}{Exception}} & When trying to dump PHP resource \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 71 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a14a553e044884f70a2f8fbbd4f2d21ac}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!dumpArray@{dumpArray}}
+\index{dumpArray@{dumpArray}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{dumpArray}]{\setlength{\rightskip}{0pt plus 5cm}static dumpArray (
+\begin{DoxyParamCaption}
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a14a553e044884f70a2f8fbbd4f2d21ac}
+Dumps a PHP array to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$value} & The PHP array to dump\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The YAML string representing the PHP array 
+\end{DoxyReturn}
+
+
+Definition at line 119 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a14a553e044884f70a2f8fbbd4f2d21ac}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!dumpArray@{dumpArray}}
+\index{dumpArray@{dumpArray}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{dumpArray}]{\setlength{\rightskip}{0pt plus 5cm}static dumpArray (
+\begin{DoxyParamCaption}
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a14a553e044884f70a2f8fbbd4f2d21ac}
+Dumps a PHP array to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$value} & The PHP array to dump\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The YAML string representing the PHP array 
+\end{DoxyReturn}
+
+
+Definition at line 119 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a65675de8bf326ce4d0f1833119db3bd5}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!evaluateScalar@{evaluateScalar}}
+\index{evaluateScalar@{evaluateScalar}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{evaluateScalar}]{\setlength{\rightskip}{0pt plus 5cm}static evaluateScalar (
+\begin{DoxyParamCaption}
+\item[{\$}]{scalar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a65675de8bf326ce4d0f1833119db3bd5}
+Evaluates scalars and replaces magic values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$scalar} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string 
+\end{DoxyReturn}
+
+
+Definition at line 342 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a65675de8bf326ce4d0f1833119db3bd5}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!evaluateScalar@{evaluateScalar}}
+\index{evaluateScalar@{evaluateScalar}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{evaluateScalar}]{\setlength{\rightskip}{0pt plus 5cm}static evaluateScalar (
+\begin{DoxyParamCaption}
+\item[{\$}]{scalar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a65675de8bf326ce4d0f1833119db3bd5}
+Evaluates scalars and replaces magic values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$scalar} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string 
+\end{DoxyReturn}
+
+
+Definition at line 342 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a2b63bee7aa8c67d20c14ff9ba4de63a2}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!load@{load}}
+\index{load@{load}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}static load (
+\begin{DoxyParamCaption}
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a2b63bee7aa8c67d20c14ff9ba4de63a2}
+Convert a YAML string to a PHP array.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$value} & A YAML string\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array A PHP array representing the YAML string 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a2b63bee7aa8c67d20c14ff9ba4de63a2}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!load@{load}}
+\index{load@{load}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}static load (
+\begin{DoxyParamCaption}
+\item[{\$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a2b63bee7aa8c67d20c14ff9ba4de63a2}
+Convert a YAML string to a PHP array.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$value} & A YAML string\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array A PHP array representing the YAML string 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a75c88cc2a3f4c2cf7f23330baa0d0a9f}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseMapping@{parseMapping}}
+\index{parseMapping@{parseMapping}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseMapping}]{\setlength{\rightskip}{0pt plus 5cm}static parseMapping (
+\begin{DoxyParamCaption}
+\item[{\$}]{mapping, }
+\item[{\&\$}]{i = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a75c88cc2a3f4c2cf7f23330baa0d0a9f}
+Parses a mapping to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$mapping} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 281 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a75c88cc2a3f4c2cf7f23330baa0d0a9f}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseMapping@{parseMapping}}
+\index{parseMapping@{parseMapping}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseMapping}]{\setlength{\rightskip}{0pt plus 5cm}static parseMapping (
+\begin{DoxyParamCaption}
+\item[{\$}]{mapping, }
+\item[{\&\$}]{i = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a75c88cc2a3f4c2cf7f23330baa0d0a9f}
+Parses a mapping to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$mapping} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 281 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a217fb6f105d374552ebb185da7e13fc6}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseQuotedScalar@{parseQuotedScalar}}
+\index{parseQuotedScalar@{parseQuotedScalar}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseQuotedScalar}]{\setlength{\rightskip}{0pt plus 5cm}static parseQuotedScalar (
+\begin{DoxyParamCaption}
+\item[{\$}]{scalar, }
+\item[{\&\$}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a217fb6f105d374552ebb185da7e13fc6}
+Parses a quoted scalar to YAML.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$scalar} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 194 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a217fb6f105d374552ebb185da7e13fc6}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseQuotedScalar@{parseQuotedScalar}}
+\index{parseQuotedScalar@{parseQuotedScalar}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseQuotedScalar}]{\setlength{\rightskip}{0pt plus 5cm}static parseQuotedScalar (
+\begin{DoxyParamCaption}
+\item[{\$}]{scalar, }
+\item[{\&\$}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a217fb6f105d374552ebb185da7e13fc6}
+Parses a quoted scalar to YAML.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$scalar} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 194 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_abf37f1e7c74d7a0ed52e64c25da8e454}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseScalar@{parseScalar}}
+\index{parseScalar@{parseScalar}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseScalar}]{\setlength{\rightskip}{0pt plus 5cm}static parseScalar (
+\begin{DoxyParamCaption}
+\item[{\$}]{scalar, }
+\item[{\$}]{delimiters = {\ttfamily null}, }
+\item[{\$}]{stringDelimiters = {\ttfamily array('\char`\"{}',~\char`\"{}'\char`\"{})}, }
+\item[{\&\$}]{i = {\ttfamily 0}, }
+\item[{\$}]{evaluate = {\ttfamily true}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_abf37f1e7c74d7a0ed52e64c25da8e454}
+Parses a scalar to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+scalar & {\em \$scalar} & \\
+\hline
+string & {\em \$delimiters} & \\
+\hline
+array & {\em \$stringDelimiter} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+boolean & {\em \$evaluate} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 156 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_abf37f1e7c74d7a0ed52e64c25da8e454}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseScalar@{parseScalar}}
+\index{parseScalar@{parseScalar}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseScalar}]{\setlength{\rightskip}{0pt plus 5cm}static parseScalar (
+\begin{DoxyParamCaption}
+\item[{\$}]{scalar, }
+\item[{\$}]{delimiters = {\ttfamily null}, }
+\item[{\$}]{stringDelimiters = {\ttfamily array('\char`\"{}',~\char`\"{}'\char`\"{})}, }
+\item[{\&\$}]{i = {\ttfamily 0}, }
+\item[{\$}]{evaluate = {\ttfamily true}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_abf37f1e7c74d7a0ed52e64c25da8e454}
+Parses a scalar to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+scalar & {\em \$scalar} & \\
+\hline
+string & {\em \$delimiters} & \\
+\hline
+array & {\em \$stringDelimiter} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+boolean & {\em \$evaluate} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 156 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a841085bbaa638bd7c47b77bd167d47bc}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseSequence@{parseSequence}}
+\index{parseSequence@{parseSequence}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseSequence}]{\setlength{\rightskip}{0pt plus 5cm}static parseSequence (
+\begin{DoxyParamCaption}
+\item[{\$}]{sequence, }
+\item[{\&\$}]{i = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a841085bbaa638bd7c47b77bd167d47bc}
+Parses a sequence to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sequence} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 225 of file Inline.php.
+
+\hypertarget{class_symfony_1_1_components_1_1_yaml_1_1_inline_a841085bbaa638bd7c47b77bd167d47bc}{
+\index{Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}!parseSequence@{parseSequence}}
+\index{parseSequence@{parseSequence}!Symfony::Components::Yaml::Inline@{Symfony::Components::Yaml::Inline}}
+\subsubsection[{parseSequence}]{\setlength{\rightskip}{0pt plus 5cm}static parseSequence (
+\begin{DoxyParamCaption}
+\item[{\$}]{sequence, }
+\item[{\&\$}]{i = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_yaml_1_1_inline_a841085bbaa638bd7c47b77bd167d47bc}
+Parses a sequence to a YAML string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sequence} & \\
+\hline
+integer & {\em \$i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A YAML string
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_symfony_1_1_components_1_1_yaml_1_1_parser_exception}{ParserException}} & When malformed inline YAML string is parsed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 225 of file Inline.php.
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Inline.php\item 
+trunk/lib/components/symfony/Yaml/Inline.php\end{DoxyCompactItemize}

@@ -1,0 +1,35 @@
+\hypertarget{class_utopia_1_1_components_1_1_checker_1_1_test_checker}{
+\section{TestChecker Class Reference}
+\label{class_utopia_1_1_components_1_1_checker_1_1_test_checker}\index{Utopia::Components::Checker::TestChecker@{Utopia::Components::Checker::TestChecker}}
+}
+Inheritance diagram for TestChecker:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_utopia_1_1_components_1_1_checker_1_1_test_checker}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_checker_1_1_test_checker_ad90dcfe8ce8e387875a2d991f35ca839}{
+{\bfseries execute} (\$input, \$params=array())}
+\label{class_utopia_1_1_components_1_1_checker_1_1_test_checker_ad90dcfe8ce8e387875a2d991f35ca839}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_checker_1_1_test_checker_a619873d6cfe310657ba866caebd9b62b}{
+{\bfseries isSuccess} ()}
+\label{class_utopia_1_1_components_1_1_checker_1_1_test_checker_a619873d6cfe310657ba866caebd9b62b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file TestChecker.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Validator/TestChecker.php\end{DoxyCompactItemize}

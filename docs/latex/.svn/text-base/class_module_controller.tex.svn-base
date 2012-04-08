@@ -1,0 +1,24 @@
+\hypertarget{class_module_controller}{
+\section{ModuleController Class Reference}
+\label{class_module_controller}\index{ModuleController@{ModuleController}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_module_controller_a5ed7daac2659cd6ac779bdb3ddc21844}{
+{\bfseries getModuleConfig} ()}
+\label{class_module_controller_a5ed7daac2659cd6ac779bdb3ddc21844}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 2 of file ModuleController.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/ModuleController.php\end{DoxyCompactItemize}

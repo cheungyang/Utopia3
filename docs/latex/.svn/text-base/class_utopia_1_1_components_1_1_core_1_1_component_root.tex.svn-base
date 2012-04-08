@@ -1,0 +1,86 @@
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root}{
+\section{ComponentRoot Class Reference}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root}\index{Utopia::Components::Core::ComponentRoot@{Utopia::Components::Core::ComponentRoot}}
+}
+Inheritance diagram for ComponentRoot:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_utopia_1_1_components_1_1_core_1_1_component_root}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_ab2389db7836a34a28e1f2a8af2cf548c}{
+{\bfseries getMinionId} ()}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_ab2389db7836a34a28e1f2a8af2cf548c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_ad48b4d368d94b22b9761cdd08a743099}{
+static {\bfseries summon} ()}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_ad48b4d368d94b22b9761cdd08a743099}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a06dd21eb163b3365bec1e555c9a4bb9c}{
+static {\bfseries getMinions} ()}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a06dd21eb163b3365bec1e555c9a4bb9c}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a1fecf21cf426b19e07d2d6f8e65d0570}{
+static {\bfseries getMinionById} (\$minion\_\-id)}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a1fecf21cf426b19e07d2d6f8e65d0570}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a88611ee29b7698dd27a512bb1e8665b2}{
+const {\bfseries OKAY} = 200}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a88611ee29b7698dd27a512bb1e8665b2}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_add9f17cd5306bf58a7078b9511aa2a8c}{
+const {\bfseries DUPLICATED} = 201}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_add9f17cd5306bf58a7078b9511aa2a8c}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_ac1beb8709364a7a10f0b42e62e15aa37}{
+const {\bfseries NOTFOUND} = 404}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_ac1beb8709364a7a10f0b42e62e15aa37}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a2cfce9d842aa4a3d7e76f2e6aa503161}{
+const {\bfseries NOAUTH} = 401}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a2cfce9d842aa4a3d7e76f2e6aa503161}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a7f79d7b73cfb40bb7855d4260393cc0f}{
+const {\bfseries ERROR} = -\/999}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a7f79d7b73cfb40bb7855d4260393cc0f}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a8ad0ae7713549ace43b30d7abd955c84}{
+const {\bfseries ERROR\_\-NA} = -\/2}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a8ad0ae7713549ace43b30d7abd955c84}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_core_1_1_component_root_a36ce61aea7d686269612444e276079de}{
+const {\bfseries ERROR\_\-VALIDATION} = -\/1}
+\label{class_utopia_1_1_components_1_1_core_1_1_component_root_a36ce61aea7d686269612444e276079de}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file ComponentRoot.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Core/ComponentRoot.php\end{DoxyCompactItemize}

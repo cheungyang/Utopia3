@@ -1,0 +1,231 @@
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso}{
+\section{MysqliDso Class Reference}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso}\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_acf2ad978657d47ceab41038dc7d95737}{\_\-\_\-construct} (\$config)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a421831a265621325e1fdd19aace0c758}{\_\-\_\-destruct} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_ab7a0a080d0e721c656eef11cd641638b}{getConnection} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a3a9793666e688407121d76d3a7e4db5d}{begin} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_af5674c27d4a92f6228565010eacbb9cb}{commit} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_afa549adf79e3f8c09fe8f903dd5fbfa7}{rollback} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a4a20559544fdf4dcb457e258dc976cf8}{reset} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_aade4007d038db5a22596f58f998a4044}{execute} (\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{MysqliQuery} \$q)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a81a67162a6288d78fc4c55283325f0b4}{
+{\bfseries getData} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a81a67162a6288d78fc4c55283325f0b4}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a75219cb61f0441526d203c5150e7f613}{
+{\bfseries \$\_\-stmt}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a75219cb61f0441526d203c5150e7f613}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_abe175fcf658475bc56e9d6fa02bc88ec}{disconnect} ()
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a2ce2f811a09df73da42cd242e1d38d9b}{
+{\bfseries refValues} (\$arr)}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a2ce2f811a09df73da42cd242e1d38d9b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file MysqliDso.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_acf2ad978657d47ceab41038dc7d95737}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{\$}]{config}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_acf2ad978657d47ceab41038dc7d95737}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$host} & \\
+\hline
+string & {\em \$user} & \\
+\hline
+string & {\em \$passwd} & \\
+\hline
+string & {\em \$db} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a421831a265621325e1fdd19aace0c758}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!\_\-\_\-destruct@{\_\-\_\-destruct}}
+\index{\_\-\_\-destruct@{\_\-\_\-destruct}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{\_\-\_\-destruct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-destruct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a421831a265621325e1fdd19aace0c758}
+destructor
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file MysqliDso.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a3a9793666e688407121d76d3a7e4db5d}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!begin@{begin}}
+\index{begin@{begin}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a3a9793666e688407121d76d3a7e4db5d}
+start a datasource transaction
+
+\begin{DoxyReturn}{Returns}
+self 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_af5674c27d4a92f6228565010eacbb9cb}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!commit@{commit}}
+\index{commit@{commit}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{commit}]{\setlength{\rightskip}{0pt plus 5cm}commit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_af5674c27d4a92f6228565010eacbb9cb}
+commit a datasource transaction
+
+\begin{DoxyReturn}{Returns}
+self 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_abe175fcf658475bc56e9d6fa02bc88ec}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{disconnect}]{\setlength{\rightskip}{0pt plus 5cm}disconnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_abe175fcf658475bc56e9d6fa02bc88ec}
+disconnect a connection
+
+\begin{DoxyReturn}{Returns}
+true 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_aade4007d038db5a22596f58f998a4044}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!execute@{execute}}
+\index{execute@{execute}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{execute}]{\setlength{\rightskip}{0pt plus 5cm}execute (
+\begin{DoxyParamCaption}
+\item[{{\bf MysqliQuery} \$}]{q}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_aade4007d038db5a22596f58f998a4044}
+execute a mysql query
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{MysqliQuery} & {\em \$q} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 147 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_ab7a0a080d0e721c656eef11cd641638b}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!getConnection@{getConnection}}
+\index{getConnection@{getConnection}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{getConnection}]{\setlength{\rightskip}{0pt plus 5cm}getConnection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_ab7a0a080d0e721c656eef11cd641638b}
+establish persistent datasource connection
+
+\begin{DoxyReturn}{Returns}
+connection object 
+\end{DoxyReturn}
+
+
+Definition at line 46 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a4a20559544fdf4dcb457e258dc976cf8}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!reset@{reset}}
+\index{reset@{reset}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_a4a20559544fdf4dcb457e258dc976cf8}
+void statment object 
+
+Definition at line 127 of file MysqliDso.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_afa549adf79e3f8c09fe8f903dd5fbfa7}{
+\index{Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}!rollback@{rollback}}
+\index{rollback@{rollback}!Utopia::Components::Model::MysqliDso@{Utopia::Components::Model::MysqliDso}}
+\subsubsection[{rollback}]{\setlength{\rightskip}{0pt plus 5cm}rollback (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_dso_afa549adf79e3f8c09fe8f903dd5fbfa7}
+rollback a datasource transaction
+
+\begin{DoxyReturn}{Returns}
+self 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file MysqliDso.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/MysqliDso.php\end{DoxyCompactItemize}

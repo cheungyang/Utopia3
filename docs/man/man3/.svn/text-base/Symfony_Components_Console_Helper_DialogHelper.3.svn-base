@@ -1,0 +1,100 @@
+.TH "Symfony::Components::Console::Helper::DialogHelper" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Helper::DialogHelper \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Helper::Helper\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBask\fP (\fBOutputInterface\fP $output, $question, $default=null)"
+.br
+.ti -1c
+.RI "\fBaskConfirmation\fP (\fBOutputInterface\fP $output, $question, $default=true)"
+.br
+.ti -1c
+.RI "\fBaskAndValidate\fP (\fBOutputInterface\fP $output, $question,\\Closure $validator, $attempts=false)"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 23 of file DialogHelper.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "ask (\fBOutputInterface\fP $output, $question, $default = \fCnull\fP)"Asks a question to the user.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$output\fP 
+.br
+\fI$question\fP The question to ask 
+.br
+\fI$default\fP The default answer if none is given by the user
+.br
+\fIstring\fP The user answer 
+.RE
+.PP
+
+.PP
+Definition at line 34 of file DialogHelper.php.
+.SS "askAndValidate (\fBOutputInterface\fP $output, $question, \\Closure $validator, $attempts = \fCfalse\fP)"Asks for a value and validates the response.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$output\fP 
+.br
+\fI$question\fP 
+.br
+\fI$validator\fP 
+.br
+\fI$attempts\fP Max number of times to ask before giving up (false by default, which means infinite)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\Exception\fP When any of the validator returns an error 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file DialogHelper.php.
+.SS "askConfirmation (\fBOutputInterface\fP $output, $question, $default = \fCtrue\fP)"Asks a confirmation to the user.
+.PP
+The question will be asked until the user answer by nothing, yes, or no.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$output\fP 
+.br
+\fI$question\fP The question to ask 
+.br
+\fI$default\fP The default answer if the user enters nothing
+.br
+\fIBoolean\fP true if the user has confirmed, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 56 of file DialogHelper.php.
+.SS "getName ()"Returns the helper's canonical name 
+.PP
+Implements \fBHelperInterface\fP.
+.PP
+Definition at line 108 of file DialogHelper.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

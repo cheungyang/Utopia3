@@ -1,0 +1,22 @@
+\hypertarget{interface_utopia_1_1_components_1_1_model_1_1_i_model}{
+\section{IModel Interface Reference}
+\label{interface_utopia_1_1_components_1_1_model_1_1_i_model}\index{Utopia::Components::Model::IModel@{Utopia::Components::Model::IModel}}
+}
+Inheritance diagram for IModel:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_utopia_1_1_components_1_1_model_1_1_i_model}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file IModel.php.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/IModel.php\end{DoxyCompactItemize}

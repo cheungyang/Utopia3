@@ -1,0 +1,17 @@
+.TH "Symfony::Components::Yaml::Exception" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Yaml::Exception \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBParserException\fP, and \fBParserException\fP.
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file Exception.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

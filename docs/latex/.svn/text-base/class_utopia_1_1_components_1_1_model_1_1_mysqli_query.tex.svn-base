@@ -1,0 +1,560 @@
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{
+\section{MysqliQuery Class Reference}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a4a20559544fdf4dcb457e258dc976cf8}{reset} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ab126fd2d00bd45edebfb5bcce1b53fb3}{distinct} (\$bool=true)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a8e929d769efc19fbd29888157f8aa836}{values} (\$mixed)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa7898b3e3faaf768b5454fe69fa66d79}{duplicatekey} (\$mixed)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a3c45dd96b0790e54b96e524a08036d4d}{from} (\$mixed)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa9d66ccf2c0805128fe23a8560ee3740}{leftJoin} (\$table, \$on)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a55cc3f3618ce16414ef63de5152d77bc}{where} (\$mixed, \$value='\_\-\_\-NOTHING\_\-\_\-', \$if=true)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a21f793ee22b71fc157abdd61e7df26b8}{orWhere} (\$mixed, \$value='\_\-\_\-NOTHING\_\-\_\-', \$if=true)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa40af7676e4737c259704eef897f0e55}{set} (\$mixed, \$value='')
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ae07dd7b545dde44a68dbaf48134df9aa}{having} (\$mixed)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aff6bd5db36979d4d96c37eacc78bd297}{group} (\$mixed)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a9e5340febfe10eb38e4421fc10c7fe5b}{order} (\$mixed, \$order='DESC')
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a3b7ebd61086747ad204d79ce0ee9d962}{limit} (\$int)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a2cd86182b53a88199f3e796d46f17a20}{offset} (\$mixed, \$value='', \$order='DESC')
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_af55f91cde1992f911951cd0153bdb302}{getSql} (\$spec=array())
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ae32cd7c32721b02d676bb63b4b1366db}{getParams} ()
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a4c47809b1bf8c9a13e102be5350b659b}{
+{\bfseries getStmtIdx} (\$params)}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a4c47809b1bf8c9a13e102be5350b659b}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aba8109788acbb11ada980b51979b331e}{
+{\bfseries getOperation} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aba8109788acbb11ada980b51979b331e}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a08bb7825352815d7349d4288c83f7fef}{select} (\$mixed='$\ast$')
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a8d91cfbac9dbdbe9f53f45cebd1c8e65}{insert} (\$table)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aeb8134848cb31e6bca48bf1173c8fa06}{delete} (\$table)
+\item 
+static \hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ad7c30a1e0690b78ce4048f8ad19dfe8f}{update} (\$table)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a869906335e5c4b779efec4224a8d56aa}{
+{\bfseries \$\_\-op}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a869906335e5c4b779efec4224a8d56aa}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa56d7b9851ff33f2fe495cf7509a2cea}{
+{\bfseries \$\_\-dirty}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa56d7b9851ff33f2fe495cf7509a2cea}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_adec08e0690fdad2cafb61def28144352}{\_\-\_\-construct} (\$op)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a1b50bc11afa00e1ab01ea13d0c020e04}{
+{\bfseries genSelectStmt} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a1b50bc11afa00e1ab01ea13d0c020e04}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a61cce20e3bb50869a7fce8832a05a843}{
+{\bfseries genInsertStmt} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a61cce20e3bb50869a7fce8832a05a843}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a7c99c36bb0211a8dc231f093002c46d2}{
+{\bfseries genDeleteStmt} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a7c99c36bb0211a8dc231f093002c46d2}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a57ff6e5676cb1cc8005c8ba3354ed056}{
+{\bfseries genUpdateStmt} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a57ff6e5676cb1cc8005c8ba3354ed056}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file MysqliQuery.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_adec08e0690fdad2cafb61def28144352}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{\$}]{op}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_adec08e0690fdad2cafb61def28144352}
+internal constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$op} & query operation \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 65 of file MysqliQuery.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aeb8134848cb31e6bca48bf1173c8fa06}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!delete@{delete}}
+\index{delete@{delete}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}static delete (
+\begin{DoxyParamCaption}
+\item[{\$}]{table}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aeb8134848cb31e6bca48bf1173c8fa06}
+entry for delete statements
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ab126fd2d00bd45edebfb5bcce1b53fb3}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!distinct@{distinct}}
+\index{distinct@{distinct}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{distinct}]{\setlength{\rightskip}{0pt plus 5cm}distinct (
+\begin{DoxyParamCaption}
+\item[{\$}]{bool = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ab126fd2d00bd45edebfb5bcce1b53fb3}
+distinct flag
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$bool} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 104 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa7898b3e3faaf768b5454fe69fa66d79}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!duplicatekey@{duplicatekey}}
+\index{duplicatekey@{duplicatekey}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{duplicatekey}]{\setlength{\rightskip}{0pt plus 5cm}duplicatekey (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa7898b3e3faaf768b5454fe69fa66d79}
+INSERT: on duplicate update keys
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$mixed} & key$|$ array of keys to update \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 131 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a3c45dd96b0790e54b96e524a08036d4d}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!from@{from}}
+\index{from@{from}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{from}]{\setlength{\rightskip}{0pt plus 5cm}from (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a3c45dd96b0790e54b96e524a08036d4d}
+SELECT: from
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$mixed} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 150 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ae32cd7c32721b02d676bb63b4b1366db}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!getParams@{getParams}}
+\index{getParams@{getParams}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{getParams}]{\setlength{\rightskip}{0pt plus 5cm}getParams (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ae32cd7c32721b02d676bb63b4b1366db}
+return array of parameters
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 399 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_af55f91cde1992f911951cd0153bdb302}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!getSql@{getSql}}
+\index{getSql@{getSql}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{getSql}]{\setlength{\rightskip}{0pt plus 5cm}getSql (
+\begin{DoxyParamCaption}
+\item[{\$}]{spec = {\ttfamily array()}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_af55f91cde1992f911951cd0153bdb302}
+main function call to get sql
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$spec} & database specification\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Definition at line 384 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aff6bd5db36979d4d96c37eacc78bd297}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!group@{group}}
+\index{group@{group}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{group}]{\setlength{\rightskip}{0pt plus 5cm}group (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aff6bd5db36979d4d96c37eacc78bd297}
+SELECT: group
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$mixed} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 276 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ae07dd7b545dde44a68dbaf48134df9aa}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!having@{having}}
+\index{having@{having}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{having}]{\setlength{\rightskip}{0pt plus 5cm}having (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ae07dd7b545dde44a68dbaf48134df9aa}
+SELECT: having
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$mixed} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 261 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a8d91cfbac9dbdbe9f53f45cebd1c8e65}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!insert@{insert}}
+\index{insert@{insert}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}static insert (
+\begin{DoxyParamCaption}
+\item[{\$}]{table}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a8d91cfbac9dbdbe9f53f45cebd1c8e65}
+entry to insert statements
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa9d66ccf2c0805128fe23a8560ee3740}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!leftJoin@{leftJoin}}
+\index{leftJoin@{leftJoin}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{leftJoin}]{\setlength{\rightskip}{0pt plus 5cm}leftJoin (
+\begin{DoxyParamCaption}
+\item[{\$}]{table, }
+\item[{\$}]{on}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa9d66ccf2c0805128fe23a8560ee3740}
+SELECT: left join Enter description here ... 
+\begin{DoxyParams}{Parameters}
+{\em \$table} & \\
+\hline
+{\em \$on} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 172 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a3b7ebd61086747ad204d79ce0ee9d962}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!limit@{limit}}
+\index{limit@{limit}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{limit}]{\setlength{\rightskip}{0pt plus 5cm}limit (
+\begin{DoxyParamCaption}
+\item[{\$}]{int}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a3b7ebd61086747ad204d79ce0ee9d962}
+SELECT: limit
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$int} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 319 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a2cd86182b53a88199f3e796d46f17a20}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!offset@{offset}}
+\index{offset@{offset}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{offset}]{\setlength{\rightskip}{0pt plus 5cm}offset (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed, }
+\item[{\$}]{value = {\ttfamily ''}, }
+\item[{\$}]{order = {\ttfamily 'DESC'}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a2cd86182b53a88199f3e796d46f17a20}
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$int} & SELECT: offset will replace with where for best practice if sufficient info is obtained\\
+\hline
+mixed & {\em \$mixed} & int or key or field:value \\
+\hline
+mixed & {\em \$value} & value to offset \\
+\hline
+string & {\em \$order} & asc/desc \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 343 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a9e5340febfe10eb38e4421fc10c7fe5b}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!order@{order}}
+\index{order@{order}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{order}]{\setlength{\rightskip}{0pt plus 5cm}order (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed, }
+\item[{\$}]{order = {\ttfamily 'DESC'}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a9e5340febfe10eb38e4421fc10c7fe5b}
+SELECT: order by
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$mixed} & key or order array \\
+\hline
+string & {\em \$order} & asc/desc \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 299 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a21f793ee22b71fc157abdd61e7df26b8}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!orWhere@{orWhere}}
+\index{orWhere@{orWhere}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{orWhere}]{\setlength{\rightskip}{0pt plus 5cm}orWhere (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed, }
+\item[{\$}]{value = {\ttfamily '\_\-\_\-NOTHING\_\-\_\-'}, }
+\item[{\$}]{if = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a21f793ee22b71fc157abdd61e7df26b8}
+to enter to new set of OR relationship in where clause
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$mixed} & where key or array of wheres \\
+\hline
+mixed & {\em \$value} & key value \\
+\hline
+bool & {\em \$if} & to identify resursive where \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 233 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a4a20559544fdf4dcb457e258dc976cf8}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!reset@{reset}}
+\index{reset@{reset}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a4a20559544fdf4dcb457e258dc976cf8}
+reset inserted parameters
+
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+Definition at line 77 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a08bb7825352815d7349d4288c83f7fef}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!select@{select}}
+\index{select@{select}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{select}]{\setlength{\rightskip}{0pt plus 5cm}static select (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed = {\ttfamily '$\ast$'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a08bb7825352815d7349d4288c83f7fef}
+entry for select statements
+
+
+\begin{DoxyParams}{Parameters}
+{\em array$|$string} & field(s) to select \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa40af7676e4737c259704eef897f0e55}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!set@{set}}
+\index{set@{set}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}set (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed, }
+\item[{\$}]{value = {\ttfamily ''}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_aa40af7676e4737c259704eef897f0e55}
+INSERT$|$UPDATE: set
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$mixed} & key or set array \\
+\hline
+mixed & {\em \$value} & key value \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 245 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ad7c30a1e0690b78ce4048f8ad19dfe8f}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!update@{update}}
+\index{update@{update}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}static update (
+\begin{DoxyParamCaption}
+\item[{\$}]{table}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_ad7c30a1e0690b78ce4048f8ad19dfe8f}
+entry for update statements
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a8e929d769efc19fbd29888157f8aa836}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!values@{values}}
+\index{values@{values}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{values}]{\setlength{\rightskip}{0pt plus 5cm}values (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a8e929d769efc19fbd29888157f8aa836}
+INSERT$|$UPDATE: values
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$mixed} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 116 of file MysqliQuery.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a55cc3f3618ce16414ef63de5152d77bc}{
+\index{Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}!where@{where}}
+\index{where@{where}!Utopia::Components::Model::MysqliQuery@{Utopia::Components::Model::MysqliQuery}}
+\subsubsection[{where}]{\setlength{\rightskip}{0pt plus 5cm}where (
+\begin{DoxyParamCaption}
+\item[{\$}]{mixed, }
+\item[{\$}]{value = {\ttfamily '\_\-\_\-NOTHING\_\-\_\-'}, }
+\item[{\$}]{if = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_mysqli_query_a55cc3f3618ce16414ef63de5152d77bc}
+INSERT$|$UPDATE$|$SELECT$|$DELETE: where clause
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$mixed} & where key or array of wheres \\
+\hline
+mixed & {\em \$value} & key value \\
+\hline
+bool & {\em \$if} & to identify resursive where \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 186 of file MysqliQuery.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/MysqliQuery.php\end{DoxyCompactItemize}

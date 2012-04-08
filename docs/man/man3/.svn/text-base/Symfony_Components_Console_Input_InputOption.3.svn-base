@@ -1,0 +1,201 @@
+.TH "Symfony::Components::Console::Input::InputOption" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::InputOption \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($name, $shortcut=null, $mode=null, $description= '', $default=null)"
+.br
+.ti -1c
+.RI "\fBgetShortcut\fP ()"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.ti -1c
+.RI "\fBacceptParameter\fP ()"
+.br
+.ti -1c
+.RI "\fBisParameterRequired\fP ()"
+.br
+.ti -1c
+.RI "\fBisParameterOptional\fP ()"
+.br
+.ti -1c
+.RI "\fBisArray\fP ()"
+.br
+.ti -1c
+.RI "\fBsetDefault\fP ($default=null)"
+.br
+.ti -1c
+.RI "\fBgetDefault\fP ()"
+.br
+.ti -1c
+.RI "\fBgetDescription\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBPARAMETER_NONE\fP = 1"
+.br
+.ti -1c
+.RI "const \fBPARAMETER_REQUIRED\fP = 2"
+.br
+.ti -1c
+.RI "const \fBPARAMETER_OPTIONAL\fP = 4"
+.br
+.ti -1c
+.RI "const \fBPARAMETER_IS_ARRAY\fP = 8"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$name\fP"
+.br
+.ti -1c
+.RI "\fB$shortcut\fP"
+.br
+.ti -1c
+.RI "\fB$mode\fP"
+.br
+.ti -1c
+.RI "\fB$default\fP"
+.br
+.ti -1c
+.RI "\fB$description\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file InputOption.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($name, $shortcut = \fCnull\fP, $mode = \fCnull\fP, $description = \fC''\fP, $default = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The option name 
+.br
+\fI$shortcut\fP The shortcut (can be null) 
+.br
+\fI$mode\fP The option mode: self::PARAMETER_REQUIRED, self::PARAMETER_NONE or self::PARAMETER_OPTIONAL 
+.br
+\fI$description\fP A description text 
+.br
+\fI$default\fP The default value (must be null for self::PARAMETER_REQUIRED or self::PARAMETER_NONE)
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP If option mode is invalid or incompatible 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file InputOption.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "acceptParameter ()"Returns true if the option accept a parameter.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if parameter mode is not self::PARAMETER_NONE, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file InputOption.php.
+.SS "getDefault ()"Returns the default value.
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The default value 
+.RE
+.PP
+
+.PP
+Definition at line 166 of file InputOption.php.
+.SS "getDescription ()"Returns the description text.
+.PP
+\fBReturns:\fP
+.RS 4
+string The description text 
+.RE
+.PP
+
+.PP
+Definition at line 176 of file InputOption.php.
+.SS "getName ()"Returns the name.
+.PP
+\fBReturns:\fP
+.RS 4
+string The name 
+.RE
+.PP
+
+.PP
+Definition at line 94 of file InputOption.php.
+.SS "getShortcut ()"Returns the shortcut.
+.PP
+\fBReturns:\fP
+.RS 4
+string The shortcut 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file InputOption.php.
+.SS "isArray ()"Returns true if the option can take multiple values.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if mode is self::PARAMETER_IS_ARRAY, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 134 of file InputOption.php.
+.SS "isParameterOptional ()"Returns true if the option takes an optional parameter.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if parameter mode is self::PARAMETER_OPTIONAL, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 124 of file InputOption.php.
+.SS "isParameterRequired ()"Returns true if the option requires a parameter.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if parameter mode is self::PARAMETER_REQUIRED, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 114 of file InputOption.php.
+.SS "setDefault ($default = \fCnull\fP)"Sets the default value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$default\fP The default value 
+.RE
+.PP
+
+.PP
+Definition at line 144 of file InputOption.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

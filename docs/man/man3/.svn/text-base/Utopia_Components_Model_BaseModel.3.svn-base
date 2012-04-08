@@ -1,0 +1,277 @@
+.TH "Utopia::Components::Model::BaseModel" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Model::BaseModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBGenericModel\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (ServiceContainer $sc, \fBAutoload\fP $autoload, $entityname)"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetTableName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetLatestData\fP ($format='array')"
+.br
+.ti -1c
+.RI "\fBcreateNew\fP (array $inputs)"
+.br
+.ti -1c
+.RI "\fBcreateVer\fP (array $criteria, array $inputs)"
+.br
+.ti -1c
+.RI "\fBcreateSeq\fP (array $criteria, array $inputs)"
+.br
+.ti -1c
+.RI "\fBcreateLoc\fP (array $criteria, array $inputs)"
+.br
+.ti -1c
+.RI "\fBupdate\fP (array $criteria, $inputs)"
+.br
+.ti -1c
+.RI "\fBupdateEntity\fP (array $criteria, $inputs)"
+.br
+.ti -1c
+.RI "\fBdelete\fP (array $criteria, $realdelete=false)"
+.br
+.ti -1c
+.RI "\fBdeleteEntity\fP (array $criteria, $realdelete=false)"
+.br
+.ti -1c
+.RI "\fBfetch\fP (\fBMysqliQuery\fP $q, $forcerun=false)"
+.br
+.ti -1c
+.RI "\fBrawexecute\fP (\fBMysqliQuery\fP $q)"
+.br
+.ti -1c
+.RI "\fBmap\fP (array $criteria, $mapinfo)"
+.br
+.ti -1c
+.RI "\fBunmap\fP (array $criteria, $mapinfo)"
+.br
+.ti -1c
+.RI "\fBfetchmaps\fP (array $criteria)"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBOKAY\fP = 200"
+.br
+.ti -1c
+.RI "const \fBDUPLICATED\fP = 201"
+.br
+.ti -1c
+.RI "const \fBERROR\fP = -1"
+.br
+.ti -1c
+.RI "const \fBNOTAPPLICABLE\fP = -2"
+.br
+.ti -1c
+.RI "const \fBVALIDATION\fP = -10"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetLastId\fP ()"
+.br
+.ti -1c
+.RI "\fBgetLatestVer\fP (array $criteria)"
+.br
+.ti -1c
+.RI "\fBgetLatestSeq\fP (array $criteria)"
+.br
+.ti -1c
+.RI "\fBgetAllLoc\fP ($criteria)"
+.br
+.ti -1c
+.RI "\fBvalidateInputs\fP (array $inputs, $noreq=false, $whitelist=array())"
+.br
+.ti -1c
+.RI "\fBvalidateCriteria\fP (array $criteria, array $exclude=array())"
+.br
+.ti -1c
+.RI "\fBgetUpdateKeys\fP (array $inputs, array $excludes=array())"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$sc\fP"
+.br
+.ti -1c
+.RI "\fB$autoload\fP"
+.br
+.ti -1c
+.RI "\fB$entity_name\fP"
+.br
+.ti -1c
+.RI "\fB$history\fP"
+.br
+.ti -1c
+.RI "\fB$cache\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file BaseModel.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (ServiceContainer $sc, \fBAutoload\fP $autoload, $entityname)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$sc\fP 
+.br
+\fI$autoload\fP 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file BaseModel.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "createLoc (array $criteria, array $inputs)"create a new translation of an existing entity
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$inputs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 238 of file BaseModel.php.
+.SS "createNew (array $inputs)"create a new entity
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$inputs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 65 of file BaseModel.php.
+.SS "createSeq (array $criteria, array $inputs)"create a new sequence of an existing entity
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$inputs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 178 of file BaseModel.php.
+.SS "createVer (array $criteria, array $inputs)"create a new version of an existing entity
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$inputs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 117 of file BaseModel.php.
+.SS "delete (array $criteria, $realdelete = \fCfalse\fP)"delete/mark delete one row
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$realdelete\fP 
+.RE
+.PP
+
+.PP
+Definition at line 471 of file BaseModel.php.
+.SS "deleteEntity (array $criteria, $realdelete = \fCfalse\fP)"delete the entire entity
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$realdelete\fP 
+.RE
+.PP
+
+.PP
+Definition at line 541 of file BaseModel.php.
+.SS "fetch (\fBMysqliQuery\fP $q, $forcerun = \fCfalse\fP)"fetch operation
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$q\fP 
+.br
+\fI$forcerun\fP true to bypass cache
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Definition at line 602 of file BaseModel.php.
+.SS "rawexecute (\fBMysqliQuery\fP $q)"execute whatever the query is, too dangerous?
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$q\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.PP
+Definition at line 650 of file BaseModel.php.
+.SS "update (array $criteria, $inputs)"update one row
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$inputs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 298 of file BaseModel.php.
+.SS "updateEntity (array $criteria, $inputs)"update the entire entity
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$criteria\fP 
+.br
+\fI$inputs\fP 
+.RE
+.PP
+
+.PP
+Definition at line 380 of file BaseModel.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

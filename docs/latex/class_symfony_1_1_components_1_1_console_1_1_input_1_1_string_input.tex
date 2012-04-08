@@ -1,0 +1,92 @@
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input}{
+\section{StringInput Class Reference}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input}\index{Symfony::Components::Console::Input::StringInput@{Symfony::Components::Console::Input::StringInput}}
+}
+Inheritance diagram for StringInput:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a5cd46690400fa24a86ac0cc57dae6492}{\_\-\_\-construct} (\$input, \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} \$definition=null)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_ae6555ae628472b4a4b9c77f0ffb77538}{
+const {\bfseries REGEX\_\-STRING} = '(\mbox{[}$^\wedge$ \mbox{]}+?)(?: $|$(?$<$!$\backslash$$\backslash$$\backslash$$\backslash$)\char`\"{}$|$(?$<$!$\backslash$$\backslash$$\backslash$$\backslash$)$\backslash$'$|$\$)'}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_ae6555ae628472b4a4b9c77f0ffb77538}
+
+\item 
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a87b5c4996630ab02b80f5abece2c2fe0}{
+const {\bfseries REGEX\_\-QUOTED\_\-STRING} = '(?:\char`\"{}(\mbox{[}$^\wedge$\char`\"{}$\backslash$$\backslash$$\backslash$$\backslash$\mbox{]}$\ast$(?:$\backslash$$\backslash$$\backslash$$\backslash$.\mbox{[}$^\wedge$\char`\"{}$\backslash$$\backslash$$\backslash$$\backslash$\mbox{]}$\ast$)$\ast$)\char`\"{}$|$$\backslash$'(\mbox{[}$^\wedge$$\backslash$'$\backslash$$\backslash$$\backslash$$\backslash$\mbox{]}$\ast$(?:$\backslash$$\backslash$$\backslash$$\backslash$.\mbox{[}$^\wedge$$\backslash$'$\backslash$$\backslash$$\backslash$$\backslash$\mbox{]}$\ast$)$\ast$)$\backslash$')'}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a87b5c4996630ab02b80f5abece2c2fe0}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a6aa1b42d30177e6480685b6179bde68d}{tokenize} (\$input)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file StringInput.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a5cd46690400fa24a86ac0cc57dae6492}{
+\index{Symfony::Components::Console::Input::StringInput@{Symfony::Components::Console::Input::StringInput}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Symfony::Components::Console::Input::StringInput@{Symfony::Components::Console::Input::StringInput}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{\$}]{input, }
+\item[{{\bf InputDefinition} \$}]{definition = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a5cd46690400fa24a86ac0cc57dae6492}
+Constructor.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$input} & An array of parameters from the CLI (in the argv format) \\
+\hline
+\hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} & {\em \$definition} & A \hyperlink{class_symfony_1_1_components_1_1_console_1_1_input_1_1_input_definition}{InputDefinition} instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file StringInput.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a6aa1b42d30177e6480685b6179bde68d}{
+\index{Symfony::Components::Console::Input::StringInput@{Symfony::Components::Console::Input::StringInput}!tokenize@{tokenize}}
+\index{tokenize@{tokenize}!Symfony::Components::Console::Input::StringInput@{Symfony::Components::Console::Input::StringInput}}
+\subsubsection[{tokenize}]{\setlength{\rightskip}{0pt plus 5cm}tokenize (
+\begin{DoxyParamCaption}
+\item[{\$}]{input}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{class_symfony_1_1_components_1_1_console_1_1_input_1_1_string_input_a6aa1b42d30177e6480685b6179bde68d}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em $\backslash$InvalidArgumentException} & When unable to parse input (should never happen) \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 46 of file StringInput.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/symfony/Console/Input/StringInput.php\end{DoxyCompactItemize}

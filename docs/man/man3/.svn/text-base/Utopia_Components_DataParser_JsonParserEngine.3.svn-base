@@ -1,0 +1,62 @@
+.TH "Utopia::Components::DataParser::JsonParserEngine" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::DataParser::JsonParserEngine \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUtopia::Components::DataParser::IParserEngine\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetType\fP ()"
+.br
+.ti -1c
+.RI "\fBacceptExtract\fP ($input)"
+.br
+.ti -1c
+.RI "\fBacceptPack\fP ($data)"
+.br
+.ti -1c
+.RI "\fBextract\fP ($input, $args=array())"
+.br
+.ti -1c
+.RI "\fBpack\fP ($data)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file JsonParserEngine.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "acceptExtract ($input)"input can be file or data 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP 
+.RE
+.PP
+
+.PP
+Implements \fBIParserEngine\fP.
+.PP
+Definition at line 15 of file JsonParserEngine.php.
+.SS "acceptPack ($data)"data is persumably to be array 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$data\fP 
+.RE
+.PP
+
+.PP
+Implements \fBIParserEngine\fP.
+.PP
+Definition at line 28 of file JsonParserEngine.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

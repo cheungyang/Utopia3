@@ -1,0 +1,24 @@
+\hypertarget{class_api_controller}{
+\section{ApiController Class Reference}
+\label{class_api_controller}\index{ApiController@{ApiController}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_api_controller_a6287b9357d59469a9379ecf261bd59df}{
+{\bfseries getApiConfig} ()}
+\label{class_api_controller_a6287b9357d59469a9379ecf261bd59df}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 2 of file ApiController.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/ApiController.php\end{DoxyCompactItemize}

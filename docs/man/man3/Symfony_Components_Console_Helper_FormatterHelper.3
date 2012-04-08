@@ -1,0 +1,77 @@
+.TH "Symfony::Components::Console::Helper::FormatterHelper" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Helper::FormatterHelper \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Helper::Helper\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBformatSection\fP ($section, $message, $style= 'info')"
+.br
+.ti -1c
+.RI "\fBformatBlock\fP ($messages, $style, $large=false)"
+.br
+.ti -1c
+.RI "\fBgetName\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBstrlen\fP ($string)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file FormatterHelper.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "formatBlock ($messages, $style, $large = \fCfalse\fP)"Formats a message as a block of text.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$messages\fP The message to write in the block 
+.br
+\fI$style\fP The style to apply to the whole block 
+.br
+\fI$large\fP Whether to return a large block
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The formatter message 
+.RE
+.PP
+
+.PP
+Definition at line 44 of file FormatterHelper.php.
+.SS "formatSection ($section, $message, $style = \fC'info'\fP)"Formats a message within a section.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$section\fP The section name 
+.br
+\fI$message\fP The message 
+.br
+\fI$style\fP The style to apply to the section 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file FormatterHelper.php.
+.SS "getName ()"Returns the helper's canonical name 
+.PP
+Implements \fBHelperInterface\fP.
+.PP
+Definition at line 80 of file FormatterHelper.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

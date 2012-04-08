@@ -1,0 +1,158 @@
+.TH "Symfony::Components::Console::Input::ArrayInput" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::ArrayInput \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Input::Input\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (array $parameters, \fBInputDefinition\fP $definition=null)"
+.br
+.ti -1c
+.RI "\fBgetFirstArgument\fP ()"
+.br
+.ti -1c
+.RI "\fBhasParameterOption\fP ($values)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBparse\fP ()"
+.br
+.ti -1c
+.RI "\fBaddShortOption\fP ($shortcut, $value)"
+.br
+.ti -1c
+.RI "\fBaddLongOption\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBaddArgument\fP ($name, $value)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$parameters\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 25 of file ArrayInput.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (array $parameters, \fBInputDefinition\fP $definition = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$param\fP An array of parameters 
+.br
+\fI$definition\fP A \fBInputDefinition\fP instance 
+.RE
+.PP
+
+.PP
+Definition at line 35 of file ArrayInput.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "addArgument ($name, $value)\fC [protected]\fP"Adds an argument value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The argument name 
+.br
+\fI$value\fP The value for the argument
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When argument given doesn't exist 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file ArrayInput.php.
+.SS "addLongOption ($name, $value)\fC [protected]\fP"Adds a long option value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The long option key 
+.br
+\fI$value\fP The value for the option
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When option given doesn't exist 
+.br
+\fI\\InvalidArgumentException\fP When a required value is missing 
+.RE
+.PP
+
+.PP
+Definition at line 129 of file ArrayInput.php.
+.SS "addShortOption ($shortcut, $value)\fC [protected]\fP"Adds a short option value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$shortcut\fP The short option key 
+.br
+\fI$value\fP The value for the option
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\RuntimeException\fP When option given doesn't exist 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file ArrayInput.php.
+.SS "getFirstArgument ()"Returns the first argument from the raw parameters (not parsed).
+.PP
+\fBReturns:\fP
+.RS 4
+string The value of the first argument or null otherwise 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 47 of file ArrayInput.php.
+.SS "hasParameterOption ($values)"Returns true if the raw parameters (not parsed) contains a value.
+.PP
+This method is to be used to introspect the input parameters before it has been validated. It must be used carefully.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The values to look for in the raw parameters (can be an array)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the value is contained in the raw parameters 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 68 of file ArrayInput.php.
+.SS "parse ()\fC [protected]\fP"Processes command line arguments. 
+.PP
+Reimplemented from \fBInput\fP.
+.PP
+Definition at line 90 of file ArrayInput.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

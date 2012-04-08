@@ -1,0 +1,126 @@
+.TH "Symfony::Components::Console::Helper::HelperSet" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Helper::HelperSet \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (array $helpers=array())"
+.br
+.ti -1c
+.RI "\fBset\fP (\fBHelperInterface\fP $helper, $alias=null)"
+.br
+.ti -1c
+.RI "\fBhas\fP ($name)"
+.br
+.ti -1c
+.RI "\fBget\fP ($name)"
+.br
+.ti -1c
+.RI "\fBsetCommand\fP (\fBCommand\fP $command=null)"
+.br
+.ti -1c
+.RI "\fBgetCommand\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$helpers\fP"
+.br
+.ti -1c
+.RI "\fB$command\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 23 of file HelperSet.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (array $helpers = \fCarray()\fP)"\fBParameters:\fP
+.RS 4
+\fIHelper[]\fP $helpers An array of helper. 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file HelperSet.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "get ($name)"Gets a helper value.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The helper name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBHelperInterface\fP The helper instance
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP if the helper is not defined 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file HelperSet.php.
+.SS "getCommand ()"Gets the command associated with this helper set.
+.PP
+\fBReturns:\fP
+.RS 4
+Command A Command instance 
+.RE
+.PP
+
+.PP
+Definition at line 100 of file HelperSet.php.
+.SS "has ($name)"Returns true if the helper if defined.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The helper name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the helper is defined, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file HelperSet.php.
+.SS "set (\fBHelperInterface\fP $helper, $alias = \fCnull\fP)"Sets a helper.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The helper instance 
+.br
+\fI$alias\fP An alias 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file HelperSet.php.
+.SS "setCommand (\fBCommand\fP $command = \fCnull\fP)"Sets the command associated with this helper set.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$command\fP A Command instance 
+.RE
+.PP
+
+.PP
+Definition at line 90 of file HelperSet.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

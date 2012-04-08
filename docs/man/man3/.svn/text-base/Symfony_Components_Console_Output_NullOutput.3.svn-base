@@ -1,0 +1,40 @@
+.TH "Symfony::Components::Console::Output::NullOutput" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Output::NullOutput \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Output::Output\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBdoWrite\fP ($message, $newline)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 23 of file NullOutput.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "doWrite ($message, $newline)"Writes a message to the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$message\fP A message to write to the output 
+.br
+\fI$newline\fP Whether to add a newline or not 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBOutput\fP.
+.PP
+Definition at line 31 of file NullOutput.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

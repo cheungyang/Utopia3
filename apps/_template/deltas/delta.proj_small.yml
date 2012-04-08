@@ -1,0 +1,77 @@
+property=###PROJ_SMALL###;environment=dev:
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\###PROJ_CAP###', 'apps/###PROJ_SMALL###', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/###PROJ_SMALL###/deltas/routes.###PROJ_SMALL###.yml'
+      - 'apps/common/deltas/routes.common.yml'     
+
+  logger:
+    responses:
+      - {level: 10}      
+    prints:
+      - {level: 999, color: 'off', 'classes': ''} 
+      
+
+      
+property=###PROJ_SMALL###;environment=phpunit:
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\###PROJ_CAP###', 'apps/###PROJ_SMALL###', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/###PROJ_SMALL###/deltas/routes.###PROJ_SMALL###.yml'
+      - 'apps/common/deltas/routes.common.yml'     
+
+
+      
+property=###PROJ_SMALL###;environment=stage:
+  generic:
+    hostname: 'http://kindriver.tpcity.corp.yahoo.com:81/u3'
+
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\###PROJ_CAP###', 'apps/###PROJ_SMALL###', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/###PROJ_SMALL###/deltas/routes.###PROJ_SMALL###.yml'
+      - 'apps/common/deltas/routes.common.yml'     
+
+  cache:
+    generic: {enable: 1, engine_class: 'Utopia\Components\Cache\FileCache'}
+    file:    {filename: '/tmp/utopia3_###PROJ_SMALL###_web.cache'}
+                  
+  logger:
+    responses:
+      - {level: 10}      
+    prints:
+      - {level: 999, color: 'off', 'classes': ''}
+
+
+      
+property=###PROJ_SMALL###;environment=prod:
+  generic:
+    hostname: 'http://175.41.131.233:9999/utopia3'
+    
+  autoload:
+    namespaces:
+      - ['Utopia\Projects\###PROJ_CAP###', 'apps/###PROJ_SMALL###', 99]
+
+  classdispatcher:
+    routes:
+      - 'apps/###PROJ_SMALL###/deltas/routes.###PROJ_SMALL###.yml'
+      - 'apps/common/deltas/routes.common.yml'
+           
+  cache:
+    generic: {enable: 1, engine_class: 'Utopia\Components\Cache\FileCache'}
+    file:    {filename: '/tmp/utopia3_###PROJ_SMALL###_web.cache'}
+                  
+  logger:
+    responses:
+      - {level: 10}      
+    prints:
+      - {level: 999, color: 'off', 'classes': ''}

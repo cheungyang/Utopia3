@@ -1,0 +1,5 @@
+property=common;environment=dev:
+
+  classdispatcher:
+    routes:
+      - 'lib/components/mallocworks/ClassDispatcher/tests/routes.phpunit.yml'

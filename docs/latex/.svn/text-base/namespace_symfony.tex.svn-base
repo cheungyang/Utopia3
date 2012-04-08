@@ -1,0 +1,197 @@
+\hypertarget{namespace_symfony}{
+\section{Symfony Namespace Reference}
+\label{namespace_symfony}\index{Symfony@{Symfony}}
+}
+
+
+\subsection{Detailed Description}
+Base class for all commands.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+HelpCommand displays the help for a given command.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+ListCommand displays the list of all available commands for the application.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Dumper dumps PHP variables to YAML strings.
+
+Components\_\-Yaml \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Exception class used by all exceptions thrown by the component.
+
+Components\_\-Yaml \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+The Dialog class provides helpers to interact with the user.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+The Formatter class provides helpers to format messages.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Helper is the base class for all helper classes.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+HelperInterface is the interface all helpers must implement.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+HelperSet represents a set of helpers to be used with a command.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Inline implements a YAML parser/dumper for the YAML inline syntax.
+
+Components\_\-Yaml \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+ArgvInput represents an input coming from the CLI arguments.
+
+Usage:
+
+\$input = new ArgvInput();
+
+By default, the `\$\_\-SERVER\mbox{[}'argv'\mbox{]}` array is used for the input values.
+
+This can be overridden by explicitly passing the input values in the constructor:
+
+\$input = new ArgvInput(\$\_\-SERVER\mbox{[}'argv'\mbox{]});
+
+If you pass it yourself, don't forget that the first element of the array is the name of the running program.
+
+When passing an argument to the constructor, be sure that it respects the same rules as the argv one. It's almost always better to use the `StringInput` when you want to provide your own input.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\href{http://www.gnu.org/software/libc/manual/html_node/Argument-Syntax.html}{\tt http://www.gnu.org/software/libc/manual/html\_\-node/Argument-\/Syntax.html} 
+
+\href{http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap12.html#tag_12_02}{\tt http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd\_\-chap12.html\#tag\_\-12\_\-02}
+\end{DoxySeeAlso}
+ArrayInput represents an input provided as an array.
+
+Usage:
+
+\$input = new ArrayInput(array('name' =$>$ 'foo', '-\/-\/bar' =$>$ 'foobar'));
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Input is the base class for all concrete Input classes.
+
+Three concrete classes are provided by default:
+
+$\ast$ `ArgvInput`: The input comes from the CLI arguments (argv) $\ast$ `StringInput`: The input is provided as a string $\ast$ `ArrayInput`: The input is provided as an array
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Represents a command line argument.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+A InputDefinition represents a set of valid command line arguments and options.
+
+Usage:
+
+\$definition = new InputDefinition(array( new InputArgument('name', InputArgument::REQUIRED), new InputOption('foo', 'f', InputOption::PARAMETER\_\-REQUIRED), ));
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+InputInterface is the interface implemented by all input classes.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Represents a command line option.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+StringInput represents an input provided as a string.
+
+Usage:
+
+\$input = new StringInput('foo -\/-\/bar=\char`\"{}foobar\char`\"{}');
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+ConsoleOutput is the default class for all CLI output. It uses STDOUT.
+
+This class is a convenient wrapper around `StreamOutput`.
+
+\$output = new ConsoleOutput();
+
+This is equivalent to:
+
+\$output = new StreamOutput(fopen('php://stdout', 'w'));
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+NullOutput suppresses all output.
+
+\$output = new NullOutput();
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Base class for output classes.
+
+There is three level of verbosity:
+
+$\ast$ normal: no option passed (normal output -\/ information) $\ast$ verbose: -\/v (more output -\/ debug) $\ast$ quiet: -\/q (no output)
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+OutputInterface is the interface implemented by all Output classes.
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+StreamOutput writes the output to a given stream.
+
+Usage:
+
+\$output = new StreamOutput(fopen('php://stdout', 'w'));
+
+As `StreamOutput` can use any stream, you can also use a \href{file:}{\tt file:}
+
+\$output = new StreamOutput(fopen('/path/to/output.log', 'a', false));
+
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Parser parses YAML strings to convert them to PHP arrays.
+
+Components\_\-Yaml \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Components\_\-Console \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$
+\end{DoxyAuthor}
+Yaml offers convenience methods to load and dump YAML.
+
+Components\_\-Yaml \begin{DoxyAuthor}{Author}
+Fabien Potencier $<$\href{mailto:fabien.potencier@symfony-project.com}{\tt fabien.potencier@symfony-\/project.com}$>$ 
+\end{DoxyAuthor}

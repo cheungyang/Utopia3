@@ -1,0 +1,8 @@
+property=common;environment=phpunit:
+
+  cache:
+    generic: {enable: 1}
+    
+  logger:
+    errorlog:
+      - {level: 999, color: 'off', 'classes': ''}

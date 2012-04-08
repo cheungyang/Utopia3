@@ -1,0 +1,113 @@
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application}{
+\section{IApplication Interface Reference}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application}\index{Utopia::Components::Http::IApplication@{Utopia::Components::Http::IApplication}}
+}
+Inheritance diagram for IApplication:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{interface_utopia_1_1_components_1_1_http_1_1_i_application}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_application_ace0beea73e7d3c49c15ba49732966127}{getReturnValues} (\$format=\char`\"{}json\char`\"{})
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_http_1_1_i_application_afb0fafe7e02a3ae1993c01c19fad2bae}{run} ()
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a0e0f68158a45c69ee9593fa733347cd7}{
+{\bfseries setMethod} (\$value)}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a0e0f68158a45c69ee9593fa733347cd7}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a74c599d320ae5ae4f2b6f872b3b6ca6f}{
+{\bfseries setPost} (\$value)}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a74c599d320ae5ae4f2b6f872b3b6ca6f}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a9d82d8e76b39254afa6638c43e65da08}{
+{\bfseries setGet} (\$value)}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a9d82d8e76b39254afa6638c43e65da08}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a69f9f75e142b9a5ad4f6e4c972de1dda}{
+{\bfseries setFiles} (\$value)}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a69f9f75e142b9a5ad4f6e4c972de1dda}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a98a379202787240af75dbb2f346d21bc}{
+{\bfseries getPost} ()}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a98a379202787240af75dbb2f346d21bc}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a24ae158b3c668bc9787c1639d9b72b04}{
+{\bfseries getGet} ()}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a24ae158b3c668bc9787c1639d9b72b04}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_a7010e197d8dce475dfdd443c11dd7ee9}{
+{\bfseries getFiles} ()}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_a7010e197d8dce475dfdd443c11dd7ee9}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file IApplication.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_ace0beea73e7d3c49c15ba49732966127}{
+\index{Utopia::Components::Http::IApplication@{Utopia::Components::Http::IApplication}!getReturnValues@{getReturnValues}}
+\index{getReturnValues@{getReturnValues}!Utopia::Components::Http::IApplication@{Utopia::Components::Http::IApplication}}
+\subsubsection[{getReturnValues}]{\setlength{\rightskip}{0pt plus 5cm}getReturnValues (
+\begin{DoxyParamCaption}
+\item[{\$}]{format = {\ttfamily \char`\"{}json\char`\"{}}}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_ace0beea73e7d3c49c15ba49732966127}
+return value of desireable format
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$format} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_ace0beea73e7d3c49c15ba49732966127}{ApiApplication}.
+
+\hypertarget{interface_utopia_1_1_components_1_1_http_1_1_i_application_afb0fafe7e02a3ae1993c01c19fad2bae}{
+\index{Utopia::Components::Http::IApplication@{Utopia::Components::Http::IApplication}!run@{run}}
+\index{run@{run}!Utopia::Components::Http::IApplication@{Utopia::Components::Http::IApplication}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_http_1_1_i_application_afb0fafe7e02a3ae1993c01c19fad2bae}
+main entry point to execute a controller
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int exitCode 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_utopia_1_1_components_1_1_http_1_1_api_application_afb0fafe7e02a3ae1993c01c19fad2bae}{ApiApplication}, and \hyperlink{class_utopia_1_1_components_1_1_http_1_1_page_application_afb0fafe7e02a3ae1993c01c19fad2bae}{PageApplication}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Controller/old/IApplication.php\end{DoxyCompactItemize}

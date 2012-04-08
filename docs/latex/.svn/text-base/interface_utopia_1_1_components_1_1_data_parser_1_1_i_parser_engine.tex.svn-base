@@ -1,0 +1,83 @@
+\hypertarget{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine}{
+\section{IParserEngine Interface Reference}
+\label{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine}\index{Utopia::Components::DataParser::IParserEngine@{Utopia::Components::DataParser::IParserEngine}}
+}
+Inheritance diagram for IParserEngine:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a830b5c75df72b32396701bc563fbe3c7}{
+{\bfseries getType} ()}
+\label{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a830b5c75df72b32396701bc563fbe3c7}
+
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_aa40a2c570a65e6f8d8a55af28cd6e595}{acceptExtract} (\$input)
+\item 
+\hyperlink{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a0e48ec53c3dc0fdc3918ca54041744e7}{acceptPack} (\$data)
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a3dffec125cfe41516f0ae24acdb87901}{
+{\bfseries extract} (\$input, \$args=array())}
+\label{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a3dffec125cfe41516f0ae24acdb87901}
+
+\item 
+\hypertarget{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_ab1243b982f1390bcc329bcefa5dda6a3}{
+{\bfseries pack} (\$data)}
+\label{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_ab1243b982f1390bcc329bcefa5dda6a3}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file IParserEngine.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_aa40a2c570a65e6f8d8a55af28cd6e595}{
+\index{Utopia::Components::DataParser::IParserEngine@{Utopia::Components::DataParser::IParserEngine}!acceptExtract@{acceptExtract}}
+\index{acceptExtract@{acceptExtract}!Utopia::Components::DataParser::IParserEngine@{Utopia::Components::DataParser::IParserEngine}}
+\subsubsection[{acceptExtract}]{\setlength{\rightskip}{0pt plus 5cm}acceptExtract (
+\begin{DoxyParamCaption}
+\item[{\$}]{input}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_aa40a2c570a65e6f8d8a55af28cd6e595}
+input can be file or data 
+\begin{DoxyParams}{Parameters}
+{\em \$input} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_utopia_1_1_components_1_1_data_parser_1_1_json_parser_engine_aa40a2c570a65e6f8d8a55af28cd6e595}{JsonParserEngine}, \hyperlink{class_utopia_1_1_components_1_1_data_parser_1_1_xml_parser_engine_aa40a2c570a65e6f8d8a55af28cd6e595}{XmlParserEngine}, and \hyperlink{class_utopia_1_1_components_1_1_data_parser_1_1_yaml_parser_engine_aa40a2c570a65e6f8d8a55af28cd6e595}{YamlParserEngine}.
+
+\hypertarget{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a0e48ec53c3dc0fdc3918ca54041744e7}{
+\index{Utopia::Components::DataParser::IParserEngine@{Utopia::Components::DataParser::IParserEngine}!acceptPack@{acceptPack}}
+\index{acceptPack@{acceptPack}!Utopia::Components::DataParser::IParserEngine@{Utopia::Components::DataParser::IParserEngine}}
+\subsubsection[{acceptPack}]{\setlength{\rightskip}{0pt plus 5cm}acceptPack (
+\begin{DoxyParamCaption}
+\item[{\$}]{data}
+\end{DoxyParamCaption}
+)}}
+\label{interface_utopia_1_1_components_1_1_data_parser_1_1_i_parser_engine_a0e48ec53c3dc0fdc3918ca54041744e7}
+data is persumably to be array 
+\begin{DoxyParams}{Parameters}
+{\em \$data} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_utopia_1_1_components_1_1_data_parser_1_1_json_parser_engine_a0e48ec53c3dc0fdc3918ca54041744e7}{JsonParserEngine}, \hyperlink{class_utopia_1_1_components_1_1_data_parser_1_1_xml_parser_engine_a0e48ec53c3dc0fdc3918ca54041744e7}{XmlParserEngine}, and \hyperlink{class_utopia_1_1_components_1_1_data_parser_1_1_yaml_parser_engine_a0e48ec53c3dc0fdc3918ca54041744e7}{YamlParserEngine}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataParser/IParserEngine.php\end{DoxyCompactItemize}

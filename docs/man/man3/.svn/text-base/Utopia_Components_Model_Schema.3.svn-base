@@ -1,0 +1,71 @@
+.TH "Utopia::Components::Model::Schema" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Model::Schema \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (ServiceContainer $sc, $input)"
+.br
+.ti -1c
+.RI "\fBgetDBAMLSchemaObj\fP ()"
+.br
+.ti -1c
+.RI "\fBgetValidationSpec\fP ($entityname)"
+.br
+.ti -1c
+.RI "\fBgetCriteriaSpec\fP ($entityname, array $exclude)"
+.br
+.ti -1c
+.RI "\fBgetTableName\fP ($entityname)"
+.br
+.ti -1c
+.RI "\fBgetIdentifierKeys\fP ()"
+.br
+.ti -1c
+.RI "\fBgetEntityNames\fP ()"
+.br
+.ti -1c
+.RI "\fBis_loc\fP ($entityname)"
+.br
+.ti -1c
+.RI "\fBis_seq\fP ($entityname)"
+.br
+.ti -1c
+.RI "\fBis_ver\fP ($entityname)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$filtered_keys\fP = array('index', 'search', 'primary', 'autoincrement')"
+.br
+.ti -1c
+.RI "\fB$identifier_keys\fP = array('id', 'entity_id', 'loc', 'seq', 'ver')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 9 of file Schema.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "getDBAMLSchemaObj ()"get schema object subsist of all tables
+.PP
+\fBReturns:\fP
+.RS 4
+\fBSchema\fP 
+.RE
+.PP
+
+.PP
+Definition at line 37 of file Schema.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

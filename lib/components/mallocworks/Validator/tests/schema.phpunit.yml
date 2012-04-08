@@ -1,0 +1,65 @@
+#==========TYPES===================
+# tinyint'       => 'boolean',
+# smallint'      => 'smallint',
+# mediumint'     => 'integer',
+# int'           => 'integer',
+# integer'       => 'integer',
+# bigint'        => 'bigint',
+# tinytext'      => 'text',
+# mediumtext'    => 'text',
+# longtext'      => 'text',
+# text'          => 'text',
+# varchar'       => 'string',
+# string'        => 'string',
+# char'          => 'string',
+# date'          => 'date',
+# datetime'      => 'datetime',
+# timestamp'     => 'datetime',
+# time'          => 'time',
+# float'         => 'decimal',
+# double'        => 'decimal',
+# real'          => 'decimal',
+# decimal'       => 'decimal',
+# numeric'       => 'decimal',
+# year'          => 'date',
+
+schema:
+  options:             { type: InnoDB, collate: utf8_unicode_ci, charset: utf8 }
+  types:
+    base:
+      fields:
+        id:            { type: integer(16), req: true, primary: true, autoincrement: true}
+        name:          { type: string(100), req: true, index: true, search: 100}        
+        created_at:    { type: datetime,    req: true }
+        modified_at:   { type: datetime,    req: true }
+        is_active:     { type: integer(1),  req: true, def: 1}
+        is_close:      { type: integer(1),  req: true, def: 0}
+        is_block:      { type: integer(1),  req: true, def: 0}
+        is_delete:     { type: integer(1),  req: true, def: 0}
+        flow:          { type: integer(8),  req: true, def: 0}
+    translateable:
+      fields:
+        loc:           { type: string(10), req: true }
+    chainable:
+      fields:
+        seq:           { type: integer(16), req: true }
+        
+  user:
+    type:              ['base']
+    table:             user
+    fields:
+      username:        { type: string(64), req: true, index: true, search: 100 }
+      email:           { type: string(64), req: true, index: true, search: 100 }      
+      password:        { type: string(64), req: true }
+          
+  article:
+    type:              ['base', 'translateable']
+    table:             articles
+    fields: 
+      story:           { req: true, type: text(65532) }
+      
+  category:
+    type:              ['base', 'translateable']
+    table:             category
+    fields:
+      parent_id:       { type: integer(16), req: false}

@@ -1,0 +1,28 @@
+ky.modules.main:
+  base_uri: 'ky/modules/main'
+  description: 'description here'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\KY\Controllers\KYMainController'
+
+
+ky.modules.header:
+  base_uri: 'ky/modules/header'
+  description: 'description here'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\KY\Controllers\KYHeaderController'
+
+
+ky.modules.header:
+  base_uri: 'ky/modules/header'
+  description: 'description here'
+  methods: ['GET']
+  authentication: ~
+  required: ~
+  workflow: 'Utopia\Components\Workflow\PageWorkflow'
+  controller: 'Utopia\Projects\KY\Controllers\KYHeaderController'

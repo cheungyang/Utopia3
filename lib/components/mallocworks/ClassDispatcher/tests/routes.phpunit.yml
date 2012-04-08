@@ -1,0 +1,10 @@
+core.hello:
+  base_uri: 'hello'
+  description: 'Hello Controller'
+  methods: ['GET', 'POST']
+  authentication: ~
+  required:
+    name: { type: '\w', info: 'some wordings', def: 'ycheung' }
+    myid: { type: '0-9', info: 'some numbers', def: '12345' }
+  workflow: 'Utopia\Core\Workflow\ApiWorkflow'
+  controller: 'Utopia\Core\Controller\HelloController'

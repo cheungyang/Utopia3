@@ -1,0 +1,271 @@
+.TH "Symfony::Components::Console::Output::Output" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Output::Output \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Output::OutputInterface\fP.
+.PP
+Inherited by \fBNullOutput\fP, and \fBStreamOutput\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($verbosity=self::VERBOSITY_NORMAL, $decorated=null)"
+.br
+.ti -1c
+.RI "\fBsetDecorated\fP ($decorated)"
+.br
+.ti -1c
+.RI "\fBisDecorated\fP ()"
+.br
+.ti -1c
+.RI "\fBsetVerbosity\fP ($level)"
+.br
+.ti -1c
+.RI "\fBgetVerbosity\fP ()"
+.br
+.ti -1c
+.RI "\fBwriteln\fP ($messages, $type=0)"
+.br
+.ti -1c
+.RI "\fBwrite\fP ($messages, $newline=false, $type=0)"
+.br
+.ti -1c
+.RI "\fBdoWrite\fP ($message, $newline)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBsetStyle\fP ($name, $options=array())"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBVERBOSITY_QUIET\fP = 0"
+.br
+.ti -1c
+.RI "const \fBVERBOSITY_NORMAL\fP = 1"
+.br
+.ti -1c
+.RI "const \fBVERBOSITY_VERBOSE\fP = 2"
+.br
+.ti -1c
+.RI "const \fBOUTPUT_NORMAL\fP = 0"
+.br
+.ti -1c
+.RI "const \fBOUTPUT_RAW\fP = 1"
+.br
+.ti -1c
+.RI "const \fBOUTPUT_PLAIN\fP = 2"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBformat\fP ($message)"
+.br
+.ti -1c
+.RI "\fBreplaceStartStyle\fP ($match)"
+.br
+.ti -1c
+.RI "\fBreplaceEndStyle\fP ($match)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$verbosity\fP"
+.br
+.ti -1c
+.RI "\fB$decorated\fP"
+.br
+.in -1c
+.SS "Static Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "static \fB$styles\fP"
+.br
+.ti -1c
+.RI "static \fB$options\fP = array('bold' => 1, 'underscore' => 4, 'blink' => 5, 'reverse' => 7, 'conceal' => 8)"
+.br
+.ti -1c
+.RI "static \fB$foreground\fP = array('black' => 30, 'red' => 31, 'green' => 32, 'yellow' => 33, 'blue' => 34, 'magenta' => 35, 'cyan' => 36, 'white' => 37)"
+.br
+.ti -1c
+.RI "static \fB$background\fP = array('black' => 40, 'red' => 41, 'green' => 42, 'yellow' => 43, 'blue' => 44, 'magenta' => 45, 'cyan' => 46, 'white' => 47)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 27 of file Output.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($verbosity = \fCself::VERBOSITY_NORMAL\fP, $decorated = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$verbosity\fP The verbosity level (self::VERBOSITY_QUIET, self::VERBOSITY_NORMAL, self::VERBOSITY_VERBOSE) 
+.br
+\fI$decorated\fP Whether to decorate messages or not (null for auto-guessing) 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBConsoleOutput\fP.
+.PP
+Definition at line 56 of file Output.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "doWrite ($message, $newline)\fC [abstract]\fP"Writes a message to the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$message\fP A message to write to the output 
+.br
+\fI$newline\fP Whether to add a newline or not 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBNullOutput\fP, and \fBStreamOutput\fP.
+.SS "format ($message)\fC [protected]\fP"Formats a message according to the given styles.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$message\fP The message to style
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The styled message 
+.RE
+.PP
+
+.PP
+Definition at line 176 of file Output.php.
+.SS "getVerbosity ()"Gets the current verbosity of the output.
+.PP
+\fBReturns:\fP
+.RS 4
+integer The current level of verbosity 
+.RE
+.PP
+
+.PP
+Definition at line 108 of file Output.php.
+.SS "isDecorated ()"Gets the decorated flag.
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the output will decorate messages, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 88 of file Output.php.
+.SS "replaceStartStyle ($match)\fC [protected]\fP"\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When style is unknown 
+.RE
+.PP
+
+.PP
+Definition at line 186 of file Output.php.
+.SS "setDecorated ($decorated)"Sets the decorated flag.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$decorated\fP Whether to decorated the messages or not 
+.RE
+.PP
+
+.PP
+Implements \fBOutputInterface\fP.
+.PP
+Definition at line 78 of file Output.php.
+.SS "static setStyle ($name, $options = \fCarray()\fP)\fC [static]\fP"Sets a new style.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The style name 
+.br
+\fI$options\fP An array of options 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Output.php.
+.SS "setVerbosity ($level)"Sets the verbosity of the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$level\fP The level of verbosity 
+.RE
+.PP
+
+.PP
+Implements \fBOutputInterface\fP.
+.PP
+Definition at line 98 of file Output.php.
+.SS "write ($messages, $newline = \fCfalse\fP, $type = \fC0\fP)"Writes a message to the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$messages\fP The message as an array of lines of a single string 
+.br
+\fI$newline\fP Whether to add a newline or not 
+.br
+\fI$type\fP The type of output
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When unknown output type is given 
+.RE
+.PP
+
+.PP
+Implements \fBOutputInterface\fP.
+.PP
+Definition at line 133 of file Output.php.
+.SS "writeln ($messages, $type = \fC0\fP)"Writes a message to the output and adds a newline at the end.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$messages\fP The message as an array of lines of a single string 
+.br
+\fI$type\fP The type of output 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file Output.php.
+.SH "Field Documentation"
+.PP 
+.SS "$styles\fC [static, protected]\fP"\fBInitial value:\fP
+.PP
+.nf
+ array(
+        'error'    => array('bg' => 'red', 'fg' => 'white'),
+        'info'     => array('fg' => 'green'),
+        'comment'  => array('fg' => 'yellow'),
+        'question' => array('bg' => 'cyan', 'fg' => 'black'),
+    )
+.fi
+.PP
+Definition at line 40 of file Output.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

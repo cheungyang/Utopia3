@@ -1,0 +1,269 @@
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload}{
+\section{Autoload Class Reference}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload}\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_acbacd82d470332865de2e98e472c9e30}{autoLoader} (\$className)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_abd71753b72c8c5d36225c9f5bb06533b}{includeNamespace} (\$namespace, \$directory, \$depth=99)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a24a0a657cc69cd979de40caeba8ac0e6}{includeNamespaces} (array \$items)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a1706cb7ecf3de7d62da66d3b58ac93dd}{
+{\bfseries includeComponentDependencies} (\$classname)}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a1706cb7ecf3de7d62da66d3b58ac93dd}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a71dec81bdcca971754909c3b5c526530}{getIncludedNamespaces} ()
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_ac45ecc9f715a9be6d490f84c6659a5e7}{getFilePathByClass} (\$className)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_aa9bc910fa03ddb6c0da4a6f7e524d8b8}{getFilePath} (\$filename, \$fileType='php', \$directories=array(), \$forcesearch=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a86ad1e4d0b5f811468dabb6fa7ddc14b}{getNamespaceClasses} (\$tgt\_\-namespace, \$forcesearch=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a68f6afa4208d5478335001a891c97c9a}{getNamespaceModtime} (\$tgt\_\-namespace, \$forcesearch=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_ad3c9267c8003a791da1e565685c1ffe2}{getNamespaceFiles} (\$tgt\_\-namespace)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Autoload.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_acbacd82d470332865de2e98e472c9e30}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!autoLoader@{autoLoader}}
+\index{autoLoader@{autoLoader}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{autoLoader}]{\setlength{\rightskip}{0pt plus 5cm}autoLoader (
+\begin{DoxyParamCaption}
+\item[{\$}]{className}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_acbacd82d470332865de2e98e472c9e30}
+autoload classes from classname
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$className} & class name to be loaded\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+this 
+\end{DoxyReturn}
+
+
+Definition at line 37 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_aa9bc910fa03ddb6c0da4a6f7e524d8b8}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!getFilePath@{getFilePath}}
+\index{getFilePath@{getFilePath}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{getFilePath}]{\setlength{\rightskip}{0pt plus 5cm}getFilePath (
+\begin{DoxyParamCaption}
+\item[{\$}]{filename, }
+\item[{\$}]{fileType = {\ttfamily 'php'}, }
+\item[{\$}]{directories = {\ttfamily array()}, }
+\item[{\$}]{forcesearch = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_aa9bc910fa03ddb6c0da4a6f7e524d8b8}
+perform filename search
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$filename} & string without extension \\
+\hline
+array & {\em \$fileNameFormats} & array(\char`\"{}\%s.php\char`\"{}) \\
+\hline
+array & {\em \$directories} & array(array('dir', 'tracelevel')) \\
+\hline
+bool & {\em \$forcesearch} & force search to be done\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string absolute filename if found; false if not found 
+\end{DoxyReturn}
+
+
+Definition at line 147 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_ac45ecc9f715a9be6d490f84c6659a5e7}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!getFilePathByClass@{getFilePathByClass}}
+\index{getFilePathByClass@{getFilePathByClass}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{getFilePathByClass}]{\setlength{\rightskip}{0pt plus 5cm}getFilePathByClass (
+\begin{DoxyParamCaption}
+\item[{\$}]{className}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_ac45ecc9f715a9be6d490f84c6659a5e7}
+use registered namespaces to get included file
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$className} & class name to include\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+false$|$string 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a71dec81bdcca971754909c3b5c526530}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!getIncludedNamespaces@{getIncludedNamespaces}}
+\index{getIncludedNamespaces@{getIncludedNamespaces}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{getIncludedNamespaces}]{\setlength{\rightskip}{0pt plus 5cm}getIncludedNamespaces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a71dec81bdcca971754909c3b5c526530}
+get includd namespaces
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a86ad1e4d0b5f811468dabb6fa7ddc14b}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!getNamespaceClasses@{getNamespaceClasses}}
+\index{getNamespaceClasses@{getNamespaceClasses}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{getNamespaceClasses}]{\setlength{\rightskip}{0pt plus 5cm}getNamespaceClasses (
+\begin{DoxyParamCaption}
+\item[{\$}]{tgt\_\-namespace, }
+\item[{\$}]{forcesearch = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a86ad1e4d0b5f811468dabb6fa7ddc14b}
+get class names of a selected namespace
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$tgt\_\-namespace} & namespace name \\
+\hline
+bool & {\em \$forcesearch} & ignore cache or not\\
+\hline
+ & {\em array} & of class names \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 200 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_ad3c9267c8003a791da1e565685c1ffe2}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!getNamespaceFiles@{getNamespaceFiles}}
+\index{getNamespaceFiles@{getNamespaceFiles}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{getNamespaceFiles}]{\setlength{\rightskip}{0pt plus 5cm}getNamespaceFiles (
+\begin{DoxyParamCaption}
+\item[{\$}]{tgt\_\-namespace}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_ad3c9267c8003a791da1e565685c1ffe2}
+get all files information inside in a namespace for further processing
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$tgt\_\-namespace} & namespace name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 252 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a68f6afa4208d5478335001a891c97c9a}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!getNamespaceModtime@{getNamespaceModtime}}
+\index{getNamespaceModtime@{getNamespaceModtime}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{getNamespaceModtime}]{\setlength{\rightskip}{0pt plus 5cm}getNamespaceModtime (
+\begin{DoxyParamCaption}
+\item[{\$}]{tgt\_\-namespace, }
+\item[{\$}]{forcesearch = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a68f6afa4208d5478335001a891c97c9a}
+get the latest modified time for all classes in a namespace
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$tgt\_\-namespace} & namespace name \\
+\hline
+bool & {\em \$forcesearch} & ignore cache\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int linux timestamp 
+\end{DoxyReturn}
+
+
+Definition at line 228 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_abd71753b72c8c5d36225c9f5bb06533b}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!includeNamespace@{includeNamespace}}
+\index{includeNamespace@{includeNamespace}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{includeNamespace}]{\setlength{\rightskip}{0pt plus 5cm}includeNamespace (
+\begin{DoxyParamCaption}
+\item[{\$}]{namespace, }
+\item[{\$}]{directory, }
+\item[{\$}]{depth = {\ttfamily 99}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_abd71753b72c8c5d36225c9f5bb06533b}
+including namespaces into autoload scope
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$namespace} & \\
+\hline
+string & {\em \$directory} & \\
+\hline
+int & {\em \$depth} & how deep the autoloader look into\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em MallocworksException} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+this 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file Autoload.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a24a0a657cc69cd979de40caeba8ac0e6}{
+\index{Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}!includeNamespaces@{includeNamespaces}}
+\index{includeNamespaces@{includeNamespaces}!Utopia::Components::Autoloader::Autoload@{Utopia::Components::Autoloader::Autoload}}
+\subsubsection[{includeNamespaces}]{\setlength{\rightskip}{0pt plus 5cm}includeNamespaces (
+\begin{DoxyParamCaption}
+\item[{array \$}]{items}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_autoloader_1_1_autoload_a24a0a657cc69cd979de40caeba8ac0e6}
+handing an array of inclusion
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$items} & array of namespaces:directories \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 87 of file Autoload.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Autoloder/Autoload.php\end{DoxyCompactItemize}

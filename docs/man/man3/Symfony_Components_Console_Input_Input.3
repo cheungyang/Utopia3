@@ -1,0 +1,256 @@
+.TH "Symfony::Components::Console::Input::Input" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::Input \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSymfony::Components::Console::Input::InputInterface\fP.
+.PP
+Inherited by \fBArgvInput\fP, and \fBArrayInput\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (\fBInputDefinition\fP $definition=null)"
+.br
+.ti -1c
+.RI "\fBbind\fP (\fBInputDefinition\fP $definition)"
+.br
+.ti -1c
+.RI "\fBvalidate\fP ()"
+.br
+.ti -1c
+.RI "\fBisInteractive\fP ()"
+.br
+.ti -1c
+.RI "\fBsetInteractive\fP ($interactive)"
+.br
+.ti -1c
+.RI "\fBgetArguments\fP ()"
+.br
+.ti -1c
+.RI "\fBgetArgument\fP ($name)"
+.br
+.ti -1c
+.RI "\fBsetArgument\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBhasArgument\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetOptions\fP ()"
+.br
+.ti -1c
+.RI "\fBgetOption\fP ($name)"
+.br
+.ti -1c
+.RI "\fBsetOption\fP ($name, $value)"
+.br
+.ti -1c
+.RI "\fBhasOption\fP ($name)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBparse\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$definition\fP"
+.br
+.ti -1c
+.RI "\fB$options\fP"
+.br
+.ti -1c
+.RI "\fB$arguments\fP"
+.br
+.ti -1c
+.RI "\fB$interactive\fP = true"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 27 of file Input.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (\fBInputDefinition\fP $definition = \fCnull\fP)"Constructor.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$definition\fP A \fBInputDefinition\fP instance 
+.RE
+.PP
+
+.PP
+Definition at line 39 of file Input.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "bind (\fBInputDefinition\fP $definition)"Binds the current \fBInput\fP instance with the given arguments and options.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$definition\fP A \fBInputDefinition\fP instance 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 54 of file Input.php.
+.SS "getArgument ($name)"Returns the argument value for a given argument name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The argument name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The argument value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When argument given doesn't exist 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 107 of file Input.php.
+.SS "getArguments ()"Returns the argument values.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of argument values 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 93 of file Input.php.
+.SS "getOption ($name)"Returns the option value for a given option name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The option name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed The option value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When option given doesn't exist 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 164 of file Input.php.
+.SS "getOptions ()"Returns the options values.
+.PP
+\fBReturns:\fP
+.RS 4
+array An array of option values 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 150 of file Input.php.
+.SS "hasArgument ($name)"Returns true if an \fBInputArgument\fP object exists by name or position.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputArgument\fP name or position
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the \fBInputArgument\fP object exists, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 140 of file Input.php.
+.SS "hasOption ($name)"Returns true if an \fBInputOption\fP object exists by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The \fBInputOption\fP name
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the \fBInputOption\fP object exists, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 197 of file Input.php.
+.SS "parse ()\fC [abstract, protected]\fP"Processes command line arguments. 
+.PP
+Reimplemented in \fBArgvInput\fP, and \fBArrayInput\fP.
+.SS "setArgument ($name, $value)"Sets an argument value by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The argument name 
+.br
+\fI$value\fP The argument value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When argument given doesn't exist 
+.RE
+.PP
+
+.PP
+Definition at line 124 of file Input.php.
+.SS "setOption ($name, $value)"Sets an option value by name.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP The option name 
+.br
+\fI$value\fP The option value
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When option given doesn't exist 
+.RE
+.PP
+
+.PP
+Definition at line 181 of file Input.php.
+.SS "validate ()"\fBExceptions:\fP
+.RS 4
+\fI\\RuntimeException\fP When not enough arguments are given 
+.RE
+.PP
+
+.PP
+Implements \fBInputInterface\fP.
+.PP
+Definition at line 71 of file Input.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

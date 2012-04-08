@@ -1,0 +1,71 @@
+.TH "Symfony::Components::Console::Output::OutputInterface" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Output::OutputInterface \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBOutput\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBwrite\fP ($messages, $newline=false, $type=0)"
+.br
+.ti -1c
+.RI "\fBsetVerbosity\fP ($level)"
+.br
+.ti -1c
+.RI "\fBsetDecorated\fP ($decorated)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file OutputInterface.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "setDecorated ($decorated)"Sets the decorated flag.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$decorated\fP Whether to decorated the messages or not 
+.RE
+.PP
+
+.PP
+Implemented in \fBOutput\fP.
+.SS "setVerbosity ($level)"Sets the verbosity of the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$level\fP The level of verbosity 
+.RE
+.PP
+
+.PP
+Implemented in \fBOutput\fP.
+.SS "write ($messages, $newline = \fCfalse\fP, $type = \fC0\fP)"Writes a message to the output.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$messages\fP The message as an array of lines of a single string 
+.br
+\fI$newline\fP Whether to add a newline or not 
+.br
+\fI$type\fP The type of output
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\\InvalidArgumentException\fP When unknown output type is given 
+.RE
+.PP
+
+.PP
+Implemented in \fBOutput\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,404 @@
+.TH "Symfony::Components::Yaml::Inline" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Yaml::Inline \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBload\fP ($value)"
+.br
+.ti -1c
+.RI "static \fBdump\fP ($value)"
+.br
+.ti -1c
+.RI "static \fBparseScalar\fP ($scalar, $delimiters=null, $stringDelimiters=array(''', '''), &$i = 0, $evaluate = true) "
+.br
+.ti -1c
+.RI "static \fBload\fP ($value)"
+.br
+.ti -1c
+.RI "static \fBdump\fP ($value)"
+.br
+.ti -1c
+.RI "static \fBparseScalar\fP ($scalar, $delimiters=null, $stringDelimiters=array(''', '''), &$i = 0, $evaluate = true) "
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const \fBREGEX_QUOTED_STRING\fP = '(?:'([^'\\\\\\\\]*(?:\\\\\\\\.[^'\\\\\\\\]*)*)'|\\'([^\\']*(?:\\'\\'[^\\']*)*)\\')'"
+.br
+.in -1c
+.SS "Static Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBdumpArray\fP ($value)"
+.br
+.ti -1c
+.RI "static \fBparseQuotedScalar\fP ($scalar, &$i)"
+.br
+.ti -1c
+.RI "static \fBparseSequence\fP ($sequence, &$i=0)"
+.br
+.ti -1c
+.RI "static \fBparseMapping\fP ($mapping, &$i=0)"
+.br
+.ti -1c
+.RI "static \fBevaluateScalar\fP ($scalar)"
+.br
+.ti -1c
+.RI "static \fBgetTimestampRegex\fP ()"
+.br
+.ti -1c
+.RI "static \fBdumpArray\fP ($value)"
+.br
+.ti -1c
+.RI "static \fBparseQuotedScalar\fP ($scalar, &$i)"
+.br
+.ti -1c
+.RI "static \fBparseSequence\fP ($sequence, &$i=0)"
+.br
+.ti -1c
+.RI "static \fBparseMapping\fP ($mapping, &$i=0)"
+.br
+.ti -1c
+.RI "static \fBevaluateScalar\fP ($scalar)"
+.br
+.ti -1c
+.RI "static \fBgetTimestampRegex\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 20 of file Inline.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "static dump ($value)\fC [static]\fP"Dumps a given PHP variable to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The PHP variable to convert
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The YAML string representing the PHP array
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBException\fP\fP When trying to dump PHP resource 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file Inline.php.
+.SS "static dump ($value)\fC [static]\fP"Dumps a given PHP variable to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The PHP variable to convert
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The YAML string representing the PHP array
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBException\fP\fP When trying to dump PHP resource 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file Inline.php.
+.SS "static dumpArray ($value)\fC [static, protected]\fP"Dumps a PHP array to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The PHP array to dump
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The YAML string representing the PHP array 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file Inline.php.
+.SS "static dumpArray ($value)\fC [static, protected]\fP"Dumps a PHP array to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The PHP array to dump
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string The YAML string representing the PHP array 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file Inline.php.
+.SS "static evaluateScalar ($scalar)\fC [static, protected]\fP"Evaluates scalars and replaces magic values.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$scalar\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string 
+.RE
+.PP
+
+.PP
+Definition at line 342 of file Inline.php.
+.SS "static evaluateScalar ($scalar)\fC [static, protected]\fP"Evaluates scalars and replaces magic values.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$scalar\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string 
+.RE
+.PP
+
+.PP
+Definition at line 342 of file Inline.php.
+.SS "static load ($value)\fC [static]\fP"Convert a YAML string to a PHP array.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP A YAML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array A PHP array representing the YAML string 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file Inline.php.
+.SS "static load ($value)\fC [static]\fP"Convert a YAML string to a PHP array.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP A YAML string
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+array A PHP array representing the YAML string 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file Inline.php.
+.SS "static parseMapping ($mapping, &$i = \fC0\fP)\fC [static, protected]\fP"Parses a mapping to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mapping\fP 
+.br
+\fI$i\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 281 of file Inline.php.
+.SS "static parseMapping ($mapping, &$i = \fC0\fP)\fC [static, protected]\fP"Parses a mapping to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$mapping\fP 
+.br
+\fI$i\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 281 of file Inline.php.
+.SS "static parseQuotedScalar ($scalar, &$i)\fC [static, protected]\fP"Parses a quoted scalar to YAML.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$scalar\fP 
+.br
+\fI$i\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 194 of file Inline.php.
+.SS "static parseQuotedScalar ($scalar, &$i)\fC [static, protected]\fP"Parses a quoted scalar to YAML.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$scalar\fP 
+.br
+\fI$i\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 194 of file Inline.php.
+.SS "static parseScalar ($scalar, $delimiters = \fCnull\fP, $stringDelimiters = \fCarray(''', ''')\fP, &$i = \fC0\fP, $evaluate = \fCtrue\fP)\fC [static]\fP"Parses a scalar to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$scalar\fP 
+.br
+\fI$delimiters\fP 
+.br
+\fI$stringDelimiter\fP 
+.br
+\fI$i\fP 
+.br
+\fI$evaluate\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file Inline.php.
+.SS "static parseScalar ($scalar, $delimiters = \fCnull\fP, $stringDelimiters = \fCarray(''', ''')\fP, &$i = \fC0\fP, $evaluate = \fCtrue\fP)\fC [static]\fP"Parses a scalar to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$scalar\fP 
+.br
+\fI$delimiters\fP 
+.br
+\fI$stringDelimiter\fP 
+.br
+\fI$i\fP 
+.br
+\fI$evaluate\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file Inline.php.
+.SS "static parseSequence ($sequence, &$i = \fC0\fP)\fC [static, protected]\fP"Parses a sequence to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$sequence\fP 
+.br
+\fI$i\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 225 of file Inline.php.
+.SS "static parseSequence ($sequence, &$i = \fC0\fP)\fC [static, protected]\fP"Parses a sequence to a YAML string.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$sequence\fP 
+.br
+\fI$i\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string A YAML string
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBParserException\fP\fP When malformed inline YAML string is parsed 
+.RE
+.PP
+
+.PP
+Definition at line 225 of file Inline.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,17 @@
+.TH "Utopia::Components::Model::IModel" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Model::IModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBGenericModel\fP.
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file IModel.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

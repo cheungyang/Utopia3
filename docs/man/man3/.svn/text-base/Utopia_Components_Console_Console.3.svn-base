@@ -1,0 +1,64 @@
+.TH "Utopia::Components::Console::Console" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Console::Console \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($projname, $version)"
+.br
+.ti -1c
+.RI "\fBregisterNamespaces\fP (array $namespaces)"
+.br
+.ti -1c
+.RI "\fBregisterNamespace\fP ($namespace)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file Console.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($projname, $version)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$projname\fP 
+.br
+\fI$version\fP 
+.RE
+.PP
+
+.PP
+Definition at line 12 of file Console.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "registerNamespace ($namespace)"register a namespace of controllers that the console can be run
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$namespace\fP 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file Console.php.
+.SS "registerNamespaces (array $namespaces)"register set of commands that can be run
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$namespaces\fP 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file Console.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

@@ -1,0 +1,84 @@
+.TH "Symfony::Components::Console::Input::InputInterface" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Symfony::Components::Console::Input::InputInterface \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBInput\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetFirstArgument\fP ()"
+.br
+.ti -1c
+.RI "\fBhasParameterOption\fP ($value)"
+.br
+.ti -1c
+.RI "\fBbind\fP (\fBInputDefinition\fP $definition)"
+.br
+.ti -1c
+.RI "\fBvalidate\fP ()"
+.br
+.ti -1c
+.RI "\fBgetArguments\fP ()"
+.br
+.ti -1c
+.RI "\fBgetArgument\fP ($name)"
+.br
+.ti -1c
+.RI "\fBgetOptions\fP ()"
+.br
+.ti -1c
+.RI "\fBgetOption\fP ($name)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file InputInterface.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "bind (\fBInputDefinition\fP $definition)"Binds the current \fBInput\fP instance with the given arguments and options.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$definition\fP A \fBInputDefinition\fP instance 
+.RE
+.PP
+
+.PP
+Implemented in \fBInput\fP.
+.SS "getFirstArgument ()"Returns the first argument from the raw parameters (not parsed).
+.PP
+\fBReturns:\fP
+.RS 4
+string The value of the first argument or null otherwise 
+.RE
+.PP
+
+.PP
+Implemented in \fBArgvInput\fP, and \fBArrayInput\fP.
+.SS "hasParameterOption ($value)"Returns true if the raw parameters (not parsed) contains a value.
+.PP
+This method is to be used to introspect the input parameters before it has been validated. It must be used carefully.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$value\fP The value to look for in the raw parameters
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean true if the value is contained in the raw parameters 
+.RE
+.PP
+
+.PP
+Implemented in \fBArgvInput\fP, and \fBArrayInput\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

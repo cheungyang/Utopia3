@@ -1,0 +1,55 @@
+.TH "Utopia::Components::Validator::Validator" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Validator::Validator \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBsetServiceContainer\fP (ServiceContainer $sc)"
+.br
+.ti -1c
+.RI "\fBsetSpec\fP ($spec)"
+.br
+.ti -1c
+.RI "\fBgetSpec\fP ()"
+.br
+.ti -1c
+.RI "\fBvalidate\fP (array $inputs)"
+.br
+.ti -1c
+.RI "\fBisSuccess\fP ()"
+.br
+.ti -1c
+.RI "\fBgetRaw\fP ()"
+.br
+.ti -1c
+.RI "\fBgetFiltered\fP ()"
+.br
+.ti -1c
+.RI "\fBgetMissed\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file Validator.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "validate (array $inputs)"this should be the only extry point for input in order to maintain the getXXX() functions consistency Enter description here ... 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$input\fP 
+.RE
+.PP
+
+.PP
+Definition at line 42 of file Validator.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

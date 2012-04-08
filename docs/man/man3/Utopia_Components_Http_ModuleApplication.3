@@ -1,0 +1,244 @@
+.TH "Utopia::Components::Http::ModuleApplication" 3 "Fri Mar 4 2011" "utopia3" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Utopia::Components::Http::ModuleApplication \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBUtopia::Components::Http::ApiApplication\fP, and \fBUtopia::Components::Http::IApplication\fP.
+.PP
+Inherited by \fBPageApplication\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP (ServiceContainer $sc, \fBAutoload\fP $autoload)"
+.br
+.ti -1c
+.RI "\fB__toString\fP ()"
+.br
+.ti -1c
+.RI "\fB__call\fP ($name, $argument)"
+.br
+.ti -1c
+.RI "\fBget\fP ($name, $default=false)"
+.br
+.ti -1c
+.RI "\fBaddExternals\fP ()"
+.br
+.ti -1c
+.RI "\fBasHtml\fP ($jscss=true)"
+.br
+.ti -1c
+.RI "\fBsetTemplate\fP ($template)"
+.br
+.ti -1c
+.RI "\fBgetTemplate\fP ()"
+.br
+.ti -1c
+.RI "\fBgetScripts\fP ()"
+.br
+.ti -1c
+.RI "\fBgetStyles\fP ()"
+.br
+.ti -1c
+.RI "\fBaddScripts\fP ($script)"
+.br
+.ti -1c
+.RI "\fBaddStyles\fP ($style)"
+.br
+.ti -1c
+.RI "\fBgetScriptTags\fP ()"
+.br
+.ti -1c
+.RI "\fBgetStyleTags\fP ()"
+.br
+.ti -1c
+.RI "\fBregisterModule\fP ($name, \fBModuleApplication\fP $module)"
+.br
+.ti -1c
+.RI "\fBgetModules\fP ()"
+.br
+.ti -1c
+.RI "\fBgetModuleValue\fP ($name, $default=false)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB$event_name\fP = 'core.module.controllers'"
+.br
+.ti -1c
+.RI "\fB$dataSpec\fP"
+.br
+.ti -1c
+.RI "\fB$pattern\fP = '/^(?#Protocol)(?:(?:ht|f)tp(?:s?)\\:\\/\\/|~\\/|\\/)/'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file ModuleController.php.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct (ServiceContainer $sc, \fBAutoload\fP $autoload)"constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$sc\fP 
+.br
+\fI$autoload\fP 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBApiApplication\fP.
+.PP
+Definition at line 32 of file ModuleController.php.
+.SH "Member Function Documentation"
+.PP 
+.SS "__call ($name, $argument)"just to catch fatal errors in the meantime
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.br
+\fI$argument\fP 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBApiApplication\fP.
+.PP
+Reimplemented in \fBPageApplication\fP.
+.PP
+Definition at line 54 of file ModuleController.php.
+.SS "__toString ()"prints HTML when prining this object
+.PP
+\fBReturns:\fP
+.RS 4
+html string 
+.RE
+.PP
+
+.PP
+Definition at line 41 of file ModuleController.php.
+.SS "addExternals ()"Some styles/scripts will be added from 'addStyles' and 'addScripts' others are located in the config yaml string at each controller this function is fetch and add them
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file ModuleController.php.
+.SS "asHtml ($jscss = \fCtrue\fP)"return HTML from execution results and template
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$jscss\fP whether to incl js/css
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 154 of file ModuleController.php.
+.SS "get ($name, $default = \fCfalse\fP)"get api output if it is begginning with 'apis>' get modules output if it is begginning with 'modules>'
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBApiApplication\fP.
+.PP
+Definition at line 66 of file ModuleController.php.
+.SS "getModules ()"get all modules beneathes this module, for all levels
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 377 of file ModuleController.php.
+.SS "getModuleValue ($name, $default = \fCfalse\fP)"get Module info if api is not yet run, run it
+.PP
+\fBParameters:\fP
+.RS 4
+\fImixed\fP 
+.RE
+.PP
+
+.PP
+Definition at line 400 of file ModuleController.php.
+.SS "getScriptTags ()"formulate css tags from style inputs recursively find all scripts from underlying modules
+.PP
+\fBReturns:\fP
+.RS 4
+array 
+.RE
+.PP
+
+.PP
+Definition at line 267 of file ModuleController.php.
+.SS "getStyleTags ()"formulate css tags from style inputs
+.PP
+\fBReturns:\fP
+.RS 4
+string 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file ModuleController.php.
+.SS "registerModule ($name, \fBModuleApplication\fP $module)"provides ability for module to call other modules
+.PP
+\fBParameters:\fP
+.RS 4
+\fI$name\fP alias for the api 
+.br
+\fI$module\fP module to register
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+$this 
+.RE
+.PP
+
+.PP
+Definition at line 350 of file ModuleController.php.
+.SH "Field Documentation"
+.PP 
+.SS "$dataSpec\fC [protected]\fP"\fBInitial value:\fP
+.PP
+.nf
+ <<<EOF
+url:            { req: true, type: string }
+method:         { req: true, def: 'GET', type: ['GET','POST','PUT','DELETE'] }
+response:   { req: true, def: [], type: 'array' }
+template:       { req: false, type: 'string' }
+script:     { req: false, type: 'array' }
+style:      { req: false, type: 'array' }
+headers:     { req: false, type: 'array' }
+EOF
+.fi
+.PP
+Reimplemented from \fBApiApplication\fP.
+.PP
+Definition at line 16 of file ModuleController.php.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for utopia3 from the source code.

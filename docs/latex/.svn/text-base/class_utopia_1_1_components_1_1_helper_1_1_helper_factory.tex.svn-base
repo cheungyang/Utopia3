@@ -1,0 +1,49 @@
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_helper_factory}{
+\section{HelperFactory Class Reference}
+\label{class_utopia_1_1_components_1_1_helper_1_1_helper_factory}\index{Utopia::Components::Helper::HelperFactory@{Utopia::Components::Helper::HelperFactory}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_helper_factory_a534d9dce396416b8656f9a02bbbbd30b}{
+{\bfseries \_\-\_\-call} (\$name, \$arguments=array())}
+\label{class_utopia_1_1_components_1_1_helper_1_1_helper_factory_a534d9dce396416b8656f9a02bbbbd30b}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_helper_1_1_helper_factory_a1f4c54ba3bc28d51c4aafbf4d217ae59}{getHelpers} (\$name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file HelperFactory.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_helper_1_1_helper_factory_a1f4c54ba3bc28d51c4aafbf4d217ae59}{
+\index{Utopia::Components::Helper::HelperFactory@{Utopia::Components::Helper::HelperFactory}!getHelpers@{getHelpers}}
+\index{getHelpers@{getHelpers}!Utopia::Components::Helper::HelperFactory@{Utopia::Components::Helper::HelperFactory}}
+\subsubsection[{getHelpers}]{\setlength{\rightskip}{0pt plus 5cm}getHelpers (
+\begin{DoxyParamCaption}
+\item[{\$}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_helper_1_1_helper_factory_a1f4c54ba3bc28d51c4aafbf4d217ae59}
+fetch all helper names
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 25 of file HelperFactory.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/Helper/HelperFactory.php\end{DoxyCompactItemize}

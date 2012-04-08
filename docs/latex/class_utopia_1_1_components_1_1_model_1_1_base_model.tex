@@ -1,0 +1,431 @@
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model}{
+\section{BaseModel Class Reference}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model}\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+}
+Inheritance diagram for BaseModel:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_utopia_1_1_components_1_1_model_1_1_base_model}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_a5602afd324abcbe0d034e58c6fd9bd52}{\_\-\_\-construct} (ServiceContainer \$sc, \hyperlink{class_utopia_1_1_components_1_1_autoloader_1_1_autoload}{Autoload} \$autoload, \$entityname)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a3d0963e68bb313b163a73f2803c64600}{
+{\bfseries getName} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a3d0963e68bb313b163a73f2803c64600}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a93566f2c8d709d410ae8ec46b813999b}{
+{\bfseries getTableName} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a93566f2c8d709d410ae8ec46b813999b}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a45b0acf9c29674b7ad2c92dbab7f2197}{
+{\bfseries getLatestData} (\$format='array')}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a45b0acf9c29674b7ad2c92dbab7f2197}
+
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_afe8d2de0711ff2b6c392b3e4103209a0}{createNew} (array \$inputs)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_a96402633de0c6ad30dd2da649b90f2ed}{createVer} (array \$criteria, array \$inputs)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_afabebaa08d9db1ad9833852947a6ee79}{createSeq} (array \$criteria, array \$inputs)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_a74e37941c55449e8d9ad8723e2807a3e}{createLoc} (array \$criteria, array \$inputs)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_ace1addc27361b6c330eb5eda8e304ba7}{update} (array \$criteria, \$inputs)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_a43c79a34dfaf0076023e5ec10059a994}{updateEntity} (array \$criteria, \$inputs)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_a342256c923a9df79a96ab683be504eb3}{delete} (array \$criteria, \$realdelete=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_aac5053412790f3d37f7213430f38d2bb}{deleteEntity} (array \$criteria, \$realdelete=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_af54add3f80e109fe4d769ec1a62ffb45}{fetch} (\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{MysqliQuery} \$q, \$forcerun=false)
+\item 
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_base_model_a8277e7dfadfe8372486f732922ca3138}{rawexecute} (\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{MysqliQuery} \$q)
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_af77f1f07a31affac14e03903929154d4}{
+{\bfseries map} (array \$criteria, \$mapinfo)}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_af77f1f07a31affac14e03903929154d4}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a5ffe82ffb3c9bf4c1736e434ea538090}{
+{\bfseries unmap} (array \$criteria, \$mapinfo)}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a5ffe82ffb3c9bf4c1736e434ea538090}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a9091e58ffb536f3782f472125eedb276}{
+{\bfseries fetchmaps} (array \$criteria)}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a9091e58ffb536f3782f472125eedb276}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a88611ee29b7698dd27a512bb1e8665b2}{
+const {\bfseries OKAY} = 200}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a88611ee29b7698dd27a512bb1e8665b2}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_add9f17cd5306bf58a7078b9511aa2a8c}{
+const {\bfseries DUPLICATED} = 201}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_add9f17cd5306bf58a7078b9511aa2a8c}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a7f79d7b73cfb40bb7855d4260393cc0f}{
+const {\bfseries ERROR} = -\/1}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a7f79d7b73cfb40bb7855d4260393cc0f}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a40e2649af452cb9f6ac15b109e7e33d2}{
+const {\bfseries NOTAPPLICABLE} = -\/2}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a40e2649af452cb9f6ac15b109e7e33d2}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a3977bf5c862bf326e2f415b8b1103f8f}{
+const {\bfseries VALIDATION} = -\/10}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a3977bf5c862bf326e2f415b8b1103f8f}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_acfbb152e6d905b20476e63a2ec273f0c}{
+{\bfseries getLastId} ()}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_acfbb152e6d905b20476e63a2ec273f0c}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a4364032fa3476667d8df458132dca29e}{
+{\bfseries getLatestVer} (array \$criteria)}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a4364032fa3476667d8df458132dca29e}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_acc29670dfa88913d3d72e8d37828cbb5}{
+{\bfseries getLatestSeq} (array \$criteria)}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_acc29670dfa88913d3d72e8d37828cbb5}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_ac70f088b82fd2f8f63a40bb1a7ff0787}{
+{\bfseries getAllLoc} (\$criteria)}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_ac70f088b82fd2f8f63a40bb1a7ff0787}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a245babd9efbb8c36e4483cd6e240a1ea}{
+{\bfseries validateInputs} (array \$inputs, \$noreq=false, \$whitelist=array())}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a245babd9efbb8c36e4483cd6e240a1ea}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_adf9224a0558be5e1ef064f56f36a82be}{
+{\bfseries validateCriteria} (array \$criteria, array \$exclude=array())}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_adf9224a0558be5e1ef064f56f36a82be}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a585e629132c0bf3942ed091e1d27408b}{
+{\bfseries getUpdateKeys} (array \$inputs, array \$excludes=array())}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a585e629132c0bf3942ed091e1d27408b}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a5482c8bd14f7e5ffa394a30a0ae45a70}{
+{\bfseries \$sc}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a5482c8bd14f7e5ffa394a30a0ae45a70}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a9efb4b2d7105a707e0fab1ba3330c8b9}{
+{\bfseries \$autoload}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a9efb4b2d7105a707e0fab1ba3330c8b9}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_aad4ead086517a05232bef61af0b9485c}{
+{\bfseries \$entity\_\-name}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_aad4ead086517a05232bef61af0b9485c}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a643b6c1895fa14f4f0823c39ca043df1}{
+{\bfseries \$history}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a643b6c1895fa14f4f0823c39ca043df1}
+
+\item 
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_ac2dc76d756ec398393d4b1d23659276c}{
+{\bfseries \$cache}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_ac2dc76d756ec398393d4b1d23659276c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file BaseModel.php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a5602afd324abcbe0d034e58c6fd9bd52}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!\_\-\_\-construct@{\_\-\_\-construct}}
+\index{\_\-\_\-construct@{\_\-\_\-construct}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{\_\-\_\-construct}]{\setlength{\rightskip}{0pt plus 5cm}\_\-\_\-construct (
+\begin{DoxyParamCaption}
+\item[{ServiceContainer \$}]{sc, }
+\item[{{\bf Autoload} \$}]{autoload, }
+\item[{\$}]{entityname}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a5602afd324abcbe0d034e58c6fd9bd52}
+constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+ServiceContainer & {\em \$sc} & \\
+\hline
+Autoload & {\em \$autoload} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file BaseModel.php.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a74e37941c55449e8d9ad8723e2807a3e}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!createLoc@{createLoc}}
+\index{createLoc@{createLoc}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{createLoc}]{\setlength{\rightskip}{0pt plus 5cm}createLoc (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{array \$}]{inputs}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a74e37941c55449e8d9ad8723e2807a3e}
+create a new translation of an existing entity
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+array & {\em \$inputs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 238 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_afe8d2de0711ff2b6c392b3e4103209a0}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!createNew@{createNew}}
+\index{createNew@{createNew}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{createNew}]{\setlength{\rightskip}{0pt plus 5cm}createNew (
+\begin{DoxyParamCaption}
+\item[{array \$}]{inputs}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_afe8d2de0711ff2b6c392b3e4103209a0}
+create a new entity
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$inputs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 65 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_afabebaa08d9db1ad9833852947a6ee79}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!createSeq@{createSeq}}
+\index{createSeq@{createSeq}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{createSeq}]{\setlength{\rightskip}{0pt plus 5cm}createSeq (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{array \$}]{inputs}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_afabebaa08d9db1ad9833852947a6ee79}
+create a new sequence of an existing entity
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+array & {\em \$inputs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 178 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a96402633de0c6ad30dd2da649b90f2ed}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!createVer@{createVer}}
+\index{createVer@{createVer}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{createVer}]{\setlength{\rightskip}{0pt plus 5cm}createVer (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{array \$}]{inputs}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a96402633de0c6ad30dd2da649b90f2ed}
+create a new version of an existing entity
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+array & {\em \$inputs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 117 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a342256c923a9df79a96ab683be504eb3}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!delete@{delete}}
+\index{delete@{delete}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}delete (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{\$}]{realdelete = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a342256c923a9df79a96ab683be504eb3}
+delete/mark delete one row
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+bool & {\em \$realdelete} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 471 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_aac5053412790f3d37f7213430f38d2bb}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!deleteEntity@{deleteEntity}}
+\index{deleteEntity@{deleteEntity}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{deleteEntity}]{\setlength{\rightskip}{0pt plus 5cm}deleteEntity (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{\$}]{realdelete = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_aac5053412790f3d37f7213430f38d2bb}
+delete the entire entity
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+bool & {\em \$realdelete} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 541 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_af54add3f80e109fe4d769ec1a62ffb45}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!fetch@{fetch}}
+\index{fetch@{fetch}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{fetch}]{\setlength{\rightskip}{0pt plus 5cm}fetch (
+\begin{DoxyParamCaption}
+\item[{{\bf MysqliQuery} \$}]{q, }
+\item[{\$}]{forcerun = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_af54add3f80e109fe4d769ec1a62ffb45}
+fetch operation
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{MysqliQuery} & {\em \$q} & \\
+\hline
+bool & {\em \$forcerun} & true to bypass cache\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 602 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a8277e7dfadfe8372486f732922ca3138}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!rawexecute@{rawexecute}}
+\index{rawexecute@{rawexecute}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{rawexecute}]{\setlength{\rightskip}{0pt plus 5cm}rawexecute (
+\begin{DoxyParamCaption}
+\item[{{\bf MysqliQuery} \$}]{q}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a8277e7dfadfe8372486f732922ca3138}
+execute whatever the query is, too dangerous?
+
+
+\begin{DoxyParams}[1]{Parameters}
+\hyperlink{class_utopia_1_1_components_1_1_model_1_1_mysqli_query}{MysqliQuery} & {\em \$q} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 650 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_ace1addc27361b6c330eb5eda8e304ba7}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!update@{update}}
+\index{update@{update}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}update (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{\$}]{inputs}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_ace1addc27361b6c330eb5eda8e304ba7}
+update one row
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+array & {\em \$inputs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 298 of file BaseModel.php.
+
+\hypertarget{class_utopia_1_1_components_1_1_model_1_1_base_model_a43c79a34dfaf0076023e5ec10059a994}{
+\index{Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}!updateEntity@{updateEntity}}
+\index{updateEntity@{updateEntity}!Utopia::Components::Model::BaseModel@{Utopia::Components::Model::BaseModel}}
+\subsubsection[{updateEntity}]{\setlength{\rightskip}{0pt plus 5cm}updateEntity (
+\begin{DoxyParamCaption}
+\item[{array \$}]{criteria, }
+\item[{\$}]{inputs}
+\end{DoxyParamCaption}
+)}}
+\label{class_utopia_1_1_components_1_1_model_1_1_base_model_a43c79a34dfaf0076023e5ec10059a994}
+update the entire entity
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$criteria} & \\
+\hline
+array & {\em \$inputs} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 380 of file BaseModel.php.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+trunk/lib/components/mallocworks/DataAccess/BaseModel.php\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+test: [on,off]
+property: ~
+role: [fe, api, admin]
+environment: [phpunit, dev, stage, prod]
+locale: ~
